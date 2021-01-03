@@ -1,0 +1,5 @@
+
+graphical_culture = eastern_europe_gfx
+graphical_culture_2d = eastern_europe_2d
+
+color = { 0  56  30 }

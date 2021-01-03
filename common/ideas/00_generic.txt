@@ -1,0 +1,430 @@
+ideas = {
+	country={
+		
+		long_peace = {
+		
+			allowed = {
+				threat<75
+			}
+
+			allowed_civil_war = {
+				always = no
+			} 
+
+			cancel = {
+				has_war = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+					war_support_factor = -0.5
+					production_speed_arms_factory_factor = -0.5
+					industrial_capacity_factory = -0.1
+					industrial_capacity_dockyard = -0.1
+					industry_repair_factor = -0.1
+			}
+		}		
+		
+		colony_army = {
+
+			allowed = { 
+				always = no
+			} 
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.02
+			}
+		}
+
+		faith_allah = {
+
+			allowed = { 
+				always = no
+			} 
+
+			allowed_civil_war = { 
+				NOT = { 
+					has_government = communism 
+					has_government = syndicalist
+					has_government = radical_socialist
+				} 
+			} 
+
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = 0.02
+				communism_drift = -0.05
+				radical_socialist_drift = -0.05
+				syndicalist_drift = -0.05
+			}
+		}
+
+		unstable_government = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.5
+			}
+		}
+		
+		great_depression = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+			}
+		}
+		
+		london_naval_treaty = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 6000
+				production_cost_max_ship_hull_heavy = 12000
+				production_cost_max_ship_hull_carrier = 10500
+				production_cost_max_light_cruiser = 4000
+				production_cost_max_heavy_cruiser = 6000
+				production_cost_max_battleship = 12000
+				production_cost_max_battlecruiser = 12000
+				production_cost_max_carrier = 10500
+			}
+		}
+	
+		neutrality_diplomacy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 1.00
+				lend_lease_tension = 1.00
+				send_volunteers_tension = 1.00
+				guarantee_tension = 1.0
+				ai_get_ally_desire_factor = -100
+			}
+		}
+		
+		weak_economy = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				has_war = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+					production_speed_arms_factory_factor = -0.5
+					production_speed_industrial_complex_factor = -0.5
+					production_speed_bunker_factor = -0.5
+					production_speed_coastal_bunker_factor = -0.5
+					production_speed_dockyard_factor = -0.5
+					production_speed_naval_base_factor = -0.5
+					production_speed_air_base_factor = -0.5
+					production_speed_rocket_site_factor = -0.5
+					production_speed_radar_station_factor = -0.5
+					production_speed_infrastructure_factor = -0.5
+					production_speed_nuclear_reactor_factor = -0.5
+					production_speed_synthetic_refinery_factor = -0.5
+					production_factory_max_efficiency_factor = -0.5
+					line_change_production_efficiency_factor = -0.5
+					industrial_capacity_factory = -0.5
+					industrial_capacity_dockyard = -0.5
+					industry_repair_factor = -0.5
+			}
+		}		
+		
+		many_kinds_weapons = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				has_war = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+					army_attack_factor = -0.1
+					army_defence_factor = -0.1
+					army_morale_factor = -0.1
+			}
+		}
+	}
+	
+	political_advisor = {
+		# POLITICAL	
+		generic_communist_politician = {
+			
+			allowed = {
+			
+				}
+				
+			traits = { communist_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = communism
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		generic_syndicalist_politician= {
+			
+			allowed = {
+
+				}
+				
+			traits = { syndicalist_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = syndicalist
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		generic_radical_socialist_politician = {
+			
+			allowed = {
+			
+				}
+				
+			traits = { radical_socialist_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = radical_socialist
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+								
+		generic_democratic_politician = {
+			
+			allowed = {
+			
+			}
+			
+			traits = { democratic_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = democratic
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+								
+		generic_social_liberal_politician = {
+			
+			allowed = {
+							
+			}
+			
+			traits = { social_liberal_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = social_liberal
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+								
+		generic_market_liberal_politician = {
+			
+			allowed = {
+							
+			}
+			
+			traits = { market_liberal_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = market_liberal
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+								
+		generic_social_democrat_politician = {
+			
+			allowed = {
+							
+			}
+			
+			traits = { social_democrat_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = social_democrat
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+								
+		generic_neutrality_politician = {
+			
+			allowed = {
+							
+			}
+			
+			traits = { neutrality_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = neutrality
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+								
+		generic_paternal_autocrat_politician = {
+			
+			allowed = {
+							
+			}
+			
+			traits = { paternal_autocrat_politician }
+
+			do_effect = {
+				NOT = {
+					OR = {
+						has_government = paternal_autocrat
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+												
+		generic_fascist_politician = {
+			
+			allowed = {
+				
+			}
+
+			traits = { fascist_politician }
+
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}		
+	}
+}

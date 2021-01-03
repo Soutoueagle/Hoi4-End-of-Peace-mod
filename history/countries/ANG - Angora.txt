@@ -1,0 +1,44 @@
+capital = 540
+
+oob = ""
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+}
+
+set_popularities = {
+        communism = 0
+        syndicalist = 0
+        radical_socialist = 0
+	    social_democrat = 0
+        social_liberal = 0
+        market_liberal = 0
+        democratic = 0
+        neutrality = 100
+        paternal_autocrat = 0
+        fascism = 0
+    
+}
+
+create_country_leader = {
+	name = "Monsenhor Alves da Cunha"
+	desc = "POLITICS__DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}

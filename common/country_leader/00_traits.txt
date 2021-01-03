@@ -1,0 +1,112 @@
+leader_traits = {
+
+	communist_politician = {
+		random = no
+		# Boosts Communism
+		sprite = 13
+		communism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	syndicalist_politician = {
+		random = no
+		# Boosts Syndicalism
+		sprite = 13
+		syndicalist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	radical_socialist_politician = {
+		random = no
+		# Boosts Radical Socialism
+		sprite = 13
+		radical_socialist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+	
+	democratic_politician = {
+		random = no
+		# Boosts Social Conservatism
+		sprite = 13
+		democratic_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	social_liberal_politician = {
+		random = no
+		# Boosts Social Liberalism
+		sprite = 13
+		social_liberal_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	market_liberal_politician = {
+		random = no
+		# Boosts Market Liberalism
+		sprite = 13
+		market_liberal_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	social_democrat_politician = {
+		random = no
+		# Boosts Social Democratism
+		sprite = 13
+		social_democrat_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+	
+	fascist_politician = {
+		random = no
+		# Boosts National Populism
+		sprite = 13
+		fascism_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	neutrality_politician = {
+		random = no
+		# Boosts Authoritarian Democratism
+		sprite = 13
+		neutrality_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	paternal_autocrat_politician = {
+		random = no
+		# Boosts Paternal Autocratism
+		sprite = 13
+		paternal_autocrat_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}	

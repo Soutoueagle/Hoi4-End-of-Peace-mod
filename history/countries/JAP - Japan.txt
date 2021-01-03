@@ -1,0 +1,650 @@
+capital = 282
+
+oob = "JAP"
+set_cosmetic_tag = JAP_Empire
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_conscription
+	partial_economic_mobilisation	
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1934.7.13"
+		election_frequency = 48
+		elections_allowed = yes
+}
+
+set_popularities = {
+        communism = 2
+        syndicalist = 0
+        radical_socialist = 2
+	    social_democrat = 2
+        social_liberal = 20
+        market_liberal = 10
+        democratic = 28
+        neutrality = 30
+        paternal_autocrat = 0
+        fascism = 6
+    
+}
+
+create_country_leader = {
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = ""
+	desc = "POLITICS__DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ep.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ep.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ep.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ep.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ep.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ep.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Hirohito"
+	desc = "POLITICS_HIROHITO_DESC"
+	picture = "gfx/leaders/JAP/Portrait_Japan_Hirohito_ep.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Hisaichi Terauchi"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Hisaichi_Terauchi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Hajime Sugiyama"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Hajime_Sugiyama.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Shunroku Hata"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Shunroku_Hata.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tomoyuki Yamashita"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Tomoyuki_Yamashita.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tadamichi Kurubayashi"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Tadamichi_Kuribayashi.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Akira Muto"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Akira_Muto.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Harukichi Hyakutake"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Harukichi_Hyakutake.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hatazo Adachi"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Hatazo_Adachi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hitoshi Imamura"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Hitoshi_Imamura.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Iwane Matsui"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Iwane_Matsui.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jo Iimura"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Jo_Iimura.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2 
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kanji Ishiwara"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Kanji_Ishiwara.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Keisuke Fujie"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Keisuke_Fujie.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kenji Doihara"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Kenji_Doihara.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kenkichi Ueda"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Kenkichi_Ueda.dds"
+	traits = { old_guard }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kiichiro Higuchi"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Kiichiro_Higuchi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kuniaki Koiso"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Kuniaki_Koiso.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Masaharu Homma"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Masaharu_Homma.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Masatane Kanda"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Masatane_Kanda.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nobuyoshi Muto"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Nobuyoshi_Muto.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2 
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Otozo Yamada"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Otozo_Yamada.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Rikichi Ando"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Rikichi_Ando.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sadao Araki"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Sadao_Araki.dds"
+	traits = { old_guard }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Seishiro Itagaki"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Seishiro_Itagaki.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Shigeru Honjo"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Shigeru_Honjo.dds"
+	traits = { old_guard }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Shizuichi Tanaka"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Shizuichi_Tanaka.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Takashi Sakai"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Takashi_Sakai.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Toshizo Nishio"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Toshizo_Nishio.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Yasuji Okamura"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Yasuji_Okamura.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Yoshijiro Umezu"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Yoshijiro_Umezu.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Morihito Higashikuni"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Morihiro_Higashikuni.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Naruhiko Higashikuni"
+	portrait_path = "gfx/general/JAP/Portrait_Japan_Naruhiko_Higashikuni.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Isoroku Yamamoto"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Isoroku_Yamamoto.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Jisaburo Ozawa"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Jisaburo_Ozawa.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Mineichi Koga"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Mineichi_Koga.dds"
+	traits = {  }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 4
+	coordination_skill = 4
+}
+
+create_navy_leader = {
+	name = "Chuichi Nagumo"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Chuichi_Nagumo.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Tammon Yamaguchi"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Tamon_Yamaguchi.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Gengo Hyakutake"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Gengo_Hyakutake.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Hroaki Abe"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Hiroaki_Abe.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Nobutake Kondo"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Nobutake_Kondo.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2 
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Shigeyoshi Inoue"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Shigeyoshi_Inoue.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Soemu Toyoda"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Soemu_Toyoda.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Tadashige Daigo"
+	portrait_path = "gfx/admiral//Portrait_Japan_Tadashige_Daigo.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Takeo takagi"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Takeo_Takagi.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Zengo Yoshida"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Zengo_Yoshida.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Hasegawa Kiyoshi"
+	portrait_path = "gfx/admiral/JAP/Portrait_Japan_Hasegawa_Kiyoshi.dds"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1 
+	coordination_skill = 1
+}

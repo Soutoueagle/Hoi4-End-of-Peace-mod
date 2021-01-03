@@ -1,0 +1,165 @@
+capital = 44
+
+oob = ""
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1912.1.1"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+set_popularities = {
+        communism = 3
+        syndicalist = 0
+        radical_socialist = 0
+	    social_democrat = 5
+        social_liberal = 2
+        market_liberal = 0
+        democratic = 20
+        neutrality = 50
+        paternal_autocrat = 0
+        fascism = 20
+    
+}
+
+create_country_leader = {
+	name = "Enver Hoxha"
+	desc = "POLITICS_ENVER_HOXHA_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_Enver_Hoxha.tga"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ali Kelmendi"
+	picture = "Portrait_Albania_Ali_Kelmendi.tga"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Avni Rrustemi"
+	picture = "Portrait_Albania_Avni_Rustemi.tga"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Xhafer Ypi"
+	picture = "Portrait_Albania_Xhafer_Ypi.tga"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shefqet Vërlaci"
+	desc = "POLITICS_SHEFQET_VERLACI_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zogu I"
+	desc = "POLITICS_AHMET_ZOGU_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_Zog_I.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zogu I"
+	desc = "POLITICS_AHMET_ZOGU_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_Zog_I.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zogu I"
+	desc = "POLITICS_AHMET_ZOGU_DESC"
+	picture = "gfx/leaders/ALB/Portrait_Albania_Zog_I.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Prenk Pervizi"
+	portrait_path = "gfx/general//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	planning_skill = 
+	logistics_skill = 
+}
+
+create_corps_commander = {
+	name = "Muharrem Bajraktari"
+	portrait_path = "gfx/general//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	planning_skill = 
+	logistics_skill = 
+}
+
+create_corps_commander = {
+	name = "Elez Isufi"
+	portrait_path = "gfx/general//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	planning_skill = 
+	logistics_skill = 
+}
+
+create_corps_commander = {
+	name = "Azem Galica"
+	portrait_path = "gfx/general//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	planning_skill = 
+	logistics_skill = 
+}

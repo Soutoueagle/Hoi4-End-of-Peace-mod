@@ -1,0 +1,165 @@
+capital = 6
+
+oob = ""
+set_cosmetic_tag = BEL_kingdom
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	
+}
+
+1936.1.1 = {
+	set_politics = {
+	ruling_party = democratic
+	last_election = "1936.5.24"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+        communism = 6.06
+        syndicalist = 2.27
+        radical_socialist = 0
+	    social_democrat = 32.11
+        social_liberal = 0
+        market_liberal = 12.4
+        democratic = 28.61
+        neutrality = 0
+        paternal_autocrat = 7.06
+        fascism = 11.49
+
+}
+
+create_country_leader = {
+	name = "Julien Lahaut"
+	desc = "POLITICS__DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Jacquemotte"
+	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Xavier Relecom"
+	desc = "POLITICS__DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopold III"
+	desc = "POLITICS_LEOPOLD_III_DESC"
+	picture = "gfx/leaders//"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = ""
+	portrait_path = "gfx/general//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	planning_skill = 
+	logistics_skill = 
+}
+
+create_navy_leader = {
+	name = ""
+	portrait_path = "gfx/admiral//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	maneuvering_skill = 
+	coordination_skill = 
+}

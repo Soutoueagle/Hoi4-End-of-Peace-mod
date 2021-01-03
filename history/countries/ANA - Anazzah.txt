@@ -1,0 +1,77 @@
+capital = 
+
+oob = ""
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = paternal_autocrat
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+set_popularities = {
+        communism = 0
+        syndicalist = 0
+        radical_socialist = 0
+	    social_democrat = 0
+        social_liberal = 0
+        market_liberal = 0
+        democratic = 0
+        neutrality = 0
+        paternal_autocrat = 100
+        fascism = 0
+    
+}
+
+create_country_leader = {
+	name = "Mejhem ibn Meheid"
+	desc = "POLITICS_MEJHEM_IBN_MEHEID_DESC"
+	picture = "gfx/leaders/ANA/Portrait_ANA_Mejhem_ibn_Meheid.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mejhem ibn Meheid"
+	desc = "POLITICS_MEJHEM_IBN_MEHEID_DESC"
+	picture = "gfx/leaders/ANA/Portrait_ANA_Mejhem_ibn_Meheid.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mejhem ibn Meheid"
+	desc = "POLITICS_MEJHEM_IBN_MEHEID_DESC"
+	picture = "gfx/leaders/ANA/Portrait_ANA_Mejhem_ibn_Meheid.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Mejhem ibn Meheid"
+	portrait_path = "gfx/leaders/ANA/Portrait_ANA_Mejhem_ibn_Meheid.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}

@@ -1,0 +1,132 @@
+capital = 219
+
+oob = ""
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = paternal_autocrat
+		last_election = "1930.1.7"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+set_popularities = {
+        communism = 0
+        syndicalist = 0
+        radical_socialist = 0
+	    social_democrat = 0
+        social_liberal = 1
+        market_liberal = 1
+        democratic = 5
+        neutrality = 40
+        paternal_autocrat = 50
+        fascism = 3
+    
+}
+
+create_country_leader = {
+	name = "Irakliy Tsereteli"
+	desc = "POLITICS_IRAKLIJ_TSERETELIY_DESC"
+	picture = "gfx/leadeers/RUS/Portrait_Russia_Iraklij_Tsereteliy.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandr Kerenskiy"
+	desc = "POLITICS_ALEXANDER_KERENSKY_DESC"
+	picture = "gfx/leadeers/RUS/Portrait_Russia_Alexander_Kerensky.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pavel Milyukov"
+	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
+	picture = "gfx/leadeers/RUS/Portrait_Russia_Pavel_Milyukov.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nikolay Trubetskoy"
+	desc = "POLITICS_NIKOLAI_TRUBETSKOY_DESC"
+	picture = "gfx/leadeers/RUS/Portrait_Russia_Nikolai_Trubetskoy.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pyetr Vrangel"
+	desc = "POLITICS_PYOTR_WRANGEL_DESC"
+	picture = "gfx/leadeers/RUS/Portrait_Russia_Pjotr_Nikolajewitsch_Wrangel.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lavr Kornilov"
+	desc = "POLITICS_LAVR_KORNILOV_DESC"
+	picture = "gfx/leadeers/RUS/Portrait_Russia_Lavr_Kornilov.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Boris Savinkov"
+	desc = "POLITICS_BORIS_SAVINKOV_DESC"
+	picture = "gfx/leadeers/RUS/Portrait_Russia_Boris_Savinkov.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = ""
+	portrait_path = "gfx/general//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	planning_skill = 
+	logistics_skill = 
+}
+
+create_navy_leader = {
+	name = ""
+	portrait_path = "gfx/admiral//"
+	traits = {  }
+	skill = 
+	attack_skill = 
+	defense_skill = 
+	maneuvering_skill = 
+	coordination_skill = 
+}
