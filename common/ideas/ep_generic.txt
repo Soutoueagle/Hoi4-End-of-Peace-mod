@@ -80,7 +80,7 @@ ideas = {
 			}
 		}
 		
-		great_depression = {
+		ep_great_depression = {
 		
 			allowed = {
 				always = no

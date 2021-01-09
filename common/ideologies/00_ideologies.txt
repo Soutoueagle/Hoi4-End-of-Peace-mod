@@ -10,6 +10,12 @@ ideologies = {
 	communism = {
 		types = {
 			totalist_subtype = {} #generic
+			
+			marxism = {	can_be_randomly_selected = no	}
+			leninism = {	can_be_randomly_selected = no	}
+			stalinism = {	can_be_randomly_selected = no	}
+			anti_revisionism = {	can_be_randomly_selected = no	}
+			anarchist_communism = {	can_be_randomly_selected = no	}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNIST_1"
@@ -231,6 +237,10 @@ ideologies = {
 	democratic = {
 		types = {
 			social_conservative_subtype = {}
+			
+			conservatism = {	can_be_randomly_selected = no	}
+			liberalism = {	can_be_randomly_selected = no	}
+			socialism = {	can_be_randomly_selected = no	}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -271,6 +281,12 @@ ideologies = {
 	neutrality = {
 		types = {
 			authoritarian_democrat_subtype = {}
+			
+			anarchism = {	can_be_randomly_selected = no	}
+			despotism = {	can_be_randomly_selected = no	}
+			oligarchism = {	can_be_randomly_selected = no	}
+			moderatism = {	can_be_randomly_selected = no	}
+			centrism = {	can_be_randomly_selected = no	}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_NONALIGNED_1"
@@ -345,6 +361,12 @@ ideologies = {
 	fascism = {
 		types = {
 			national_populist_subtype = {}
+			
+			nazism  = {	can_be_randomly_selected = no	}
+			gen_nazism = {	can_be_randomly_selected = no	}
+			fascism_ideology = {	can_be_randomly_selected = no	}
+			falangism = {	can_be_randomly_selected = no	}
+			rexism = {	can_be_randomly_selected = no	}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"

@@ -141,24 +141,24 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = ""
-	portrait_path = "gfx/general//"
-	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	planning_skill = 
-	logistics_skill = 
-}
+#create_corps_commander = {
+#	name = ""
+#	portrait_path = "gfx/general//"
+#	traits = {  }
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	planning_skill = 
+#	logistics_skill = 
+#}
 
-create_navy_leader = {
-	name = ""
-	portrait_path = "gfx/admiral//"
-	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	maneuvering_skill = 
-	coordination_skill = 
-}
+#create_navy_leader = {
+#	name = ""
+#	portrait_path = "gfx/admiral//"
+#	traits = {  }
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	maneuvering_skill = 
+#	coordination_skill = 
+#}

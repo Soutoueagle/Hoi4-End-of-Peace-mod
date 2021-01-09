@@ -124,42 +124,42 @@ create_field_marshal = {
 	name = "Prenk Pervizi"
 	portrait_path = "gfx/general//"
 	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	planning_skill = 
-	logistics_skill = 
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	planning_skill = 
+#	logistics_skill = 
 }
 
 create_corps_commander = {
 	name = "Muharrem Bajraktari"
 	portrait_path = "gfx/general//"
 	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	planning_skill = 
-	logistics_skill = 
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	planning_skill = 
+#	logistics_skill = 
 }
 
 create_corps_commander = {
 	name = "Elez Isufi"
 	portrait_path = "gfx/general//"
 	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	planning_skill = 
-	logistics_skill = 
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	planning_skill = 
+#	logistics_skill = 
 }
 
 create_corps_commander = {
 	name = "Azem Galica"
 	portrait_path = "gfx/general//"
 	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	planning_skill = 
-	logistics_skill = 
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	planning_skill = 
+#	logistics_skill = 
 }

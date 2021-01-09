@@ -109,7 +109,7 @@ bookmarks = {
 		"BEL"={
 			minor = yes
 			history = "BEL_GATHERING_STORM_DESC"
-			ideology = social_conservative
+			ideology = democratic
 			ideas = {
 				
 			}	

@@ -1,0 +1,65 @@
+﻿l_english:
+#アジア
+ AFG_kingdom:0 "アフガニスタン王国"
+ AFG_kingdom_DEF:0 "アフガニスタン王国"
+ 
+ JAP_empire:0 "大日本帝国"
+ JAP_empire_DEF:0 "大日本帝国"
+ 
+#ヨーロッパ
+ ALB_kingdom:0 "アルバニア王国"
+ ALB_kingdom_DEF:0 "アルバニア王国"
+ 
+ AUH_federation:0 "ドナウ＝アドリア帝国"
+ AUH_federation_DEF:0 "ドナウ＝アドリア帝国"
+ 
+ BLR_kingdom:0 "ベラルーシ王国"
+ BLR_kingdom_DEF:0 "ベラルーシ王国"
+ 
+ BEL_kingdom:0 "ベルギー王国"
+ BEL_kingdom_DEF:0 "ベルギー王国"
+ 
+ BUL_kingdom:0 "ブルガリア王国"
+ BUL_kingdom_DEF:0 "ブルガリア王国"
+ 
+ DEN_kingdom:0 "デンマーク王国"
+ DEN_kingdom_DEF:0 "デンマーク王国"
+ 
+ EST_kingdom:0 "エストニア王国"
+ EST_kingdom_DEF:0 "エストニア王国"
+ 
+ FIN_kingdom:0 "フィンランド王国"
+ FIN_kingdom_DEF:0 "フィンランド王国"
+ 
+ FRA_kingdom:0 "フランス王国"
+ FRA_kingdom_DEF:0 "フランス王国"
+ FRA_empire:0 "フランス帝国"
+ FRA_empire_DEF:0 "フランス帝国"
+ 
+ GER_empire:0 "ドイツ帝国"
+ GER_empire_DEF:0 "ドイツ帝国"
+ 
+ GRE_kingdom:0 "ギリシャ王国"
+ GRE_kingdom_DEF:0 "ギリシャ王国"
+ 
+ HOL_kingdom:0 "オランダ王国"
+ HOL_kingdom_DEF:0 "オランダ王国"
+ 
+ ITA_kigdom:0 "イタリア王国"
+ ITA_kigdom_DEF:0 "イタリア王国"
+ 
+ LIT_kingdom:0 "リトアニア王国"
+ LIT_kingdom_DEF:0 "リトアニア王国"
+ 
+ ROM_kingdom:0 "ルーマニア王国"
+ ROM_kingdom_DEF:0 "ルーマニア王国"
+ 
+ SEM_kingdom:0 "セルブ＝モンテネグロ王国"
+ SEM_kingdom_DEF:0 "セルブ＝モンテネグロ王国"
+ 
+ ENG_empire:0 "大英帝国"
+ ENG_empire_DEF:0 "大英帝国"
+ 
+#新大陸
+ USA_kingdom:0 "アメリカ王国"
+ USA_kingdom_DEF:0 "アメリカ王国"

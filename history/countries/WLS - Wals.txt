@@ -12,23 +12,23 @@ add_ideas = {
 
 1936.1.1 = {
 	set_politics = {
-		ruling_party = 
+		ruling_party = neutrality
 		last_election = "1936.1.1"
 		election_frequency = 48
-		elections_allowed = 
+		elections_allowed = no
 }
 
 set_popularities = {
-        communism = 
-        syndicalist = 
-        radical_socialist = 
-	    social_democrat = 
-        social_liberal = 
-        market_liberal = 
-        democratic = 
-        neutrality = 
-        paternal_autocrat = 
-        fascism = 
+        communism = 0
+        syndicalist = 0
+        radical_socialist = 0
+	    social_democrat = 0
+        social_liberal = 0
+        market_liberal = 0
+        democratic = 0
+        neutrality = 100
+        paternal_autocrat = 0
+        fascism = 0
     
 }
 
@@ -142,24 +142,24 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = ""
-	portrait_path = "gfx/general//"
-	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	planning_skill = 
-	logistics_skill = 
-}
+#create_corps_commander = {
+#	name = ""
+#	portrait_path = "gfx/general//"
+#	traits = {  }
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	planning_skill = 
+#	logistics_skill = 
+#}
 
-create_navy_leader = {
-	name = ""
-	portrait_path = "gfx/admiral//"
-	traits = {  }
-	skill = 
-	attack_skill = 
-	defense_skill = 
-	maneuvering_skill = 
-	coordination_skill = 
-}
+#create_navy_leader = {
+#	name = ""
+#	portrait_path = "gfx/admiral//"
+#	traits = {  }
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	maneuvering_skill = 
+#	coordination_skill = 
+#}
