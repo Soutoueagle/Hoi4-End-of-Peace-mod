@@ -1,7 +1,7 @@
 capital = 126
 
 oob = ""
-set_cosmetic_tag = ENG_Empire
+set_cosmetic_tag = ENG_empire
 set_technology = {
 	infantry_weapons = 1
 }
