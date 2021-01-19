@@ -451,3 +451,21 @@
  YUN_fascism:0 "雲南軍閥"
  YUN_fascism_DEF:0 "雲南軍閥"
  YUN_ADJ:0 "雲南派"
+ 
+ 
+ KMR:0 "クムル共和国"
+ KMR_DEF:0 "クムル共和国"
+ KMR_communism:0 "クムル人民共和国"
+ KMR_communism_DEF:0 "クムル人民共和国"
+ KMR_syndicalist:0 "クムル人民共和国"
+ KMR_syndicalist_DEF:0 "クムル人民共和国"
+ KMR_radical_socialist:0 "クムル人民共和国"
+ KMR_radical_socialist_DEF:0 "クムル人民共和国"
+ KMR_neutrality:1 "クムル汗国"
+ KMR_neutrality_DEF:1 "クムル汗国"
+ KMR_paternal_autocrat:0 "クムル汗国"
+ KMR_paternal_autocrat_DEF:0 "クムル汗国"
+ KMR_fascism:0 "クムル汗国"
+ KMR_fascism_DEF:0 "クムル汗国"
+ KMR_ADJ:0 "クムル"
+ 

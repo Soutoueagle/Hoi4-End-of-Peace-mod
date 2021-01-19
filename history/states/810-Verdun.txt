@@ -1,30 +1,24 @@
-
 state={
-	id=17
-	name="STATE_17"
-	resources={
-		steel=14.000
-	}
-
-	history={
+	id=810
+	name="STATE_810"
+	history={	
 		owner = FRA
 		victory_points = {
-			9642 5 
+			5291 1 
 		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
-			air_base = 5
 
 		}
 		add_core_of = FRA
 
 	}
-
+	
 	provinces={
-		3646 3666 6698 9642 9658 11488
+		5291 
 	}
-	manpower=910500
+	manpower=114233
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=city	
 }

@@ -3,6 +3,18 @@ state={
 	name="STATE_808"
 
 	history={
+		victory_points = {
+			6537 1 
+		}
+		victory_points = {
+			9418 1 
+		}		
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+
+		}	
 		owner = BEL
 		add_core_of = BEL
 
@@ -11,7 +23,7 @@ state={
 	provinces={
 		6537 9418 9444 11407 
 	}
-	manpower=0
+	manpower=1502800
 	buildings_max_level_factor=1.000
 	buildings_max_level_factor=1.000
 	state_category=large_city	
