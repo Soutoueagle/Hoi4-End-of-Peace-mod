@@ -1,20 +1,19 @@
-
 state={
-	id=736
-	name="STATE_736"
+	id=815
+	name="STATE_815"
 
 	history={
 		victory_points = {
-			11735 1 
+			6626 1 
 		}
 		owner = AUH
 		add_core_of = AUH
 		add_core_of = SLV
 		add_core_of = CRO
-		add_claim_by = ITA
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 2
-			11735 = {
+			6626 = {
 				naval_base = 5
 
 			}
@@ -22,11 +21,11 @@ state={
 		}
 
 	}
-
+	
 	provinces={
-		11735 
+		6626 
 	}
 	manpower=265789
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=city	
 }
