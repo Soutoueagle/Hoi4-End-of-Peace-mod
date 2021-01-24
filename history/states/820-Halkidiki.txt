@@ -1,27 +1,31 @@
-
 state={
-	id=731
-	name="STATE_731"
+	id=820
+	name="STATE_820"
 
 	history={
 		owner = GRE
 		victory_points = {
-			966 1
+			11818 5 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 3
 			air_base = 2
+			11818 = {
+				naval_base = 3
+
+			}
+
 		}
 		add_core_of = GRE
 		add_claim_by = BUL
 
 	}
-
+	
 	provinces={
-		936 966 3526 3844 6990 9837 10163  
+		895 3936 11818 
 	}
-	manpower=808990
+	manpower=346710
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town	
 }
