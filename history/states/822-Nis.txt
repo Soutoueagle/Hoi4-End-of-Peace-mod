@@ -1,11 +1,10 @@
-
 state={
-	id=803
-	name="STATE_803"
+	id=822
+	name="STATE_822"
 
 	history={
 		victory_points = {
-			11857 1 
+			9602 3 
 		}
 		owner = SEM
 		buildings = {
@@ -14,14 +13,13 @@ state={
 		}
 		add_core_of = SEM
 		add_core_of = SER
-		add_claim_by = BUL
 
 	}
-
+	
 	provinces={
-		11857 11868 
+		630 6634 9602 9756 
 	}
-	manpower=140000
+	manpower=412934
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town	
 }

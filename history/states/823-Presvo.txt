@@ -1,11 +1,10 @@
-
 state={
-	id=803
-	name="STATE_803"
+	id=823
+	name="STATE_823"
 
 	history={
 		victory_points = {
-			11857 1 
+			11832 1 
 		}
 		owner = SEM
 		buildings = {
@@ -17,11 +16,11 @@ state={
 		add_claim_by = BUL
 
 	}
-
+	
 	provinces={
-		11857 11868 
+		11832 
 	}
-	manpower=140000
+	manpower=70000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pastoral	
 }
