@@ -1,5 +1,5 @@
 ﻿l_english:
-#アジア
+ #アジア
  AFG:0 "アフガニスタン共和国"
  AFG_DEF:0 "アフガニスタン共和国"
  AFG_communism:0 "アフガニスタン民主共和国"
@@ -40,7 +40,7 @@
  OTT_DEF:0 "オスマン帝国"
  OTT_ADJ:0 "オスマン"
  
-#ヨーロッパ
+ #ヨーロッパ
  ALB:0 "アルバニア共和国"
  ALB_DEF:0 "アルバニア共和国"
  ALB_communism:0 "アルバニア社会主義共和国"
@@ -238,7 +238,7 @@
  SOV_DEF:0 "ソビエト社会主義共和国連邦"
  SOV_ADJ:0 "ソビエト"
  
-#新大陸
+ #新大陸
  USA:0 "アメリカ合衆国"
  USA_DEF:0 "アメリカ合衆国"
  USA_communism:0 "アメリカ社会主義連邦共和国"
@@ -249,7 +249,7 @@
  USA_radical_socialist_DEF:0 "アメリカ社会主義連邦共和国"
  USA_ADJ:0 "アメリカ"
  
-#中国大陸
+ #中国大陸
  CHI:0 "中華民国"
  CHI_DEF:0 "中華民国"
  CHI_communism:0 "中華人民共和国"
@@ -452,7 +452,6 @@
  YUN_fascism_DEF:0 "雲南軍閥"
  YUN_ADJ:0 "雲南派"
  
- 
  KMR:0 "クムル共和国"
  KMR_DEF:0 "クムル共和国"
  KMR_communism:0 "クムル人民共和国"
@@ -468,4 +467,53 @@
  KMR_fascism:0 "クムル汗国"
  KMR_fascism_DEF:0 "クムル汗国"
  KMR_ADJ:0 "クムル"
+ 
+ #アラビア半島
+ ANA:0 "ジャウフ民主共和国"
+ ANA_DEF:0 "ジャウフ民主共和国"
+ ANA_communism:0 "ジャウフ人民共和国"
+ ANA_communism_DEF:0 "ジャウフ人民共和国"
+ ANA_syndicalist:0 "ジャウフ人民共和国"
+ ANA_syndicalist_DEF:0 "ジャウフ人民共和国"
+ ANA_radical_socialist:0 "ジャウフ人民共和国"
+ ANA_radical_socialist_DEF:0 "ジャウフ人民共和国"
+ ANA_neutrality:1 "アナザ首長国"
+ ANA_neutrality_DEF:1 "アナザ首長国"
+ ANA_paternal_autocrat:0 "アナザ首長国"
+ ANA_paternal_autocrat_DEF:0 "アナザ首長国"
+ ANA_fascism:0 "アナザ首長国"
+ ANA_fascism_DEF:0 "アナザ首長国"
+ ANA_ADJ:0 "アナザ"
+ 
+ JBS:0 "ハーイル共和国"
+ JBS_DEF:0 "ハーイル共和国"
+ JBS_communism:0 "ハーイル人民共和国"
+ JBS_communism_DEF:0 "ハーイル人民共和国"
+ JBS_syndicalist:0 "ハーイル人民共和国"
+ JBS_syndicalist_DEF:0 "ハーイル人民共和国"
+ JBS_radical_socialist:0 "ハーイル人民共和国"
+ JBS_radical_socialist_DEF:0 "ハーイル人民共和国"
+ JBS_neutrality:1 "ジャバル・シャンマル王国"
+ JBS_neutrality_DEF:1 "ジャバル・シャンマル王国"
+ JBS_paternal_autocrat:0 "ジャバル・シャンマル王国"
+ JBS_paternal_autocrat_DEF:0 "ジャバル・シャンマル王国"
+ JBS_fascism:0 "ジャバル・シャンマル王国"
+ JBS_fascism_DEF:0 "ジャバル・シャンマル王国"
+ JBS_ADJ:0 "ハーイル" 
+ 
+ SAU:0 "リヤド共和国"
+ SAU_DEF:0 "リヤド共和国"
+ SAU_communism:0 "リヤド人民共和国"
+ SAU_communism_DEF:0 "リヤド人民共和国"
+ SAU_syndicalist:0 "リヤド人民共和国"
+ SAU_syndicalist_DEF:0 "リヤド人民共和国"
+ SAU_radical_socialist:0 "リヤド人民共和国"
+ SAU_radical_socialist_DEF:0 "リヤド人民共和国"
+ SAU_neutrality:1 "ナジュド・ハサー王国"
+ SAU_neutrality_DEF:1 "ナジュド・ハサー王国"
+ SAU_paternal_autocrat:0 "ナジュド・ハサー王国"
+ SAU_paternal_autocrat_DEF:0 "ナジュド・ハサー王国"
+ SAU_fascism:0 "ナジュド・ハサー王国"
+ SAU_fascism_DEF:0 "ナジュド・ハサー王国"
+ SAU_ADJ:0 "リヤド" 
  
