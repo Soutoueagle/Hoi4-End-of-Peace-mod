@@ -1,0 +1,26 @@
+state={
+	id=835
+	name="STATE_835"
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 1
+			12702 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = OTT
+		add_core_of = SAU
+
+	}
+	
+	provinces={
+		1955 10791 12702 
+	}
+	manpower=166152
+	buildings_max_level_factor=1.000
+	state_category=rural	
+}

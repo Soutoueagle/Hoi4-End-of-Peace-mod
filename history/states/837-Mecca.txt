@@ -1,13 +1,9 @@
-
 state={
-	id=679
-	name="STATE_679"
+	id=837
+	name="STATE_837"
 
 	history={
 		owner = OTT
-		victory_points = {
-			12758 1 
-		}
 		victory_points = {
 			12883 1 
 		}
@@ -23,11 +19,11 @@ state={
 		add_core_of = SAU
 
 	}
-
+	
 	provinces={
-		1033 2027 2033 2095 8092 10835 12101 12455 12758 
+		1923 4981 5037 12883 
 	}
-	manpower=715740
+	manpower=318104
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pastoral	
 }

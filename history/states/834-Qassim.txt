@@ -1,7 +1,7 @@
-
 state={
-	id=292
-	name="STATE_292"
+	id=834
+	name="STATE_834"
+
 	history={
 		owner = SAU
 		buildings = {
@@ -10,18 +10,15 @@ state={
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			12727 5 
-		}
 		add_core_of = SAU
 		add_core_of = JBS
 
 	}
-
+	
 	provinces={
-		5024 5093 8060 12727 12870 
+		7995 8004 10850 10892 10923 12813 
 	}
-	manpower=609240
+	manpower=332304
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=rural	
 }

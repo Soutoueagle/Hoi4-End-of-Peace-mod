@@ -1,0 +1,23 @@
+state={
+	id=836
+	name="STATE_836"
+
+	history={
+		owner = OTT
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = OTT
+		add_core_of = SAU
+
+	}
+	
+	provinces={
+		5006 8073 10786 
+	}
+	manpower=238571
+	buildings_max_level_factor=1.000
+	state_category=pastoral	
+}

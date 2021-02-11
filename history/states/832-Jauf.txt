@@ -1,27 +1,25 @@
-
 state={
-	id=292
-	name="STATE_292"
+	id=832
+	name="STATE_832"
+
 	history={
-		owner = SAU
+		owner = ANA
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1
 
 		}
-		victory_points = {
-			12727 5 
-		}
 		add_core_of = SAU
 		add_core_of = JBS
+		add_core_of = ANA
 
 	}
-
+	
 	provinces={
-		5024 5093 8060 12727 12870 
+		4974 7970 8101 10815 10901 
 	}
-	manpower=609240
+	manpower=276920
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=rural	
 }

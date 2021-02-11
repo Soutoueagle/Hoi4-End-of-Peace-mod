@@ -1,27 +1,26 @@
-
 state={
-	id=455
-	name="STATE_455"
+	id=831
+	name="STATE_831"
 
 	history={
-		owner = OTT
+		owner = ANA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
 		victory_points = {
-			7151 1 
+			11976 1 
 		}
-		add_core_of = OTT
+		add_core_of = ANA
 		add_core_of = JOR
 
 	}
-
+	
 	provinces={
-		4017 4115 4574 4591 7151 7170 10089
+		4562 4603 11976 
 	}
-	manpower=501848
+	manpower=215076
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=rural	
 }

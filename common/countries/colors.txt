@@ -890,3 +890,7 @@ NMC = {
 	 color = rgb { 0 93 160 } 
 	color_ui = rgb { 0 93 160 }
 }
+ANA = {
+	 color = rgb { 124 120 98 } 
+	color_ui = rgb { 124 120 98 }
+}

@@ -1,0 +1,25 @@
+state={
+	id=829
+	name="STATE_829"
+
+	history={
+		owner = OTT
+		victory_points = {
+			12413 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = OTT
+		add_core_of = IRQ
+
+	}
+	
+	provinces={
+		12413 
+	}
+	manpower=24418
+	buildings_max_level_factor=1.000
+	state_category=wasteland	
+}
