@@ -1,7 +1,7 @@
 capital = 104
 
 oob = ""
-
+set_cosmetic_tag = BOS_AUH
 set_technology = {
 	infantry_weapons = 1
 }
@@ -110,9 +110,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Mehmed Spaho"
+	desc = "POLITICS_MEHMED_SPAHO_DESC"
+	picture = "gfx/leaders/BOS/Portrait_BOS_Mehmed_Spaho.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +121,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Mehmed Spaho"
+	desc = "POLITICS_MEHMED_SPAHO_DESC"
+	picture = "gfx/leaders/BOS/Portrait_BOS_Mehmed_Spaho.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

@@ -109,9 +109,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Edward Smigy Rydz"
+	desc = "POLITICS_EDWARD_SMIGY_RYDZ_DESC"
+	picture = "gfx/leaders/POL/Portrait_Poland_Edward_Smigy_Rydz.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -120,9 +120,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Edward Smigy Rydz"
+	desc = "POLITICS_EDWARD_SMIGY_RYDZ_DESC"
+	picture = "gfx/leaders/POL/Portrait_Poland_Edward_Smigy_Rydz.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

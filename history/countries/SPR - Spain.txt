@@ -66,9 +66,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Manuel Azana"
+	desc = "POLITICS_AZANA_DESC"
+	picture = "gfx/leaders/SPR/Portrait_Spain_Azana.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

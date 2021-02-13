@@ -25,8 +25,8 @@
  DEN_kingdom:0 "デンマーク王国"
  DEN_kingdom_DEF:0 "デンマーク王国"
  
- EST_kingdom:0 "エストニア王国"
- EST_kingdom_DEF:0 "エストニア王国"
+ EST_ducy:0 "エストニア公国"
+ EST_ducy_DEF:0 "エストニア公国"
  
  FIN_kingdom:0 "フィンランド王国"
  FIN_kingdom_DEF:0 "フィンランド王国"
@@ -59,6 +59,21 @@
  
  ENG_empire:0 "大英帝国"
  ENG_empire_DEF:0 "大英帝国"
+ 
+ NOR_kingdom:0 "ノルウェー王国"
+ NOR_kingdom_DEF:0 "ノルウェー王国"
+ 
+ SWE_kingdom:0 "スウェーデン王国"
+ SWE_kingdom_DEF:0 "スウェーデン王国"
+ 
+ LAT_ducy:0 "ラトビア公国"
+ LAT_ducy_DEF:0 "ラトビア公国" 
+ 
+ LUX_ducy:0 "ルクセンブルク公国"
+ LUX_ducy_DEF:0 "ルクセンブルク公国" 
+ 
+ UKR_kingdom:0 "ウクライナ王国"
+ UKR_kingdom_DEF:0 "ウクライナ王国"  
  
 #新大陸
  USA_kingdom:0 "アメリカ王国"
