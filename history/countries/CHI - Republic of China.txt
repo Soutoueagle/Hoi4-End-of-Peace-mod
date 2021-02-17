@@ -99,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Chiang Kai Sheck"
+	desc = "POLITICS_CHIANG_KAI_SHECK_DESC"
+	picture = "gfx/leaders/CHI/Chiang_Kai-sheck.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -110,9 +110,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Chiang Kai Sheck"
+	desc = "POLITICS_CHIANG_KAI_SHECK_DESC"
+	picture = "gfx/leaders/CHI/Chiang_Kai-sheck.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

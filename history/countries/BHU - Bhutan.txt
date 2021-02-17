@@ -77,9 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jigme"
+	name = "Jigme Wangchuck"
 	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
-	picture = "gfx/leaders//"
+	picture = "gfx/leaders/BHU/Portrait_BHU_Jigme_Wangchuck.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -88,9 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jigme"
+	name = "Jigme Wangchuck"
 	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
-	picture = "gfx/leaders//"
+	picture = "gfx/leaders/BHU/Portrait_BHU_Jigme_Wangchuck.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -99,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jigme"
+	name = "Jigme Wangchuck"
 	desc = "POLITICS_JIGME_WANGCHUCK_DESC"
-	picture = "gfx/leaders//"
+	picture = "gfx/leaders/BHU/Portrait_BHU_Jigme_Wangchuck.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

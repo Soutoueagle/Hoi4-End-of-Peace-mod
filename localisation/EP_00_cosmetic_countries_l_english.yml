@@ -6,6 +6,12 @@
  JAP_empire:0 "大日本帝国"
  JAP_empire_DEF:0 "大日本帝国"
  
+ KAZ_alo:0 "アラシュ共和国"
+ KAZ_alo_DEF:0 "アラシュ共和国"
+ 
+ PER_empire:0 "イラン帝国"
+ PER_empire_DEF:0 "イラン帝国"
+ 
 #ヨーロッパ
  ALB_kingdom:0 "アルバニア王国"
  ALB_kingdom_DEF:0 "アルバニア王国"
