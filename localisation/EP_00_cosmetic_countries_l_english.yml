@@ -12,12 +12,19 @@
  PER_empire:0 "イラン帝国"
  PER_empire_DEF:0 "イラン帝国"
  
+ SIA_kingdom:0 "シャム王国"
+ SIA_kingdom_DEF:0 "シャム王国"
+ 
+ 
 #ヨーロッパ
  ALB_kingdom:0 "アルバニア王国"
  ALB_kingdom_DEF:0 "アルバニア王国"
  
  AUH_federation:0 "ドナウ＝アドリア帝国"
  AUH_federation_DEF:0 "ドナウ＝アドリア帝国"
+ 
+ BOS_AUH:0 "ボスニア・ヘルツェゴビナ自治領"
+ BOS_AUH_DEF:0 "ボスニア・ヘルツェゴビナ自治領"
  
  BLR_kingdom:0 "ベラルーシ王国"
  BLR_kingdom_DEF:0 "ベラルーシ王国"
@@ -84,3 +91,20 @@
 #新大陸
  USA_kingdom:0 "アメリカ王国"
  USA_kingdom_DEF:0 "アメリカ王国"
+ 
+ CAN_UK:0 "イギリス領カナダ連邦自治領"
+ CAN_UK_DEF:0 "イギリス領カナダ連邦自治領"
+ 
+ CAN_kingdom:0 "カナダ王国"
+ CAN_kingdom_DEF:0 "カナダ王国"
+ 
+#オセアニア
+ AST_UK:0 "イギリス領オーストラリア連邦自治領"
+ AST_UK_DEF:0 "イギリス領オーストラリア連邦自治領"
+ 
+ NZL_UK:0 "イギリス領ニュージーランド自治領"
+ NZL_UK_DEF:0 "イギリス領ニュージーランド自治領"
+
+#アラビア半島 
+ OMA_UK:0 "イギリス領オマーン王国"
+ OMA_UK_DEF:0 "イギリス領オマーン王国"

@@ -220,6 +220,8 @@ VAC = "countries/Vatican.txt"
 GAL = "countries/Galicia-Lodomeria.txt"
 SAN = "countries/San Marino.txt"
 OTT = "countries/Ottoman.txt"
+DKB = "countries/Don Republic.txt"
+KUB = "countries/Kuban Republic/txt"
 #Middle East#
 ANA = "countries/Anazahh Clique.txt"
 ASR = "countries/Asir Clique.txt"
