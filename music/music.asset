@@ -1,0 +1,41 @@
+music = {
+	name = "maintheme"
+	file = "Story-of-Soron-by-Myuu.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "Anazing Grace"
+	file = "amazing-grace-2011-by-kevin-macleod-from-filmmusic-io.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Egmont"
+	file = "egmont-overture-by-kevin-macleod-from-filmmusic-io.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "The Endless"
+	file = "the-endless-by-kevin-macleod-from-filmmusic-io.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Virtutes Instrumenti"
+	file = "virtutes-instrumenti-by-kevin-macleod-from-filmmusic-io.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Whales of the North"
+	file = "Whales-of-the-North.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Farewell of Slavianka"
+	file = "Farewell-of-Slavianka.ogg"
+	volume = 0.65
+}

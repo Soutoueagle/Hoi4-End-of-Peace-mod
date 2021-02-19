@@ -1,0 +1,34 @@
+music = {
+	song = "maintheme"
+	chance = {	modifier = {	factor = 0.5	}	}
+}
+
+music = {
+	song = "Anazing Grace"
+	chance = {	modifier = {	factor = 1	}	}
+}
+
+music = {
+	song = "Egmont"
+	chance = {	modifier = {	factor = 1	}	}
+}
+
+music = {
+	song = "The Endless"
+	chance = {	modifier = {	factor = 1	}	}
+}
+
+music = {
+	song = "Virtutes Instrumenti"
+	chance = {	modifier = {	factor = 1	}	}
+}
+
+music = {
+	song = "Whales of the North"
+	chance = {	modifier = {	factor = 1	}	}
+}
+
+music = {
+	song = "Farewell of Slavianka"
+	chance = {	modifier = {	factor = 1	}	}
+}

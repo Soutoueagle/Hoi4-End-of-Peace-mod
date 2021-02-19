@@ -122,11 +122,11 @@ ideas = {
 				production_cost_max_ship_hull_cruiser = 6000
 				production_cost_max_ship_hull_heavy = 12000
 				production_cost_max_ship_hull_carrier = 10500
-				production_cost_max_light_cruiser = 4000
-				production_cost_max_heavy_cruiser = 6000
-				production_cost_max_battleship = 12000
-				production_cost_max_battlecruiser = 12000
-				production_cost_max_carrier = 10500
+				#production_cost_max_light_cruiser = 4000
+				#production_cost_max_heavy_cruiser = 6000
+				#production_cost_max_battleship = 12000
+				#production_cost_max_battlecruiser = 12000
+				#production_cost_max_carrier = 10500
 			}
 		}
 	
