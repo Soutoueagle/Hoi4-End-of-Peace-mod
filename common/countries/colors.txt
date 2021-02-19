@@ -902,3 +902,27 @@ KUB = {
 	 color = rgb { 192 160 255 } 
 	color_ui = rgb { 192 160 255 }
 }
+IND = {
+	color = rgb { 206 110 0 }
+	color_ui = rgb { 206 110 0 }
+}
+HDR = {
+	color = rgb { 206 110 0 }
+	color_ui = rgb { 206 110 0 }
+}
+SKM = {
+	color = rgb { 206 110 0 }
+	color_ui = rgb { 206 110 0 }
+}
+TRV = {
+	color = rgb { 206 110 0 }
+	color_ui = rgb { 206 110 0 }
+}
+MYS = {
+	color = rgb { 206 110 0 }
+	color_ui = rgb { 206 110 0 }
+}
+JMK = {
+	color = rgb { 206 110 0 }
+	color_ui = rgb { 206 110 0 }
+}

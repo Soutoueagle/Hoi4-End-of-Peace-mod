@@ -234,6 +234,11 @@ TUG = "countries/Tunganistan.txt"
 SHA = "countries/Shandong Clique.txt"
 SZC = "countries/Sichuan Clique.txt"
 NMC = "countries/Ningxia Ma Clique.txt"
+HDR = "countries/Hyderabad.txt"
+SKM = "countries/Sikkim.txt"
+MYS = "countries/Mysore.txt"
+JMK = "countries/Jammu and Kashmir.txt"
+TRV = "countries/Travancore.txt"
 
 #‰¼
 IND = "countries/Japan.txt"

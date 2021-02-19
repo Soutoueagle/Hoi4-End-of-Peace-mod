@@ -9,7 +9,18 @@ set_technology = {
 add_ideas = {
 	
 }
-
+set_autonomy = {
+	target = HDR
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = MYS
+	autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+	target = JMK
+	autonomous_state = autonomy_dominion
+}
 1936.1.1 = {
 	set_politics = {
 	ruling_party = paternal_autocrat
