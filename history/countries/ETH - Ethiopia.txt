@@ -12,7 +12,7 @@ add_ideas = {
 
 1936.1.1 = {
 	set_politics = {
-	ruling_party = paternal_autocrat
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -26,8 +26,8 @@ set_popularities = {
         social_liberal = 0
         market_liberal = 0
         democratic = 15
-        neutrality = 9.4
-        paternal_autocrat = 54.2
+        neutrality = 54.2
+        paternal_autocrat = 9.4
         fascism = 0
     
 }
@@ -110,9 +110,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Haille Selassie I"
+	desc = "POLITICS_HAILLE_SELASSIE_DESC"
+	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +121,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Haille Selassie I"
+	desc = "POLITICS_HAILLE_SELASSIE_DESC"
+	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +132,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Haille Selassie I"
+	desc = "POLITICS_HAILLE_SELASSIE_DESC"
+	picture = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

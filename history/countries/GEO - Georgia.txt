@@ -1,7 +1,7 @@
 capital = 231
 
 oob = ""
-
+set_cosmetic_tag = GEO_kingdom
 set_technology = {
 	infantry_weapons = 1
 }
@@ -33,20 +33,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Grigol Ordzhonikidze"
+	desc = "POLITICS_GRIGOL_ORDZHONIKIKDZE_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Grigol_Ordzhonikikdze.tga"
 	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -55,9 +44,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Grigol Ordzhonikidze"
+	desc = "POLITICS_GRIGOL_ORDZHONIKIKDZE_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Grigol_Ordzhonikikdze.tga"
 	expire = "1965.1.1"
 	ideology = radical_socialist_subtype
 	traits = {
@@ -66,9 +55,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Noe Zhordania"
+	desc = "POLITICS_NOE_ZHORDANIA_DESC"
+	picture = "gfx/leaders/GEO/Portrait_Noe_Zhordania.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -77,31 +66,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Sandro Akhmeteli"
+	desc = "POLITICS_SANDORO_AKHMETELI_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Sandro_Akhmeteli.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -110,9 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Ioakhim I"
+	desc = "POLITICS_JOACHIM_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Prince_Joachim.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Ioakhim I"
+	desc = "POLITICS_JOACHIM_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_Prince_Joachim.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "George IX"
+	desc = "POLITICS_GEROGE_DESC"
+	picture = "gfx/leaders/GEO/Portrait_GEO_George_Bagriaton_Mukhraneli.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

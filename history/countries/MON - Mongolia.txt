@@ -33,9 +33,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Anandyn Amar"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "gfx/leaders/MON/Portrait_Anandyn_Amar.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -44,9 +44,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Gada Meiren"
+	desc = "POLITICS_GADA_MEIREN_DESC"
+	picture = "gfx/leaders/MON/Portrait_MON_Gada_Meiren.tga"
 	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -55,9 +55,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Gada Meiren"
+	desc = "POLITICS_GADA_MEIREN_DESC"
+	picture = "gfx/leaders/MON/Portrait_MON_Gada_Meiren.tga"
 	expire = "1965.1.1"
 	ideology = radical_socialist_subtype
 	traits = {
@@ -66,9 +66,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Soliin Danzan"
+	desc = "POLITICS_SOLIIN_DANZAN_DESC"
+	picture = "gfx/leaders/MON/Portrait_MON_Soliin_Danzan.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -77,20 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Jamsrangiin Tseveen"
+	desc = "POLITICS_JAMSRANGIIN_TSEVEN_DESC"
+	picture = "gfx/leaders/MON/Portrait_MON_Jamsrangiin_Tseveen.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -99,20 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Bogd Khan"
+	desc = "POLITICS_BOGD_KHAN_DESC"
+	picture = "gfx/leaders/MON/Portrait_MON_Bogd_Khan.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Bogd Khan"
+	desc = "POLITICS_BOGD_KHAN_DESC"
+	picture = "gfx/leaders/MON/Portrait_MON_Bogd_Khan.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +110,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Bogd Khan"
+	desc = "POLITICS_BOGD_KHAN_DESC"
+	picture = "gfx/leaders/MON/Portrait_MON_Bogd_Khan.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

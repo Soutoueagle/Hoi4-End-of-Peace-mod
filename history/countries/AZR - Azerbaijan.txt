@@ -111,8 +111,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Ali-Agha Shikhlinski"
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	desc = "POLITICS_ALI_AGHA_SHIKHLINSKI_DESC"
+	picture = "gfx/leaders/AZE/Portrait_Azerbaijan_Ali_Agha_Shikhlinski.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

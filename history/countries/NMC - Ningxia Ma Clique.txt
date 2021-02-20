@@ -9,7 +9,9 @@ set_technology = {
 add_ideas = {
 	
 }
-
+create_faction = House_of_Ma
+add_to_faction = NMC
+add_to_faction = XSM
 1936.1.1 = {
 	set_politics = {
 		ruling_party = paternal_autocrat
@@ -33,86 +35,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Ma Fuxuang"
+	desc = "POLITICS_MA_FUXIANG_DESC"
+	picture = "gfx/leaders/NMC/Portrait_XSM_Ma_Fuxiang.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +46,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Ma Fuxuang"
+	desc = "POLITICS_MA_FUXIANG_DESC"
+	picture = "gfx/leaders/NMC/Portrait_XSM_Ma_Fuxiang.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +57,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Ma Fuxuang"
+	desc = "POLITICS_MA_FUXIANG_DESC"
+	picture = "gfx/leaders/NMC/Portrait_XSM_Ma_Fuxiang.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
