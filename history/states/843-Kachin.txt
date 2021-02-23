@@ -1,7 +1,7 @@
 
 state={
-	id=640
-	name="STATE_640"
+	id=843
+	name="STATE_843"
 	resources={
 		tungsten=120.000
 	}
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1492 4202 4626 7469 12404 12449 
+		1082 1934 4318 4425 4996 8063 10920 
 	}
 	manpower=3944600
 	buildings_max_level_factor=1.000
