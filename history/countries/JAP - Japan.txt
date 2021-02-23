@@ -22,7 +22,7 @@ set_popularities = {
         social_liberal = 20
         market_liberal = 10
         social_conservative = 28
-        authoritarian = 30
+        authoritarian_democrat = 30
         paternal_autocrat = 0
         national_populist = 6
     

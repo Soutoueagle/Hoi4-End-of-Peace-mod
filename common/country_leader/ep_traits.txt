@@ -2,9 +2,9 @@ leader_traits = {
 
 	communist_politician = {
 		random = no
-		# Boosts Communism
+		# Boosts totalist
 		sprite = 13
-		communism_drift = 0.1
+		totalist_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
@@ -33,11 +33,11 @@ leader_traits = {
 		}
 	}	
 	
-	democratic_politician = {
+	social_conservative_politician = {
 		random = no
 		# Boosts Social Conservatism
 		sprite = 13
-		democratic_drift = 0.1
+		social_conservative_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
@@ -81,18 +81,18 @@ leader_traits = {
 		random = no
 		# Boosts National Populism
 		sprite = 13
-		fascism_drift = 0.1
+		national_populist_drift = 0.1
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
-	neutrality_politician = {
+	authoritarian_democrat_politician = {
 		random = no
 		# Boosts Authoritarian Democratism
 		sprite = 13
-		neutrality_drift = 0.1
+		authoritarian_democrat_drift = 0.1
 		
 		ai_will_do = {
 			factor = 1

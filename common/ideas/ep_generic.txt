@@ -47,7 +47,7 @@ ideas = {
 
 			allowed_civil_war = { 
 				NOT = { 
-					has_government = communism 
+					has_government = totalist 
 					has_government = syndicalist
 					has_government = radical_socialist
 				} 
@@ -57,7 +57,7 @@ ideas = {
 
 			modifier = {
 				army_org_factor = 0.02
-				communism_drift = -0.05
+				totalist_drift = -0.05
 				radical_socialist_drift = -0.05
 				syndicalist_drift = -0.05
 			}
@@ -130,7 +130,7 @@ ideas = {
 			}
 		}
 	
-		neutrality_diplomacy = {
+		authoritarian_democrat_diplomacy = {
 			
 			allowed = {
 				always = no
@@ -230,7 +230,7 @@ ideas = {
 			do_effect = {
 				NOT = {
 					OR = {
-						has_government = communism
+						has_government = totalist
 					}
 				}
 			}
@@ -282,18 +282,18 @@ ideas = {
 			}
 		}
 								
-		generic_democratic_politician = {
+		generic_social_conservative_politician = {
 			
 			allowed = {
 			
 			}
 			
-			traits = { democratic_politician }
+			traits = { social_conservative_politician }
 
 			do_effect = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = social_conservative
 					}
 				}
 			}
@@ -366,18 +366,18 @@ ideas = {
 			}
 		}
 								
-		generic_neutrality_politician = {
+		generic_authoritarian_democrat_politician = {
 			
 			allowed = {
 							
 			}
 			
-			traits = { neutrality_politician }
+			traits = { authoritarian_democrat_politician }
 
 			do_effect = {
 				NOT = {
 					OR = {
-						has_government = neutrality
+						has_government = authoritarian_democrat
 					}
 				}
 			}
@@ -418,7 +418,7 @@ ideas = {
 
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = national_populist
 				}
 			}
 	

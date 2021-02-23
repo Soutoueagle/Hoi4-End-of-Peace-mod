@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = totalist
 			ideas = {
 				
 			}	
@@ -19,7 +19,7 @@ bookmarks = {
 		}
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservative
 			ideas = {
 				
 			}	
@@ -29,7 +29,7 @@ bookmarks = {
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservative
 			ideas = {
 				
 			}	
@@ -39,7 +39,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservative
 			ideas = {
 				
 			}	
@@ -49,7 +49,7 @@ bookmarks = {
 		}
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -59,7 +59,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -69,7 +69,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = national_populist
 			ideas = {
 				
 			}	
@@ -85,7 +85,7 @@ bookmarks = {
 		"AUH"={
 			minor = yes
 			history = "AUH_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -97,7 +97,7 @@ bookmarks = {
 		"OTT"={
 			minor = yes
 			history = "OTT_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -109,7 +109,7 @@ bookmarks = {
 		"BEL"={
 			minor = yes
 			history = "BEL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservative
 			ideas = {
 				
 			}	
@@ -121,7 +121,7 @@ bookmarks = {
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -133,7 +133,7 @@ bookmarks = {
 		"POR"={
 			minor = yes
 			history = "POR_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -145,7 +145,7 @@ bookmarks = {
 		"SPR"={
 			minor = yes
 			history = "SPR_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = social_conservative
 			ideas = {
 				
 			}	
@@ -157,7 +157,7 @@ bookmarks = {
 		"BUL"={
 			minor = yes
 			history = "BUL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -169,7 +169,7 @@ bookmarks = {
 		"GRE"={
 			minor = yes
 			history = "GRE_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -181,7 +181,7 @@ bookmarks = {
 		"ROM"={
 			minor = yes
 			history = "ROM_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -193,7 +193,7 @@ bookmarks = {
 		"SEM"={
 			minor = yes
 			history = "SEM_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -205,7 +205,7 @@ bookmarks = {
 		"CHI"={
 			minor = yes
 			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	
@@ -217,7 +217,7 @@ bookmarks = {
 		"UKR"={
 			minor = yes
 			history = "UKR_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = authoritarian_democrat
 			ideas = {
 				
 			}	

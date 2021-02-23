@@ -15,23 +15,23 @@ set_autonomy = {
 }
 1936.1.1 = {
 	set_politics = {
-	ruling_party = democratic
+	ruling_party = social_conservative
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-        communism = 3.2
+        totalist = 3.2
         syndicalist = 1.3
         radical_socialist = 0
 	    social_democrat = 22.5
         social_liberal = 5.1
         market_liberal = 16.1
-        democratic = 27.9
-        neutrality = 13.4
+        social_conservative = 27.9
+        authoritarian_democrat = 13.4
         paternal_autocrat = 4.6
-        fascism = 5.9
+        national_populist = 5.9
     
 }
 

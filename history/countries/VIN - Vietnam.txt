@@ -19,16 +19,16 @@ add_ideas = {
 }
 
 set_popularities = {
-        communism = 10
+        totalist = 10
         syndicalist = 10
         radical_socialist = 0
 	    social_democrat = 0
         social_liberal = 0
         market_liberal = 0
-        democratic = 0
-        neutrality = 30
+        social_conservative = 0
+        authoritarian_democrat = 30
         paternal_autocrat = 40
-        fascism = 10
+        national_populist = 10
     
 }
 

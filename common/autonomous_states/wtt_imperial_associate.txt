@@ -38,8 +38,8 @@ autonomy_state = {
 		OR = {
 			AND = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					has_government = national_populist
+					has_government = authoritarian_democrat
 				}
 				
 				OR = {
@@ -48,8 +48,8 @@ autonomy_state = {
 			}
 			AND = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					has_government = national_populist
+					has_government = authoritarian_democrat
 				}
 				OR = {
 					OVERLORD = { original_tag = MAN }

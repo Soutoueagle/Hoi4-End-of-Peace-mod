@@ -12,23 +12,23 @@ add_ideas = {
 
 1936.1.1 = {
 	set_politics = {
-	ruling_party = fascism
+	ruling_party = national_populist
 	last_election = "1935.1.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-        communism = 0
+        totalist = 0
         syndicalist = 0
         radical_socialist = 3.1
 	    social_democrat = 23.9
         social_liberal = 0
         market_liberal = 6
-        democratic = 24
-        neutrality = 8
+        social_conservative = 24
+        authoritarian_democrat = 8
         paternal_autocrat = 11
-        fascism = 24
+        national_populist = 24
     
 }
 

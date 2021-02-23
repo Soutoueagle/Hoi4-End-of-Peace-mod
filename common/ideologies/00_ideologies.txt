@@ -9,7 +9,7 @@ ideologies = {
 			leninism = {	can_be_randomly_selected = no	}
 			stalinism = {	can_be_randomly_selected = no	}
 			anti_revisionism = {	can_be_randomly_selected = no	}
-			anarchist_communism = {	can_be_randomly_selected = no	}
+			anarchist_totalist = {	can_be_randomly_selected = no	}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNIST_1"
@@ -237,12 +237,12 @@ ideologies = {
 			socialism = {	can_be_randomly_selected = no	}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
+			"FACTION_NAME_social_conservative_1"
+			"FACTION_NAME_social_conservative_2"
+			"FACTION_NAME_social_conservative_3"
+			"FACTION_NAME_social_conservative_4"
+			"FACTION_NAME_social_conservative_5"
+			"FACTION_NAME_social_conservative_6"
 		}
 		color = { 0 0 255 }
 		rules = {
@@ -358,7 +358,7 @@ ideologies = {
 			
 			nazism  = {	can_be_randomly_selected = no	}
 			gen_nazism = {	can_be_randomly_selected = no	}
-			fascism_ideology = {	can_be_randomly_selected = no	}
+			national_populist_ideology = {	can_be_randomly_selected = no	}
 			falangism = {	can_be_randomly_selected = no	}
 			rexism = {	can_be_randomly_selected = no	}
 		}
