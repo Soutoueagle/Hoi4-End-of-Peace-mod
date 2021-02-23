@@ -8,23 +8,23 @@ set_technology = {
 
 1936.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = authoritarian_democrat
 		last_election = "1934.7.13"
 		election_frequency = 48
 		elections_allowed = yes
 }
 
 set_popularities = {
-        communism = 2
+        totalist = 2
         syndicalist = 0
         radical_socialist = 2
 	    social_democrat = 2
         social_liberal = 20
         market_liberal = 10
-        democratic = 28
-        neutrality = 30
+        social_conservative = 28
+        authoritarian = 30
         paternal_autocrat = 0
-        fascism = 6
+        national_populist = 6
     
 }
 

@@ -22,16 +22,16 @@ set_autonomy = {
 }
 
 set_popularities = {
-        communism = 10
+        totalist = 10
         syndicalist = 5
         radical_socialist = 0
 	    social_democrat = 23
         social_liberal = 24
         market_liberal = 20
-        democratic = 13
-        neutrality = 0
+        social_conservative = 13
+        authoritarian_democrat = 0
         paternal_autocrat = 0
-        fascism = 5
+        national_populist = 5
     
 }
 
