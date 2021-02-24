@@ -77,9 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Eduardo Santos Montejo"
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Alfonso López Pumarejo"
+	desc = "POLITICS_ALFONSO_PUMAREJO_DESC"
+	picture = "gfx/leaders/COL/Portrait_Columbia_Alfonso_Pumarejo.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {

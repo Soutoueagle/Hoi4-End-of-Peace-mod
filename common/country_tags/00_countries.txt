@@ -209,7 +209,6 @@ KOS	= "countries/Kosovo.txt"
 
 ###End of Peace###
 #Europe#
-AUH = "countries/Austro-Hungary-Bohemia.txt"
 RUS = "countries/Russia.txt"
 SEM = "countries/Serb-Montenegro.txt"
 TWS = "countries/Two Sicilies.txt"

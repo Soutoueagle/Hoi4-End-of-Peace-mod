@@ -77,9 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Lazaro Cardenas"
+	desc = "POLITICS_LAZARO_CARDENAS_DESC"
+	picture = "gfx/leaders/MEX/Portrait_MEX_Lazaro_Cardenas.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {

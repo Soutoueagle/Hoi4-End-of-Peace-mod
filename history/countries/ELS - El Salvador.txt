@@ -132,9 +132,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Maximiliano Martinez"
+	desc = "POLITICS_MAXIMILIANO_MARTINEZ_DESC"
+	picture = "gfx/leaders/ELS/Portrait_ELS_general_Maximiliano_Martinez.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
