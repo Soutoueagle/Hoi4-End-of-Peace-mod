@@ -99,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tiburcio Carias Andino"
+	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
+	picture = "gfx/leaders/HON/Portrait_HON_Tiburcio_Carias_Andino.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {

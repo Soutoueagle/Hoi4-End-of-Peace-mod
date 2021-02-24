@@ -88,9 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Gabriel Terra"
+	desc = "POLITICS_GABRIEL_TERRA_DESC"
+	picture = "gfx/leaders/URG/Portrait_Uruguay_Gabriel_Terra.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {

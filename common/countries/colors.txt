@@ -38,8 +38,8 @@ POL = {
 	color_ui = rgb { 188 80 96 }
 }
 AUS = {
-	color = rgb { 181 181 181 }
-	color_ui = rgb { 181 181 181 }
+	color = rgb { 198 198 198 }
+	color_ui = rgb { 198 198 198 }
 }
 LIT = {
 	color = rgb { 69 139 91 }
@@ -817,10 +817,6 @@ WES = {
 ZAM = {
 	 color = rgb { 102 102 255 } 
 	color_ui = rgb { 102 102 255 }
-}
-AUH = {
-	 color = rgb { 255 255 255 } 
-	color_ui = rgb { 255 255 255 }
 }
 BHK = {
 	 color = rgb { 182 255 0 } 

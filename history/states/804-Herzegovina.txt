@@ -21,6 +21,7 @@ state={
 		}
 		add_core_of = BOS
 		add_core_of = HRZ
+		add_claim_by = CRO
 	}
 
 	provinces={

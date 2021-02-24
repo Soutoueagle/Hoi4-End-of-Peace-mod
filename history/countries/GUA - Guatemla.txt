@@ -121,9 +121,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Jorge Ubico Casteneda"
+	desc = "POLITICS_JORGE_UBICO_CASTENEDA_DESC"
+	picture = "gfx/leaders/GUA/Portrait_GUA_Jorge_Ubico_Casteneda.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {

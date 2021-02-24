@@ -77,9 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Leon Cortes Castro"
+	desc = "POLITICS_LEON_CORTES_CASTRO_DESC"
+	picture = "gfx/leaders/COS/Portrait_COS_Leon_Cortes_Castro.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {

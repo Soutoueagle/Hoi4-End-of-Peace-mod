@@ -20,8 +20,12 @@
  ALB_kingdom:0 "アルバニア王国"
  ALB_kingdom_DEF:0 "アルバニア王国"
  
- AUH_federation:0 "ドナウ＝アドリア帝国"
- AUH_federation_DEF:0 "ドナウ＝アドリア帝国"
+ AUS_empire:0 "オーストリア帝国"
+ AUS_empire_DEF:0 "オーストリア帝国"
+ AUS_AHB:0 "オーストリア＝ハンガリー＝ボヘミア帝国"
+ AUS_AHB_DEF:0 "オーストリア＝ハンガリー＝ボヘミア帝国"
+ AUS_federation:0 "ドナウ＝アドリア帝国"
+ AUS_federation_DEF:0 "ドナウ＝アドリア帝国"
  
  BOS_AUH:0 "ボスニア・ヘルツェゴビナ自治領"
  BOS_AUH_DEF:0 "ボスニア・ヘルツェゴビナ自治領"

@@ -66,9 +66,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Fedrerico Chiriboaga"
+	desc = "POLITICS_FEDRERICO_CHIRIBOAGA_DESC"
+	picture = "gfx/leaders/ECU/Portrait_Ecuador_Fedrerico_Chiriboaga.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {

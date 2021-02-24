@@ -132,9 +132,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Oscar Benavides Larrea"
+	desc = "POLITICS_OSCAR_BENAVIDES_LARREA_DESC"
+	picture = "gfx/leaders/PRU/Portrait_Peru_Oscar_Benavides_Larrea.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {
