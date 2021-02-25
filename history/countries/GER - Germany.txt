@@ -13,6 +13,15 @@ set_technology = {
 		election_frequency = 48
 		elections_allowed = yes
 }
+create_faction = Central_Powers
+add_to_faction = GER
+
+give_guarantee = UKR
+give_guarantee = BLR
+give_guarantee = FIN
+give_guarantee = EST
+give_guarantee = LAT
+give_guarantee = LIT
 
 set_popularities = {
         totalist = 3

@@ -10,6 +10,9 @@ add_ideas = {
 	
 }
 
+give_guarantee = ALB
+give_guarantee = ETH
+
 1936.1.1 = {
 	set_politics = {
 		ruling_party = national_populist

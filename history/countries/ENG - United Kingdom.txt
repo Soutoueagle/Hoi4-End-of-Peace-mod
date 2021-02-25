@@ -9,6 +9,7 @@ set_technology = {
 add_ideas = {
 	
 }
+
 set_autonomy = {
 	target = AST
 	autonomous_state = autonomy_dominion
@@ -37,6 +38,9 @@ set_autonomy = {
 	target = SAF
 	autonomous_state = autonomy_dominion
 }
+
+give_guarantee = BEL
+
 1936.1.1 = {
 	set_politics = {
 		ruling_party = social_conservative

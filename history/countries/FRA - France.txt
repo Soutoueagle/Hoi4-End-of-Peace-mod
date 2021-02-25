@@ -10,6 +10,9 @@ add_ideas = {
 	
 }
 
+create_faction = Entente
+add_to_faction = FRA
+
 1936.1.1 = {
 	set_politics = {
 		ruling_party = social_liberal

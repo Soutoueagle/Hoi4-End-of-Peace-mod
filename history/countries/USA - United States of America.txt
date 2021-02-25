@@ -9,10 +9,14 @@ set_technology = {
 add_ideas = {
 	disarmed_nation
 }
+
 set_autonomy = {
 	target = PHI
 	autonomous_state = autonomy_dominion
 }
+
+give_guarantee = LIB
+
 1936.1.1 = {
 	set_politics = {
 		ruling_party = social_liberal
