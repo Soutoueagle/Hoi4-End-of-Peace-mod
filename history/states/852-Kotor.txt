@@ -1,0 +1,25 @@
+state={
+	id=852
+	name="STATE_852"
+
+	history={
+		victory_points = {
+			13236 1 
+		}
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = AUS
+		add_core_of = MNT
+
+	}
+		
+	provinces={
+		13236 
+	}
+	manpower= 13510
+	buildings_max_level_factor=1.000
+	state_category=rural	
+}
