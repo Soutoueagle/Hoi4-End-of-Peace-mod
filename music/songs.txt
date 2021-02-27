@@ -4,7 +4,7 @@ music = {
 }
 
 music = {
-	song = "Anazing Grace"
+	song = "Royal Coupling"
 	chance = {	modifier = {	factor = 1	}	}
 }
 
@@ -29,6 +29,16 @@ music = {
 }
 
 music = {
-	song = "Farewell of Slavianka"
+	song = "End of the Era"
+	chance = {	modifier = {	factor = 1	}	}
+}
+
+music = {
+	song = "Long Road Ahead"
+	chance = {	modifier = {	factor = 1	}	}
+}
+
+music = {
+	song = "Peaceful Desolation"
 	chance = {	modifier = {	factor = 1	}	}
 }
