@@ -1,6 +1,7 @@
 capital = 107
 
 oob = ""
+set_cosmetic_tag = SER-MNT_kingdom
 
 set_technology = {
 	infantry_weapons = 1

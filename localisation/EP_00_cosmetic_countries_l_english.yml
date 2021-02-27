@@ -3,18 +3,38 @@
  AFG_kingdom:0 "アフガニスタン王国"
  AFG_kingdom_DEF:0 "アフガニスタン王国"
  
+ ARM_kingdom:0 "アルメニア王国"
+ ARM_kingdom_DEF:0 "アルメニア王国"
+ 
+ BHU_kingdom:0 "ブータン王国"
+ BHU_kingdom_DEF:0 "ブータン王国"
+ 
+ GEO_kingdom:0 "グルジア王国"
+ GEO_kingdom_DEF:0 "グルジア王国"
+ 
  JAP_empire:0 "大日本帝国"
  JAP_empire_DEF:0 "大日本帝国"
  
- KAZ_alo:0 "アラシュ共和国"
- KAZ_alo_DEF:0 "アラシュ共和国"
+ KAZ_alash:0 "アラシュ共和国"
+ KAZ_alash_DEF:0 "アラシュ共和国"
+ 
+ NEP_kingdom:0 "ネパール王国"
+ NEP_kingdom_DEF:0 "ネパール王国"
+ 
+ OMA_UK:0 "イギリス領オマーン王国"
+ OMA_UK_DEF:0 "イギリス領オマーン王国"
  
  PER_empire:0 "イラン帝国"
  PER_empire_DEF:0 "イラン帝国"
  
+ PHI_autonomy_dominion:0 "フィリピン自治領"
+ PHI_autonomy_dominion_DEF:0 "フィリピン自治領"
+ 
  SIA_kingdom:0 "シャム王国"
  SIA_kingdom_DEF:0 "シャム王国"
  
+ TIB_state:0 "チベット国"
+ TIB_state_DEF:0 "チベット国"
  
 #ヨーロッパ
  ALB_kingdom:0 "アルバニア王国"
@@ -24,17 +44,17 @@
  AUS_empire_DEF:0 "オーストリア帝国"
  AUS_AHB:0 "オーストリア＝ハンガリー＝ボヘミア帝国"
  AUS_AHB_DEF:0 "オーストリア＝ハンガリー＝ボヘミア帝国"
- AUS_federation:0 "ドナウ＝アドリア帝国"
- AUS_federation_DEF:0 "ドナウ＝アドリア帝国"
+ AUS_danube-adria_empire:0 "ドナウ＝アドリア帝国"
+ AUS_danube-adria_empire_DEF:0 "ドナウ＝アドリア帝国"
  
- BOS_AUH:0 "ボスニア・ヘルツェゴビナ自治領"
- BOS_AUH_DEF:0 "ボスニア・ヘルツェゴビナ自治領"
- 
- BLR_kingdom:0 "ベラルーシ王国"
- BLR_kingdom_DEF:0 "ベラルーシ王国"
+ BOS-HRZ_autonomy_dominion:0 "ボスニア・ヘルツェゴビナ自治領"
+ BOS-HRZ_autonomy_dominion_DEF:0 "ボスニア・ヘルツェゴビナ自治領"
  
  BEL_kingdom:0 "ベルギー王国"
  BEL_kingdom_DEF:0 "ベルギー王国"
+ 
+ BLR_kingdom:0 "ベラルーシ王国"
+ BLR_kingdom_DEF:0 "ベラルーシ王国"
  
  BUL_kingdom:0 "ブルガリア王国"
  BUL_kingdom_DEF:0 "ブルガリア王国"
@@ -42,16 +62,19 @@
  DEN_kingdom:0 "デンマーク王国"
  DEN_kingdom_DEF:0 "デンマーク王国"
  
- EST_ducy:0 "エストニア公国"
- EST_ducy_DEF:0 "エストニア公国"
+ EST_duchy:0 "エストニア公国"
+ EST_duchy_DEF:0 "エストニア公国"
+ 
+ ENG_britain_empire:0 "大英帝国"
+ ENG_britain_empire_DEF:0 "大英帝国"
  
  FIN_kingdom:0 "フィンランド王国"
  FIN_kingdom_DEF:0 "フィンランド王国"
  
- FRA_kingdom:0 "フランス王国"
- FRA_kingdom_DEF:0 "フランス王国"
  FRA_empire:0 "フランス帝国"
  FRA_empire_DEF:0 "フランス帝国"
+ FRA_kingdom:0 "フランス王国"
+ FRA_kingdom_DEF:0 "フランス王国"
  
  GER_empire:0 "ドイツ帝国"
  GER_empire_DEF:0 "ドイツ帝国"
@@ -65,54 +88,54 @@
  ITA_kingdom:0 "イタリア王国"
  ITA_kingdom_DEF:0 "イタリア王国"
  
+ LAT_duchy:0 "ラトビア公国"
+ LAT_duchy_DEF:0 "ラトビア公国"
+ 
  LIT_kingdom:0 "リトアニア王国"
  LIT_kingdom_DEF:0 "リトアニア王国"
  
- ROM_kingdom:0 "ルーマニア王国"
- ROM_kingdom_DEF:0 "ルーマニア王国"
- 
- SEM_kingdom:0 "セルブ＝モンテネグロ王国"
- SEM_kingdom_DEF:0 "セルブ＝モンテネグロ王国"
- 
- ENG_empire:0 "大英帝国"
- ENG_empire_DEF:0 "大英帝国"
+ LUX_grand_duchy:0 "ルクセンブルク大公国"
+ LUX_grand_duchy_DEF:0 "ルクセンブルク大公国"
  
  NOR_kingdom:0 "ノルウェー王国"
  NOR_kingdom_DEF:0 "ノルウェー王国"
  
+ POR_kingdom:0 "ポルトガル王国"
+ POR_kingdom_DEF:0 "ポルトガル王国"
+ 
+ ROM_kingdom:0 "ルーマニア王国"
+ ROM_kingdom_DEF:0 "ルーマニア王国"
+ 
+ SER_kingdom:0 "セルビア王国"
+ SER_kingdom_DEF:0 "セルビア王国"
+ SER-MNT_kingdom:0 "セルブ＝モンテネグロ王国"
+ SER-MNT_kingdom_DEF:0 "セルブ＝モンテネグロ王国"
+ 
  SWE_kingdom:0 "スウェーデン王国"
  SWE_kingdom_DEF:0 "スウェーデン王国"
  
- LAT_ducy:0 "ラトビア公国"
- LAT_ducy_DEF:0 "ラトビア公国" 
- 
- LUX_ducy:0 "ルクセンブルク公国"
- LUX_ducy_DEF:0 "ルクセンブルク公国" 
- 
  UKR_kingdom:0 "ウクライナ王国"
- UKR_kingdom_DEF:0 "ウクライナ王国"  
+ UKR_kingdom_DEF:0 "ウクライナ王国"
+ 
+#アフリカ
+ ETH_empire:0 "エチオピア帝国"
+ ETH_empire_DEF:0 "エチオピア帝国"
+ 
+ SAF_autonomy_dominion:0 "南アフリカ連邦"
+ SAF_autonomy_dominion_DEF:0 "南アフリカ連邦"
  
 #新大陸
+ CAN_kingdom:0 "カナダ王国"
+ CAN_kingdom_DEF:0 "カナダ王国"
+ CAN_autonomy_dominion:0 "カナダ自治領"
+ CAN_autonomy_dominion_DEF:0 "カナダ自治領"
+ 
  USA_kingdom:0 "アメリカ王国"
  USA_kingdom_DEF:0 "アメリカ王国"
  
- CAN_UK:0 "イギリス領カナダ連邦自治領"
- CAN_UK_DEF:0 "イギリス領カナダ連邦自治領"
+#太平洋
+ AST_autonomy_dominion:0 "オーストラリア連邦"
+ AST_autonomy_dominion_DEF:0 "オーストラリア連邦"
  
- CAN_kingdom:0 "カナダ王国"
- CAN_kingdom_DEF:0 "カナダ王国"
- 
-#オセアニア
- AST_UK:0 "イギリス領オーストラリア連邦自治領"
- AST_UK_DEF:0 "イギリス領オーストラリア連邦自治領"
- 
- NZL_UK:0 "イギリス領ニュージーランド自治領"
- NZL_UK_DEF:0 "イギリス領ニュージーランド自治領"
-
-#アラビア半島 
- OMA_UK:0 "イギリス領オマーン王国"
- OMA_UK_DEF:0 "イギリス領オマーン王国"
- 
-#コーカサス
- GEO_kingdom:0 "グルジア王国"
- GEO_kingdom_DEF:0 "グルジア王国"
+ NZL_autonomy_dominion:0 "ニュージーランド自治領"
+ NZL_autonomy_dominion_DEF:0 "ニュージーランド自治領"

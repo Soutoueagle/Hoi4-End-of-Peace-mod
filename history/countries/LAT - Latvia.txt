@@ -1,7 +1,7 @@
 capital = 12
 
 oob = ""
-set_cosmetic_tag = LAT_ducy
+set_cosmetic_tag = LAT_duchy
 set_technology = {
 	infantry_weapons = 1
 }
