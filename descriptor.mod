@@ -11,7 +11,9 @@ tags={
 }
 name="End of Peace"
 supported_version="1.10.*"
-
+dependencies={
+	"Japanese Language mod"
+}
 replace_path="common/abilities"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"

@@ -1,6 +1,7 @@
 capital = 324
 
 oob = ""
+set_cosmetic_tag = BHU_kingdom
 
 set_technology = {
 	infantry_weapons = 1

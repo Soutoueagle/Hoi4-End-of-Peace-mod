@@ -1,0 +1,41 @@
+#アジア
+BHK	= "countries/Asia.txt"	#ブハラ
+GND	= "countries/Asia.txt"	#広東
+HDR	= "countries/Asia.txt"	#ハイダラバード
+IND	= "countries/Asia.txt"	#インド
+JMK	= "countries/Asia.txt"	#ジャンムー・カシミール
+KMR	= "countries/Asia.txt"	#クムル
+MYS	= "countries/Asia.txt"	#マイソール
+NMC	= "countries/Asia.txt"	#寧夏
+SHA	= "countries/Asia.txt"	#山東
+SKM	= "countries/Asia.txt"	#シッキム
+SLC	= "countries/Asia.txt"	#上海
+SZC	= "countries/Asia.txt"	#四川
+TLC	= "countries/Asia.txt"	#天津
+TRV	= "countries/Asia.txt"	#トラヴァンコール
+TUG	= "countries/Asia.txt"	#トゥンガニスタン
+
+#中東
+ANA	= "countries/Middle East.txt"	#アナザ
+HJZ	= "countries/Middle East.txt"	#ヒジャーズ
+JBS	= "countries/Middle East.txt"	#ジャバル・シャンマル
+OTT	= "countries/Middle East.txt"	#オスマン
+
+#西欧
+LIE	= "countries/Western Europe.txt"	#リヒテンシュタイン
+LOM	= "countries/Western Europe.txt"	#ロンバルド＝ヴェネト
+MCO	= "countries/Western Europe.txt"	#モナコ
+SAN	= "countries/Western Europe.txt"	#サンマリノ
+TOS	= "countries/Western Europe.txt"	#トスカーナ
+TWS	= "countries/Western Europe.txt"	#両シチリア
+VAC	= "countries/Western Europe.txt"	#バチカン
+
+#東欧
+DKB	= "countries/Eastern Europe.txt"	#ドン
+GAL	= "countries/Eastern Europe.txt"	#ガリツィア・ロドメリア
+KUB	= "countries/Eastern Europe.txt"	#クバン
+RUS	= "countries/Eastern Europe.txt"	#ロシア
+SEM	= "countries/Eastern Europe.txt"	#セレブ＝モンテネグロ
+
+#Middle East#
+ASR	= "countries/Asir Clique.txt"	
