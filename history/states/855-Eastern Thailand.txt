@@ -1,7 +1,7 @@
 
 state={
-	id=839
-	name="STATE_839"
+	id=855
+	name="STATE_855"
 
 	history={
 		owner = SIA
@@ -12,15 +12,12 @@ state={
 			air_base = 3
 
 		}
-		victory_points = {
-			1488 1 
-		}
 		add_core_of = SIA
 
 	}
 
 	provinces={
-		1253 1488 1990 4496 7492 7531 7675 8045 10371 12345 
+		1244 4433 7225 7292 10293 12224 
 	}
 	manpower=12422400
 	buildings_max_level_factor=1.000
