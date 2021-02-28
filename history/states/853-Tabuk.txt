@@ -1,23 +1,23 @@
 state={
-	id=830
-	name="STATE_830"
+	id=853
+	name="STATE_853"
 
 	history={
 		owner = ANA
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 1
 
 		}
+
 		add_core_of = ANA
 		add_core_of = JOR
 
 	}
 	
 	provinces={
-		4440 7001 
+		13242 
 	}
-	manpower=215076
+	manpower=2150
 	buildings_max_level_factor=1.000
 	state_category=rural	
 }

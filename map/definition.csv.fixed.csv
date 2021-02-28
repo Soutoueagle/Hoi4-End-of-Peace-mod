@@ -6999,7 +6999,7 @@
 6998;88;210;186;land;false;forest;1
 6999;89;0;11;land;false;urban;6
 7000;89;0;56;land;false;plains;6
-7001;89;0;161;land;false;mountain;7
+7001;89;0;161;land;false;desert;7
 7002;89;0;248;sea;true;ocean;0
 7003;89;3;21;land;true;plains;1
 7004;89;3;76;land;false;mountain;6
@@ -13237,3 +13237,7 @@
 13236;175;40;226;land;false;mountain;1
 13237;48;166;91;land;false;forest;1
 13238;131;77;215;land;false;forest;1
+13239;125;184;187;land;false;desert;1
+13240;158;61;231;land;false;desert;1
+13241;247;210;62;land;false;desert;1
+13242;251;132;130;land;false;desert;1
