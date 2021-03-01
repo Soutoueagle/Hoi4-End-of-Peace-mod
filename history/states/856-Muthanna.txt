@@ -1,0 +1,22 @@
+state={
+	id=856
+	name="STATE_856"
+
+	history={
+		owner = JBS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = JBS
+		add_core_of = IRQ
+
+	}
+	
+	provinces={
+		10744 12879 13245 
+	}
+	manpower=48837
+	buildings_max_level_factor=1.000
+	state_category=wasteland	
+}

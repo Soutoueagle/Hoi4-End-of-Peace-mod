@@ -5,7 +5,6 @@ state={
 
 	history={
 		owner = ANA
-
 		buildings = {
 			infrastructure = 1
 
@@ -16,9 +15,9 @@ state={
 	}
 
 	provinces={
-		1631 4951 10744 12879 
+		1631 4951 13243 
 	}
-	manpower=97675
+	manpower=48837
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
