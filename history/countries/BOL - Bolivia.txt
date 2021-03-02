@@ -110,9 +110,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Carlos Quintanilla Quiroga"
-	desc = "POLITICS_CARLOS_QUIROGA_DESC"
-	picture = "gfx/leaders//"
+	name = "Jose David Toro"
+	desc = "POLITICS_JOSE_DAVID_TORO_DESC"
+	picture = "gfx/leaders/BOL/Portrait_Bolivia_jose_david_toro.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
