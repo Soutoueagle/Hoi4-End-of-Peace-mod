@@ -49,7 +49,7 @@
  national_populist_desc:0 "権威主義政権"
  national_populist_subtype_desc:0 "様々な種類の超国家主義運動と軍国主義運動のことを表す国家大衆主義は、概して国家への忠誠と強力な指導者の下での国民の団結、そして共同経済を大切にしている。大抵は過激な政策と暴力的な表現を支持しており、そのため他のほとんどの政党からは激しく反対されている思想である。"
  ###Advisors###
- generic_communist_politician:0 "社会主義政治家"
+ generic_totalist_politician:0 "社会主義政治家"
  generic_syndicalist_politician:0 "無政府主義政治家"
  generic_radical_socialist_politician:0 "急進社会主義政治家"
  generic_social_conservative_politician:0 "社会保守主義政治家"
@@ -58,7 +58,7 @@
  generic_social_democrat_politician:0 "社会民主主義政治家"
  generic_authoritarian_democrat_politician:0 "権威民主主義主義政治家"
  generic_paternal_autocrat_politician:0 "父権的専制主義政治家"
- generic_fascist_politician:0 "国家大衆主義政治家"
+ generic_national_populist_politician:0 "国家大衆主義政治家"
  ###Company###
  
  ###Ideas###

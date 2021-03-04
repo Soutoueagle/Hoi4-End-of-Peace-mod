@@ -1,0 +1,42 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_generic_totalist_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_totalist_politican.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_syndicalist_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_syndicalist_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_radical_socialist_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_radical_socialist_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_social_democrat_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_social_democrat_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_social_liberal_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_social_liberal_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_market_liberal_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_market_liberal_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_social_conservative_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_social_conservative_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_authoritarian_democrat_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_authoritarian_democrat_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_paternal_autocrat_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_paternal_autocrat_politician.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_national_populist_politician"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_national_populist_politician.dds"
+	}
+}
