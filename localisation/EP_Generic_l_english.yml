@@ -58,28 +58,30 @@
  generic_social_democrat_politician:0 "社会民主主義政治家"
  generic_authoritarian_democrat_politician:0 "権威民主主義主義政治家"
  generic_paternal_autocrat_politician:0 "父権的専制主義政治家"
- generic_fascist_politician:0 "国家大衆主義扇動家"
+ generic_fascist_politician:0 "国家大衆主義政治家"
  ###Company###
  
  ###Ideas###
  long_peace:0 "長い平和"
  long_peace_desc:0 "約20年にわたる長い平和により人々は緊張感を失い、国防にいまいち熱が入らない状態だ。"
- authoritarian_democrat_diplomacy:0 "中立外交"
- authoritarian_democrat_diplomacy_desc:0 "どの国にも味方することなく中立的な外交に注力している。"
+ neutrality_diplomacy:0 "中立外交"
+ neutrality_diplomacy_desc:0 "どの国にも味方することなく中立的な外交に注力しているが、国防は他国にゆだねている。"
  ep_great_depression:0 "世界恐慌"
  ep_great_depression_desc:0 "1929年にロンドンで発生した世界恐慌は社会主義国家以外のほぼすべての国々に波及し、経済を停滞させた。"
  unstable_government:0 "不安定な政治"
  unstable_government_desc:0 "それぞれの政党や派閥は互いの政策を批判しあい、問題解決がスムーズに進んでいない。"
  weak_economy:0 "脆弱な経済"
  weak_economy_desc:0 "経済基盤が脆弱でこの国は経済危機を起こしかねない。"
- colony_army:0 "外国人部隊"
- colony_army_desc:0 "欧米諸国のアスカリ、日本の朝鮮人、台湾人部隊など列強は現地人の部隊を編成し、貴重な戦力とした。"
+ foreign_legion:0 "外国人部隊"
+ foreign_legion_desc:0 "欧米諸国のアスカリ、日本の朝鮮人、台湾人部隊など列強は現地人の部隊を編成し、貴重な戦力とした。"
  faith_allah:0 "アッラーの信仰"
  faith_allah_desc:0 "イスラム教徒にとって社会主義者の唱える無神論は受け入れがたいのもだ、彼らに社会主義を受け入れさせるには彼らにあった社会主義を作らなければならないだろう"
  london_naval_treaty:0 "ロンドン海軍軍縮条約"
  london_naval_treaty_desc:0 "列強間の建艦競争が激しくなり、維持費が経済を圧迫しだしたため列強は互いに海軍力の増強に制限をかけた。"
  many_kinds_weapons:0 "雑多な武器"
  many_kinds_weapons_desc:0 "ドイツ、イギリス、フランス、イタリア、オーストリア、日本などから武器が提供されたお陰で独立できたものの、弾薬の口径がバラバラで兵站を圧迫し、今や国防の障害になっている。"
+ armed_neutrality_diplomacy:0 "武装中立外交"
+ armed_neutrality_diplomacy_desc:0 "どの国にも味方することなく中立的な外交に徹し、そして自国の国防も自分たちでするという姿勢を取っている。"
  ###National Focus###
  
  ###Events###

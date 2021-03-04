@@ -7,7 +7,7 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	long_peace
 }
 set_autonomy = {
 	target = BOS

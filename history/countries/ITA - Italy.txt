@@ -7,7 +7,8 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	long_peace
+	foreign_legion
 }
 
 give_guarantee = ALB

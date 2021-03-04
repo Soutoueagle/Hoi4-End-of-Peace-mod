@@ -7,7 +7,8 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	long_peace
+	armed_neutrality_diplomacy
 }
 
 1936.1.1 = {

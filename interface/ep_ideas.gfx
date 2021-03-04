@@ -1,0 +1,44 @@
+spriteTypes = {
+
+	# Generic ideas	
+	SpriteType = {
+		name = "GFX_idea_long_peace"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_long_peace.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_foreign_legion"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_foreign_legion.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_faith_allah"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_faith_allah.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_unstable_government"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_unstable_government.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_ep_great_depression"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_great_depression.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_neutrality_diplomacy"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_neutrality_diplomacy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_armed_neutrality_diplomacy"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_armed_neutrality_country.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_london_naval_treaty"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_naval_treathy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_weak_economy"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_weak_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_many_kinds_weapons"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_many_kind_weapons.dds"
+	}	
+}

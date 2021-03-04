@@ -7,7 +7,9 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	long_peace
+	foreign_legion
+	unstable_government
 }
 
 create_faction = Entente

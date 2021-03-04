@@ -7,7 +7,9 @@ set_technology = {
 }
 
 add_ideas = {
-	disarmed_nation
+	long_peace
+	unstable_government
+	ep_great_depression
 }
 
 set_autonomy = {

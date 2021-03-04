@@ -26,7 +26,7 @@ ideas = {
 			}
 		}		
 		
-		colony_army = {
+		foreign_legion = {
 
 			allowed = { 
 				always = no
@@ -76,7 +76,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_factor = -0.5
+				political_power_factor = -0.2
 			}
 		}
 		
@@ -99,6 +99,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = -0.5
 				industrial_capacity_dockyard = -0.5
+				political_power_factor = -0.4				
 			}
 		}
 		
@@ -130,7 +131,7 @@ ideas = {
 			}
 		}
 	
-		authoritarian_democrat_diplomacy = {
+		neutrality_diplomacy = {
 			
 			allowed = {
 				always = no
@@ -155,7 +156,35 @@ ideas = {
 				ai_get_ally_desire_factor = -100
 			}
 		}
-		
+	
+		armed_neutrality_diplomacy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 1.00
+				lend_lease_tension = 1.00
+				send_volunteers_tension = 1.00
+				guarantee_tension = 1.0
+				ai_get_ally_desire_factor = -100
+				army_core_attack_factor = 0.3
+				army_core_defence_factor = 0.3
+			}
+		}
+				
 		weak_economy = {
 		
 			allowed = {
