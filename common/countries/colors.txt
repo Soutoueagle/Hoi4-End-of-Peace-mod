@@ -358,8 +358,8 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	 color = rgb { 0 19 127 } 
+	color_ui = rgb { 0 19 127 }
 }
 
 ICE = {
@@ -839,8 +839,8 @@ KMR = {
 	color_ui = rgb { 127 106 0 }
 }
 LIE = {
-	 color = rgb { 0 148 255 } 
-	color_ui = rgb { 0 148 255 }
+	 color = rgb { 43 62 124 } 
+	color_ui = rgb { 43 62 124 }
 }
 LOM = {
 	 color = rgb { 0 127 70 } 
@@ -853,10 +853,6 @@ MCO = {
 RUS = {
 	 color = rgb { 0 56 30 } 
 	color_ui = rgb { 0 56 30 }
-}
-SEM = {
-	 color = rgb { 0 19 127 } 
-	color_ui = rgb { 0 19 127 }
 }
 SHA = {
 	 color = rgb { 145 145 145 } 
@@ -921,4 +917,8 @@ MYS = {
 JMK = {
 	color = rgb { 206 110 0 }
 	color_ui = rgb { 206 110 0 }
+}
+SMR = {
+	color = rgb { 0 255 255 }
+	color_ui = rgb { 0 255 255 }
 }

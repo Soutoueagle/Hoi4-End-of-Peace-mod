@@ -6,12 +6,11 @@ state={
 		victory_points = {
 			11832 1 
 		}
-		owner = SEM
+		owner = SER
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = SEM
 		add_core_of = SER
 		add_claim_by = BUL
 

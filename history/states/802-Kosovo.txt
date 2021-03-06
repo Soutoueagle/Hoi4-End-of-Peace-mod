@@ -7,12 +7,11 @@ state={
 		victory_points = {
 			6940 3 
 		}
-		owner = SEM
+		owner = SER
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SEM
 		add_core_of = KOS
 		add_core_of = SER
 

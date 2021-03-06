@@ -1,7 +1,7 @@
-#capital = 
+capital = 861
 
 oob = ""
-
+set_cosmetic_tag = MCO_duchy
 set_technology = {
 	infantry_weapons = 1
 }
@@ -33,42 +33,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
-	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Loius II"
+	desc = "POLITICS_LOIUS_II_DESC"
+	picture = "gfx/leaders/MCO/Portrait_Monaco_Loius.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -77,9 +44,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Loius II"
+	desc = "POLITICS_LOIUS_II_DESC"
+	picture = "gfx/leaders/MCO/Portrait_Monaco_Loius.dds"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -88,9 +55,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Loius II"
+	desc = "POLITICS_LOIUS_II_DESC"
+	picture = "gfx/leaders/MCO/Portrait_Monaco_Loius.dds"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -99,9 +66,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Loius II"
+	desc = "POLITICS_LOIUS_II_DESC"
+	picture = "gfx/leaders/MCO/Portrait_Monaco_Loius.dds"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -110,9 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Loius II"
+	desc = "POLITICS_LOIUS_II_DESC"
+	picture = "gfx/leaders/MCO/Portrait_Monaco_Loius.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Loius II"
+	desc = "POLITICS_LOIUS_II_DESC"
+	picture = "gfx/leaders/MCO/Portrait_Monaco_Loius.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Loius II"
+	desc = "POLITICS_LOIUS_II_DESC"
+	picture = "gfx/leaders/MCO/Portrait_Monaco_Loius.dds"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

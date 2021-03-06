@@ -108,14 +108,23 @@
  
  SER_kingdom:0 "セルビア王国"
  SER_kingdom_DEF:0 "セルビア王国"
- SER-MNT_kingdom:0 "セルブ＝モンテネグロ王国"
- SER-MNT_kingdom_DEF:0 "セルブ＝モンテネグロ王国"
+ SER_MNT_kingdom:0 "セルブ＝モンテネグロ王国"
+ SER_MNT_kingdom_DEF:0 "セルブ＝モンテネグロ王国"
  
  SWE_kingdom:0 "スウェーデン王国"
  SWE_kingdom_DEF:0 "スウェーデン王国"
  
  UKR_kingdom:0 "ウクライナ王国"
  UKR_kingdom_DEF:0 "ウクライナ王国"
+ 
+ LIE_duchy:0 "リヒテンシュタイン公国"
+ LIE_duchy_DEF:0 "リヒテンシュタイン公国"
+ 
+ MCO_duchy:0 "モナコ公国"
+ MCO_duchy_DEF:0 "モナコ公国"
+ 
+ VAC_popal:0 "教皇領"
+ VAC_popal_DEF:0 "教皇領"
  
 #アフリカ
  ETH_empire:0 "エチオピア帝国"
