@@ -10,7 +10,6 @@ tags={
 	"Graphics"
 }
 name="End of Peace"
-supported_version="1.10.*"
 dependencies={
 	"Japanese Language mod"
 }
@@ -38,3 +37,5 @@ replace_path="common/units/names_ships"
 replace_path="events"
 replace_path="history/countries"
 replace_path="music"
+supported_version="1.10.*"
+remote_file_id="2417494800"
