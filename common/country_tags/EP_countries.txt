@@ -22,6 +22,7 @@ JBS	= "countries/Middle East.txt"	#ジャバル・シャンマル
 OTT	= "countries/Middle East.txt"	#オスマン
 
 #西欧
+AND = "countries/Western Europe.txt"	#アンドラ
 LIE	= "countries/Western Europe.txt"	#リヒテンシュタイン
 LOM	= "countries/Western Europe.txt"	#ロンバルド＝ヴェネト
 MCO	= "countries/Western Europe.txt"	#モナコ

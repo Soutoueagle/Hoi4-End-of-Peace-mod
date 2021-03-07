@@ -1,0 +1,24 @@
+state={
+	id=863
+	name="STATE_863"
+
+	history={
+		owner = AND
+		victory_points = {
+			13258 6 
+		}		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		add_core_of = AND
+
+	}
+	
+	provinces={
+		13258 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=city	
+}

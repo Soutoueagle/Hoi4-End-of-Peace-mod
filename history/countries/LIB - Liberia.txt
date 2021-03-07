@@ -99,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Edwin Barclay"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "gfx/leaders/LIB/Portrait_LIB_Edwin_Barclay.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {

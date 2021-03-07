@@ -47,6 +47,9 @@
  AUS_danube-adria_empire:0 "ドナウ＝アドリア帝国"
  AUS_danube-adria_empire_DEF:0 "ドナウ＝アドリア帝国"
  
+ AND_duchy:0 "アンドラ公国"
+ AND_duchy_DEF:0 "アンドラ公国"
+ 
  BOS-HRZ_autonomy_dominion:0 "ボスニア・ヘルツェゴビナ自治領"
  BOS-HRZ_autonomy_dominion_DEF:0 "ボスニア・ヘルツェゴビナ自治領"
  
