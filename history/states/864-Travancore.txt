@@ -1,0 +1,19 @@
+state={
+	id=864
+	name="STATE_864"
+
+	history={
+		owner = TRV
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = TRV
+	}
+	
+	provinces={
+		1238 1321 7288 7363 7402 7447 10130 10274 12275 
+	}
+	manpower=11405543
+	buildings_max_level_factor=1.000
+	state_category=rural	
+}

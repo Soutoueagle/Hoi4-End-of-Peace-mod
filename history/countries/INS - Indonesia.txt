@@ -1,7 +1,7 @@
 capital = 335
 
 oob = ""
-set_cosmetic_tag = INS_HOL
+set_cosmetic_tag = INS_autonomy_dominion
 
 set_technology = {
 	infantry_weapons = 1
@@ -67,9 +67,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "AT van Starkenborgh"
+	desc = "POLITICS_AT_VAN_STARKENBORGH_DESC"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -78,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "AT van Starkenborgh"
+	desc = "POLITICS_AT_VAN_STARKENBORGH_DESC"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -89,9 +89,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "AT van Starkenborgh"
+	desc = "POLITICS_AT_VAN_STARKENBORGH_DESC"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -100,9 +100,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "AT van Starkenborgh"
+	desc = "POLITICS_AT_VAN_STARKENBORGH_DESC"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -111,9 +111,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "AT van Starkenborgh"
+	desc = "POLITICS_AT_VAN_STARKENBORGH_DESC"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -122,9 +122,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "AT van Starkenborgh"
+	desc = "POLITICS_AT_VAN_STARKENBORGH_DESC"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -133,9 +133,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "AT van Starkenborgh"
+	desc = "POLITICS_AT_VAN_STARKENBORGH_DESC"
+	picture = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

@@ -9,6 +9,9 @@
  BHU_kingdom:0 "ブータン王国"
  BHU_kingdom_DEF:0 "ブータン王国"
  
+ INS_autonomy_dominion:0 "インドシナ自治領"
+ INS_autonomy_dominion_DEF:0 "インドシナ自治領"
+ 
  GEO_kingdom:0 "グルジア王国"
  GEO_kingdom_DEF:0 "グルジア王国"
  
@@ -17,6 +20,9 @@
  
  KAZ_alash:0 "アラシュ共和国"
  KAZ_alash_DEF:0 "アラシュ共和国"
+ 
+ MAL_autonomy_dominion:0 "マラヤ自治領"
+ MAL_autonomy_dominion_DEF:0 "マラヤ自治領"
  
  NEP_kingdom:0 "ネパール王国"
  NEP_kingdom_DEF:0 "ネパール王国"
@@ -29,6 +35,12 @@
  
  PHI_autonomy_dominion:0 "フィリピン自治領"
  PHI_autonomy_dominion_DEF:0 "フィリピン自治領"
+ 
+ RAJ_UK:0 "イギリス領インド帝国"
+ RAJ_UK_DEF:0 "イギリス領インド帝国"
+ 
+ RAJ_autonomy_dominion:0 "インド自治領"
+ RAJ_autonomy_dominion_DEF:0 "インド自治領"
  
  SIA_kingdom:0 "シャム王国"
  SIA_kingdom_DEF:0 "シャム王国"
