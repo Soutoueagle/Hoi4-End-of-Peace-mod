@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_traditional_economy"
+		texturefile = "gfx/interface/ideas/generic/economic_system/idea_traditional_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_planned_economy"
+		texturefile = "gfx/interface/ideas/generic/economic_system/idea_planned_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_market_economy"
+		texturefile = "gfx/interface/ideas/generic/economic_system/idea_market_economy.dds"
+	}
+}
