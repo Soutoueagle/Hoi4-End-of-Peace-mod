@@ -48,6 +48,16 @@
  national_populist_noun:0 "国家大衆主義"
  national_populist_desc:0 "権威主義政権"
  national_populist_subtype_desc:0 "様々な種類の超国家主義運動と軍国主義運動のことを表す国家大衆主義は、概して国家への忠誠と強力な指導者の下での国民の団結、そして共同経済を大切にしている。大抵は過激な政策と暴力的な表現を支持しており、そのため他のほとんどの政党からは激しく反対されている思想である。"
+ 
+ ###Politics###
+ economy:0 "経済"
+ laws:0 "法律"
+ government:1 "政府"
+ idea_group_economic_system:0 "経済体制"
+ idea_group_prime_minister:0 "首相"
+ idea_group_minister_of_economy:0 "経済大臣"
+ idea_group_minister_of_education:0 "教育大臣"
+ idea_group_defence_minister:0 "国防大臣"
  ###Advisors###
  generic_totalist_politician:0 "社会主義政治家"
  generic_syndicalist_politician:0 "無政府主義政治家"
@@ -61,7 +71,7 @@
  generic_national_populist_politician:0 "国家大衆主義政治家"
  ###Company###
  
- ###Ideas###
+ ###National Ideas###
  long_peace:0 "長い平和"
  long_peace_desc:0 "約20年にわたる長い平和により人々は緊張感を失い、国防にいまいち熱が入らない状態だ。"
  neutrality_diplomacy:0 "中立外交"
