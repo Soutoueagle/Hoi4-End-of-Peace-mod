@@ -36,6 +36,8 @@ idea_categories = {
 	laws = {
 		slot = mobilization_laws
 		slot = trade_laws
+		slot = tax
+		slot = social_welfare
 		
 		ledger = civilian
 		
@@ -48,6 +50,7 @@ idea_categories = {
 		slot = minister_of_economy
 		slot = minister_of_education
 		slot = defence_minister
+		slot = political_advisor
 		slot = political_advisor
 		
 		ledger = civilian

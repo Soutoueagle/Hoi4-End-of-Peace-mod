@@ -1,0 +1,42 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_no_tax"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_no_tax.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_small_tax"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_small_tax.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_basic_tax"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_basic_tax.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_a_semmy_high_tax"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_a_someyy high_tax.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_high_tax"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_high_tax.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_no_welfare"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_no_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_small_welfare"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_small_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_basic_welfare"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_basic_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_somely_fulfiling_welfare"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_somely_fulfilling_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fulfilling_welfare"
+		texturefile = "gfx/interface/ideas/generic/laws/idea_fulfilling_welfare.dds"
+	}
+}
