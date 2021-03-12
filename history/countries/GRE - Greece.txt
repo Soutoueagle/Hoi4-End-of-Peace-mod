@@ -7,7 +7,7 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	weak_economy
 }
 
 1936.1.1 = {

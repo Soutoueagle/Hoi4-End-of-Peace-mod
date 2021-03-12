@@ -7,7 +7,7 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	foreign_legion	
 }
 
 1936.1.1 = {
