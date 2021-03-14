@@ -84,6 +84,9 @@
  generic_authoritarian_democrat_politician:0 "権威民主主義主義政治家"
  generic_paternal_autocrat_politician:0 "父権的専制主義政治家"
  generic_national_populist_politician:0 "国家大衆主義政治家"
+ generic_architect:0 "建築家"
+ generic_war_industrialist:0 "戦争産業家"
+ generic_tradesman:0 "商人"
  ###Company###
  
  ###National Ideas###

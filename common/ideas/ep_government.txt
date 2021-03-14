@@ -1,0 +1,186 @@
+ideas = {
+	political_advisor = { #Government#
+
+		generic_totalist_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = totalist }
+				}			
+			}
+			
+			traits = { communist_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_syndicalist_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = syndicalist }
+				}			
+			}
+			
+			traits = { syndicalist_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_radical_socialist_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = radical_socialist }
+				}			
+			}
+			
+			traits = { radical_socialist_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_social_democrat_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = social_democrat }
+				}			
+			}
+			
+			traits = { social_democrat_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_social_liberal_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = social_liberal }
+				}			
+			}
+			
+			traits = { social_liberal_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_market_liberal_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = market_liberal }
+				}			
+			}
+			
+			traits = { market_liberal_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_social_conservative_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = social_conservative }
+				}			
+			}
+			
+			traits = { social_conservative_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_authoritarian_democrat_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = authoritarian_democrat }
+				}			
+			}
+			
+			traits = { authoritarian_democrat_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_paternal_autocrat_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = paternal_autocrat }
+				}			
+			}
+			
+			traits = { paternal_autocrat_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		generic_national_populist_politician = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+				if = {	
+					NOT = { has_government = national_populist }
+				}			
+			}
+			
+			traits = { fascist_politician }
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}
+																		
