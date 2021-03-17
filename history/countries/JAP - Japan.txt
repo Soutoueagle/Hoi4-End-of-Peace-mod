@@ -9,6 +9,8 @@ add_ideas = {
 	long_peace
 	foreign_legion
 }
+give_guarantee = TLC
+give_guarantee = SLC
 1936.1.1 = {
 	set_politics = {
 		ruling_party = authoritarian_democrat

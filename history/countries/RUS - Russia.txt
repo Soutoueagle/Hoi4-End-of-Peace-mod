@@ -9,7 +9,8 @@ set_technology = {
 add_ideas = {
 	
 }
-
+give_guarantee = TLC
+give_guarantee = SLC
 1936.1.1 = {
 	set_politics = {
 		ruling_party = paternal_autocrat

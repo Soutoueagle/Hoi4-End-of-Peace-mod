@@ -10,7 +10,7 @@ add_ideas = {
 	foreign_legion
 	weak_economy
 }
-
+give_guarantee = SLC
 1936.1.1 = {
 	set_politics = {
 		ruling_party = social_democrat

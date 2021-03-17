@@ -41,4 +41,8 @@ spriteTypes = {
 		name = "GFX_idea_many_kinds_weapons"
 		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_many_kind_weapons.dds"
 	}	
+	SpriteType = {
+		name = "GFX_idea_legation_city"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_legation_city.dds"
+	}	
 }

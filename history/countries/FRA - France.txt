@@ -11,6 +11,8 @@ add_ideas = {
 	foreign_legion
 	unstable_government
 }
+give_guarantee = TLC
+give_guarantee = SLC
 
 create_faction = Entente
 add_to_faction = FRA

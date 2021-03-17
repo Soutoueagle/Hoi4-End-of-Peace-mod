@@ -110,6 +110,7 @@
  many_kinds_weapons_desc:0 "ドイツ、イギリス、フランス、イタリア、オーストリア、日本などから武器が提供されたお陰で独立できたものの、弾薬の口径がバラバラで兵站を圧迫し、今や国防の障害になっている。"
  armed_neutrality_diplomacy:0 "武装中立外交"
  armed_neutrality_diplomacy_desc:0 "どの国にも味方することなく中立的な外交に徹し、そして自国の国防も自分たちでするという姿勢を取っている。"
+ legation_city:0 "条約都市"
  ###National Focus###
  
  ###Events###

@@ -41,6 +41,8 @@ set_autonomy = {
 }
 
 give_guarantee = BEL
+give_guarantee = TLC
+give_guarantee = SLC
 
 1936.1.1 = {
 	set_politics = {

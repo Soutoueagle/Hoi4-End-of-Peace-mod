@@ -19,12 +19,15 @@ add_ideas = {
 create_faction = Central_Powers
 add_to_faction = GER
 
+give_guarantee = AUS
 give_guarantee = UKR
 give_guarantee = BLR
 give_guarantee = FIN
 give_guarantee = EST
 give_guarantee = LAT
 give_guarantee = LIT
+give_guarantee = TLC
+give_guarantee = SLC
 
 set_popularities = {
         totalist = 3

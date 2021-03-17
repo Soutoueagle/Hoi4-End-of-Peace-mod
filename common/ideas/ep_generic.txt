@@ -157,5 +157,13 @@ ideas = {
 					army_morale_factor = -0.1
 			}
 		}
+		legation_city = {
+			allowed = {	always = yes } #Only TLC and SLC#
+			removal_cost = -1
+			
+			modifier = {
+					resistance_target = -0.95
+			}
+		}
 	}
 }
