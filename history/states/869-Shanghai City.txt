@@ -1,24 +1,24 @@
-
 state={
-	id=608
-	name="STATE_608"
+	id=869
+	name="STATE_869"
 
 	history={
-		owner = CHI
+		owner = SLC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			air_base = 3
-			4137 = {
-				naval_base = 2
+			air_base = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
 
 			}
 
 		}
 		victory_points = {
-			9843 20 
+			7014 5 
 		}
 		1938.10.25 = {
 			controller = JAP
@@ -26,11 +26,11 @@ state={
 		}
 
 	}
-
+	
 	provinces={
-		1134 4137 4140 6828 9843 9969 11761 12026 
+		7014 
 	}
-	manpower=8576356
+	manpower=1331161
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

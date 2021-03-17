@@ -1,4 +1,4 @@
-#capital = 
+capital = 867
 
 oob = ""
 
@@ -9,7 +9,14 @@ set_technology = {
 add_ideas = {
 	
 }
-
+give_military_access = ENG
+give_military_access = USA
+give_military_access = GER
+give_military_access = FRA
+give_military_access = ITA
+give_military_access = JAP
+give_military_access = AUS
+give_military_access = BEL
 1936.1.1 = {
 	set_politics = {
 		ruling_party = authoritarian_democrat
@@ -33,9 +40,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -44,9 +51,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -55,9 +62,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = radical_socialist_subtype
 	traits = {
@@ -66,9 +73,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -77,9 +84,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -88,9 +95,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -99,9 +106,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -110,9 +117,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +128,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +139,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Tianjin Legation Cities"
+	desc = "POLITICS_TIANJIN_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/TLC/Portrait_TLC_Tianjin_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

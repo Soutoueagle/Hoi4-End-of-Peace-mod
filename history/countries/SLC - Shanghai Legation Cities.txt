@@ -1,4 +1,4 @@
-#capital = 
+capital = 869
 
 oob = ""
 
@@ -9,7 +9,19 @@ set_technology = {
 add_ideas = {
 	
 }
-
+give_military_access = ENG
+give_military_access = USA
+give_military_access = GER
+give_military_access = FRA
+give_military_access = ITA
+give_military_access = JAP
+give_military_access = AUS
+give_military_access = OTT
+give_military_access = POR
+give_military_access = SPR
+give_military_access = DEN
+give_military_access = SWE
+give_military_access = HOL
 1936.1.1 = {
 	set_politics = {
 		ruling_party = authoritarian_democrat
@@ -33,9 +45,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -44,9 +56,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -55,9 +67,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = radical_socialist_subtype
 	traits = {
@@ -66,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -77,9 +89,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -88,9 +100,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -99,9 +111,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -110,9 +122,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +133,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +144,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Shanghai Legation Cities"
+	desc = "POLITICS_SHANHAI_LEGATION_CITIES_DESC"
+	picture = "gfx/leaders/SLC/Portrait_SLC_Shanghai_Legation_Cities.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

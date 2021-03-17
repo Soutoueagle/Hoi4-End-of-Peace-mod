@@ -926,3 +926,11 @@ AND = {
 	color = rgb { 127 0 110 }
 	color_ui = rgb { 127 0 110 }
 }
+SLC = {
+	color = rgb { 0 255 255 }
+	color_ui = rgb { 0 255 255 }
+}
+TLC = {
+	color = rgb { 0 255 255 }
+	color_ui = rgb { 0 255 255 }
+}
