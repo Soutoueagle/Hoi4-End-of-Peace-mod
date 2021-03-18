@@ -51,6 +51,7 @@
  
  ###Politics###
  economy:0 "経済"
+ 
  laws:0 "法律"
  tax:0 "税金"
  no_tax:0 "税金なし"
@@ -58,21 +59,29 @@
  basic_tax:0 "標準的な税金"
  a_semmy_high_tax:0 "やや高い税金"
  high_tax:0 "高い税金"
- social_welfare:0 "社会福祉"
+ 
+ social_welfare:0 "社会福祉制度"
  no_welfare:0 "社会福祉なし"
  small_welfare:0 "小規模な社会福祉"
  basic_welfare:0 "標準的な社会福祉"
  somely_fulfiling_welfare:0 "やや充実した社会福祉"
  fulfilling_welfare:0 "充実した社会福祉"
- government:1 "政府"
+ 
  economic_system:0 "経済体制"
  traditional_economy:0 "伝統経済"
  market_economy:0 "市場経済"
  planned_economy:0 "計画経済"
+ 
+ government:1 "政府" 
  prime_minister:0 "首相"
+ generic_prime_minister:0 "汎用首相"
  minister_of_economy:0 "経済大臣"
- minister_of_education:0 "教育大臣"
- defence_minister:0 "国防大臣"
+ generic_minister_of_economy:0 "汎用経済大臣"
+ minister_for_foreign_affairs:0 "外務大臣"
+ generic_minister_for_foreign_affairs:0 "汎用外務大臣"
+ minister_for_home_affairs:0 "内務大臣"
+ generic_minister_for_home_affairs:0 "汎用内務大臣"
+ 
  ###Advisors###
  generic_totalist_politician:0 "社会主義政治家"
  generic_syndicalist_politician:0 "無政府主義政治家"

@@ -1,5 +1,77 @@
-ideas = {
-	political_advisor = { #Government#
+ideas = { #Government#
+	prime_minister = { 
+		generic_prime_minister = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			always = yes
+			}
+			
+			traits = { prime_minister }
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	minister_for_foreign_affairs = { 
+		generic_minister_for_foreign_affairs = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			always = yes
+			}
+			
+			traits = { minister_for_foreign_affairs }
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	minister_for_home_affairs = { 
+		generic_minister_for_home_affairs = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			always = yes
+			}
+			
+			traits = { minister_for_home_affairs }
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	minister_of_economy = { 
+		generic_minister_of_economy = {
+		
+			allowed = {
+				always = yes
+			}
+			
+			available = {
+			always = yes
+			}
+			
+			traits = { minister_of_economy }
+	
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	political_advisor = { 
 
 		generic_totalist_politician = {
 		

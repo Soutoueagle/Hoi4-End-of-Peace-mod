@@ -21,6 +21,7 @@ ideas = {
 			
 			modifier = {
 				non_core_manpower = 0.02
+				resistance_target = -0.3
 			}
 		}
 		faith_allah = {

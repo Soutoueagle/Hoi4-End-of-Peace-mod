@@ -47,9 +47,9 @@ idea_categories = {
 			
 	government = {
 		slot = prime_minister
+		slot = minister_for_foreign_affairs
+		slot = minister_for_home_affairs
 		slot = minister_of_economy
-		slot = minister_of_education
-		slot = defence_minister
 		slot = political_advisor
 		slot = political_advisor
 		

@@ -467,6 +467,8 @@ ideas = {
 			}
 			
 			cancel_if_invalid = yes
+			
+			default = yes
 
 			ai_will_do = {
    				factor = 1

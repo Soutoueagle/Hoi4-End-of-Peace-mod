@@ -10,3 +10,11 @@
  fascist_politician:0 "国家大衆主義政治家"
  authoritarian_democrat_politician:0 "権威的民主主義政治家"
  paternal_autocrat_politician:0 "父権的専制主義政治家"
+ ###Leader Traits###
+ dictator:0 "独裁者"
+ charismatic_dictator:0 "カリスマ独裁者"
+ emperor_showa:0 "昭和天皇"
+ kaiser:0 "カイザー"
+ emperor:0 "皇帝"
+ king:0 "王"
+ queen:0 "女王"

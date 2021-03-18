@@ -1,5 +1,21 @@
 spriteTypes = {
 	SpriteType = {
+		name = "GFX_idea_generic_prime_minister"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_generic_advisor.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_minister_for_foreign_affairs"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_generic_advisor.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_minister_for_home_affairs"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_generic_advisor.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_generic_minister_of_economy"
+		texturefile = "gfx/interface/ideas/generic/advisor/idea_generic_advisor.dds"
+	}	
+	SpriteType = {
 		name = "GFX_idea_generic_totalist_politician"
 		texturefile = "gfx/interface/ideas/generic/advisor/idea_generic_advisor.dds"
 	}
