@@ -3,7 +3,7 @@ capital = 2
 oob = "ITA"
 set_cosmetic_tag = ITA_kingdom
 set_technology = {
-	infantry_weapons = 1
+	
 }
 
 add_ideas = {
