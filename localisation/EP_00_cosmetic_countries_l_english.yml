@@ -9,6 +9,15 @@
  BHU_kingdom:0 "ブータン王国"
  BHU_kingdom_DEF:0 "ブータン王国"
  
+ CHI_warload:0 "国民党政府軍"
+ CHI_warload_DEF:0 "国民党政府軍"
+ 
+ CHI_empire:0 "中華帝国"
+ CHI_empire_DEF:0 "中華帝国"
+ 
+ CHI_QIN_empire:0 "大清帝国"
+ CHI_QIN_empire_DEF "大清帝国"
+ 
  INS_autonomy_dominion:0 "インドシナ自治領"
  INS_autonomy_dominion_DEF:0 "インドシナ自治領"
  

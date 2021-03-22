@@ -1,7 +1,7 @@
 capital = 8
 
 oob = ""
-set_cosmetic_tag = LUX_ducy
+set_cosmetic_tag = LUX_grand_ducy
 set_technology = {
 	
 }
