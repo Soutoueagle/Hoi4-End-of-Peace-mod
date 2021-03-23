@@ -14,6 +14,8 @@ SZC	= "countries/Asia.txt"	#四川
 TLC	= "countries/Asia.txt"	#天津
 TRV	= "countries/Asia.txt"	#トラヴァンコール
 TUG	= "countries/Asia.txt"	#トゥンガニスタン
+HNC = "countries/Asia.txt"  #湖南
+GZC = "countries/Asia.txt"  #貴州
 
 #中東
 ANA	= "countries/Middle East.txt"	#アナザ

@@ -934,3 +934,11 @@ TLC = {
 	color = rgb { 0 255 255 }
 	color_ui = rgb { 0 255 255 }
 }
+HNC = {
+	color = rgb { 161 127 255 }
+	color_ui = rgb { 161 127 255 }
+}
+GZC = {
+	color = rgb { 204 184 169 }
+	color_ui = rgb { 204 184 169 }
+}

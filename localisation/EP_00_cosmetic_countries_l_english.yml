@@ -16,7 +16,7 @@
  CHI_empire_DEF:0 "中華帝国"
  
  CHI_QIN_empire:0 "大清帝国"
- CHI_QIN_empire_DEF "大清帝国"
+ CHI_QIN_empire_DEF:0 "大清帝国"
  
  INS_autonomy_dominion:0 "インドシナ自治領"
  INS_autonomy_dominion_DEF:0 "インドシナ自治領"

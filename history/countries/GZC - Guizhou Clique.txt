@@ -1,0 +1,88 @@
+capital = 603
+
+oob = ""
+
+set_technology = {
+	
+}
+
+add_ideas = {
+	
+}
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = paternal_autocrat
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+}
+
+set_popularities = {
+        totalist = 0
+        syndicalist = 0
+        radical_socialist = 0
+	    social_democrat = 0
+        social_liberal = 0
+        market_liberal = 0
+        social_conservative = 0
+        authoritarian_democrat = 50
+        paternal_autocrat = 50
+        national_populist = 0
+    
+}
+
+create_country_leader = {
+	name = "Wang Chia-Lie"
+	desc = "POLITICS_WANG_CHIA_LIE_DESC"
+	picture = "gfx/general/Generic/asian/CHI/Portrait_Asia_Generic_land_new_1.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wang Chia-Lie"
+	desc = "POLITICS_WANG_CHIA_LIE_DESC"
+	picture = "gfx/general/Generic/asian/CHI/Portrait_Asia_Generic_land_new_1.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wang Chia-Lie"
+	desc = "POLITICS_WANG_CHIA_LIE_DESC"
+	picture = "gfx/general/Generic/asian/CHI/Portrait_Asia_Generic_land_new_1.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+	traits = {
+		#
+	}
+}
+
+#create_corps_commander = {
+#	name = ""
+#	portrait_path = "gfx/general//"
+#	traits = {  }
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	planning_skill = 
+#	logistics_skill = 
+#}
+
+#create_navy_leader = {
+#	name = ""
+#	portrait_path = "gfx/admiral//"
+#	traits = {  }
+#	skill = 
+#	attack_skill = 
+#	defense_skill = 
+#	maneuvering_skill = 
+#	coordination_skill = 
+#}
