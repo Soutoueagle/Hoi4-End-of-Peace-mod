@@ -10,7 +10,7 @@ state= {
 	}
 
 	history= {
-		owner = GND
+		owner = CHI
 		add_core_of = GXC
 		add_core_of = GND
 		add_core_of = CHI

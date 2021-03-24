@@ -6,11 +6,12 @@ state={
 		owner = ANA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 
 		}
 		add_core_of = ANA
 		add_core_of = JOR
+		add_core_of = JBS
+		add_core_of = SAU
 
 	}
 	
