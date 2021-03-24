@@ -7,7 +7,10 @@ set_technology = {
 }
 
 add_ideas = {
-	
+	long_peace
+	ep_great_depression
+	bad_general
+	lack_of_education
 }
 
 1936.1.1 = {

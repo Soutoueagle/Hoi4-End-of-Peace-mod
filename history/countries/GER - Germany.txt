@@ -8,6 +8,7 @@ set_technology = {
 add_ideas = {
 	long_peace
 	foreign_legion
+	juda_scientist
 }
 1936.1.1 = {
 	set_politics = {

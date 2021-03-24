@@ -4,11 +4,12 @@ oob = ""
 set_cosmetic_tag = NEP_kingdom
 
 set_technology = {
-	
+
 }
 
 add_ideas = {
-	
+			long_peace
+			mountain_nation	
 }
 
 1936.1.1 = {

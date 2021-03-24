@@ -7,7 +7,9 @@ set_technology = {
 }
 
 add_ideas = {
-	
+		long_peace
+		many_kinds_weapons
+		pro_german_sentiment
 }
 
 1936.1.1 = {

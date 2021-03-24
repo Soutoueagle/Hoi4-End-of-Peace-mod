@@ -44,5 +44,45 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_legation_city"
 		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_legation_city.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_samurai_spilits"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_samurai_spilits.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_lack_of_education"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_lack_of_education.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_bad_general"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_bad_general.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_juda_scientist"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_juda_scientist.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_mountain_nation"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_mountain_nation.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_pro_german_sentiment"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_pro_german_sentiment.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_communism_international"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_communism_international.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fight_for_freedom"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_fight_for_freedom.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_conservatism_union"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_conservatism_union.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_steel_allies"
+		texturefile = "gfx/interface/ideas/generic/national_spilit/idea_steel_allies.dds"
 	}	
 }
