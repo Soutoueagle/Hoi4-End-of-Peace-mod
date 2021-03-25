@@ -1,11 +1,10 @@
 focus_tree = {
-	id = generic_focus
+	id = generic
 	country = {
 		factor = 1
 	}
 	default = yes
-	reset_on_civilwar = no	
-	continuous_focus_position = { x = 50 y = 1250 }
+	continuous_focus_position = { x = 50 y = 1350 }
 	
 	focus = {
 		id = regime_change
@@ -72,6 +71,9 @@ focus_tree = {
 		prerequisite = {
 			focus = left
 		}
+		mutually_exclusive = {
+			focus = totalist
+		}
 		x = 1
 		y = 2
 
@@ -93,6 +95,10 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = left
+		}
+		mutually_exclusive = {
+			focus = syndicalism
+			focus = radical_socialist
 		}
 		x = 3
 		y = 2
@@ -116,6 +122,9 @@ focus_tree = {
 		prerequisite = {
 			focus = left
 		}
+		mutually_exclusive = {
+			focus = totalist
+		}
 		x = 5
 		y = 2
 
@@ -136,7 +145,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = no_need_for_pwers!
+			focus = no_need_for_pwers
 		}
 		prerequisite = {
 			focus = equal_ideal_town
@@ -306,6 +315,9 @@ focus_tree = {
 		prerequisite = {
 			focus = right
 		}
+		mutually_exclusive = {
+			focus = paternal_autocrat
+		}
 		x = 15
 		y = 2
 
@@ -327,6 +339,10 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = right
+		}
+		mutually_exclusive = {
+			focus = authoritarian_democrat
+			focus = national_populist
 		}
 		x = 17
 		y = 2
@@ -350,6 +366,9 @@ focus_tree = {
 		prerequisite = {
 			focus = right
 		}
+		mutually_exclusive = {
+			focus = paternal_autocrat
+		}
 		x = 19
 		y = 2
 
@@ -370,7 +389,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = unite!
+			focus = unite
 		}
 		prerequisite = {
 			focus = compromise_with_n_populist
