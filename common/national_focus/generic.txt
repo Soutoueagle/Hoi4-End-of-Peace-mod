@@ -1,13 +1,1154 @@
-﻿search_filter_prios = {
-	FOCUS_FILTER_POLITICAL = 1010
-	FOCUS_FILTER_RESEARCH = 522
-	FOCUS_FILTER_INDUSTRY = 509
-
-}
-
 focus_tree = {
-	id = geacps_generic_focus
-	country = {	factor = 1	}
+	id = generic_focus
+	country = {
+		factor = 1
+	}
 	default = yes
-	reset_on_civilwar = no
+	reset_on_civilwar = no	
+	continuous_focus_position = { x = 50 y = 1250 }
+	
+	focus = {
+		id = regime_change
+		icon = GFX_goal_unknown
+		cost = 1.00
+		mutually_exclusive = {
+			focus = maintaining_power
+		}
+		x = 10
+		y = 0
+
+	}
+	focus = {
+		id = maintaining_power
+		icon = GFX_goal_unknown
+		cost = 1.00
+		mutually_exclusive = {
+			focus = regime_change
+		}
+		x = 22
+		y = 0
+
+	}
+	focus = {
+		id = national_modanization
+		icon = GFX_goal_unknown
+		cost = 1.00
+		mutually_exclusive = {
+			focus = refuse_modanization
+		}
+		x = 36
+		y = 0
+
+	}
+	focus = {
+		id = refuse_modanization
+		icon = GFX_goal_unknown
+		cost = 1.00
+		mutually_exclusive = {
+			focus = national_modanization
+		}
+		x = 38
+		y = 0
+
+	}
+	focus = {
+		id = left
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = regime_change
+		}
+		mutually_exclusive = {
+			focus = democracy
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = radical_socialist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = left
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = do_not_stop_revolution
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = radical_socialist
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = totalist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = left
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = equal_ideal_town
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = totalist
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = syndicalism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = left
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = no_need_for_pwers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = syndicalism
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = worker_hero
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = no_need_for_pwers!
+		}
+		prerequisite = {
+			focus = equal_ideal_town
+		}
+		prerequisite = {
+			focus = do_not_stop_revolution
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = democracy
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = regime_change
+		}
+		mutually_exclusive = {
+			focus = left
+			focus = right
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = social_democrat
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = democracy
+		}
+		mutually_exclusive = {
+			focus = social_liberal
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = comprpmise_with_socialist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = social_democrat
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = social_liberal
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = democracy
+		}
+		mutually_exclusive = {
+			focus = market_liberal
+			focus = social_democrat
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = guarantee_of_rights
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = social_liberal
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = market_liberal
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = democracy
+		}
+		mutually_exclusive = {
+			focus = social_concservative
+			focus = social_liberal
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = market_protection
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = market_liberal
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = social_concservative
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = democracy
+		}
+		mutually_exclusive = {
+			focus = market_liberal
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = compromise_with_aut_democratist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = social_concservative
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = in_the_name_of_freedom
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = market_protection
+		}
+		prerequisite = {
+			focus = compromise_with_aut_democratist
+		}
+		prerequisite = {
+			focus = guarantee_of_rights
+		}
+		prerequisite = {
+			focus = comprpmise_with_socialist
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = right
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = regime_change
+		}
+		mutually_exclusive = {
+			focus = democracy
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = authoritarian_democrat
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = right
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = compromise_with_conservatist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = authoritarian_democrat
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = paternal_autocrat
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = right
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = compromise_with_n_populist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = paternal_autocrat
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = national_populist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = right
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = unite
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = national_populist
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = strong_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = unite!
+		}
+		prerequisite = {
+			focus = compromise_with_n_populist
+		}
+		prerequisite = {
+			focus = compromise_with_conservatist
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = administrative_reform
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = maintaining_power
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = administrative_reform_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = administrative_reform
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = administrative_reform_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = administrative_reform_2
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = stable_government
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = administrative_reform_3
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = inspection_of_great_powers
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = national_modanization
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = to_russia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = inspection_of_great_powers
+		}
+		mutually_exclusive = {
+			focus = to_france
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = to_france
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = inspection_of_great_powers
+		}
+		mutually_exclusive = {
+			focus = to_usa
+			focus = to_russia
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = to_usa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = inspection_of_great_powers
+		}
+		mutually_exclusive = {
+			focus = to_britain
+			focus = to_france
+		}
+		x = 33
+		y = 2
+
+	}
+	focus = {
+		id = to_britain
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = inspection_of_great_powers
+		}
+		mutually_exclusive = {
+			focus = to_germany
+			focus = to_usa
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = to_germany
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = inspection_of_great_powers
+		}
+		mutually_exclusive = {
+			focus = to_italy
+			focus = to_britain
+		}
+		x = 39
+		y = 2
+
+	}
+	focus = {
+		id = to_italy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = inspection_of_great_powers
+		}
+		mutually_exclusive = {
+			focus = to_japan
+			focus = to_germany
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = to_japan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = inspection_of_great_powers
+		}
+		mutually_exclusive = {
+			focus = to_italy
+		}
+		x = 45
+		y = 2
+
+	}
+	focus = {
+		id = industrian_modanization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = to_russia
+		}
+		prerequisite = {
+			focus = to_france
+		}
+		prerequisite = {
+			focus = to_usa
+		}
+		prerequisite = {
+			focus = to_britain
+		}
+		prerequisite = {
+			focus = to_germany
+		}
+		prerequisite = {
+			focus = to_italy
+		}
+		prerequisite = {
+			focus = to_japan
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = focus_on_agriculture
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = industrian_modanization
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = focus_on_light_industry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = industrian_modanization
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = focus_on_light_industry_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_light_industry
+		}
+		prerequisite = {
+			focus = focus_on_agriculture
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = focus_on_light_industry_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_light_industry_2
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = focus_on_heavy_industry
+		text = 重工業へ注力
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = industrian_modanization
+		}
+		x = 29
+		y = 4
+
+	}
+	focus = {
+		id = focus_on_heavy_industry_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_heavy_industry
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = focus_on_heavy_industry_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_heavy_industry_2
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = chemical_industry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_light_industry_3
+			focus = focus_on_heavy_industry_3
+		}
+		x = 27
+		y = 7
+
+	}
+	focus = {
+		id = political_modernization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = to_britain
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = economic_research
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = political_modernization
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = primary_education
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = political_modernization
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = high_education
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = primary_education
+		}
+		x = 36
+		y = 5
+
+	}
+	focus = {
+		id = university_expansion
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = high_education
+		}
+		x = 36
+		y = 6
+
+	}
+	focus = {
+		id = study_of_happines
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = political_modernization
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = military_modanization
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = to_japan
+		}
+		x = 45
+		y = 3
+
+	}
+	focus = {
+		id = air_force_improve
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = military_modanization
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = bomber_based
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = air_force_improve
+		}
+		mutually_exclusive = {
+			focus = fighter_based
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = fighter_based
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = air_force_improve
+		}
+		mutually_exclusive = {
+			focus = bomber_based
+		}
+		x = 42
+		y = 5
+
+	}
+	focus = {
+		id = army_improve
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = military_modanization
+		}
+		x = 45
+		y = 4
+
+	}
+	focus = {
+		id = improve_infantry
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = army_improve
+		}
+		mutually_exclusive = {
+			focus = research_new_weapons
+		}
+		x = 44
+		y = 5
+
+	}
+	focus = {
+		id = improve_firearm
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = improve_infantry
+		}
+		x = 44
+		y = 6
+
+	}
+	focus = {
+		id = research_new_weapons
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = army_improve
+		}
+		mutually_exclusive = {
+			focus = improve_infantry
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = blitzkrieg
+		text = 電撃戦
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = research_new_weapons
+		}
+		x = 46
+		y = 6
+
+	}
+	focus = {
+		id = improve_navy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = military_modanization
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = focus_on_small_ship
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = improve_navy
+		}
+		mutually_exclusive = {
+			focus = focus_on_large_ship
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = focus_on_large_ship
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = improve_navy
+		}
+		mutually_exclusive = {
+			focus = focus_on_small_ship
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = shipbuilding_in_our_country
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_large_ship
+		}
+		prerequisite = {
+			focus = focus_on_small_ship
+		}
+		x = 49
+		y = 6
+
+	}
+	focus = {
+		id = our_position
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = in_the_name_of_freedom
+		}
+		prerequisite = {
+			focus = strong_government
+		}
+		prerequisite = {
+			focus = worker_hero
+		}
+		prerequisite = {
+			focus = stable_government
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = determine_the_standing_position
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = our_position
+		}
+		mutually_exclusive = {
+			focus = neutral_diplomacy
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = neutral_diplomacy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = our_position
+		}
+		mutually_exclusive = {
+			focus = determine_the_standing_position
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = incomplete_neutral
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = neutral_diplomacy
+		}
+		mutually_exclusive = {
+			focus = completely_neutral
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = lend_lease_methot
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = incomplete_neutral
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = completely_neutral
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = neutral_diplomacy
+		}
+		mutually_exclusive = {
+			focus = incomplete_neutral
+			focus = original_route
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = original_route
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = neutral_diplomacy
+		}
+		mutually_exclusive = {
+			focus = completely_neutral
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = joined_international
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = determine_the_standing_position
+		}
+		mutually_exclusive = {
+			focus = freedom_warrior
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = freedom_warrior
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = determine_the_standing_position
+		}
+		mutually_exclusive = {
+			focus = joined_international
+			focus = conservative_union
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = conservative_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = determine_the_standing_position
+		}
+		mutually_exclusive = {
+			focus = freedom_warrior
+			focus = steel_alliance
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = steel_alliance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = determine_the_standing_position
+		}
+		mutually_exclusive = {
+			focus = conservative_union
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = revolutionary_comrades
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = joined_international
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = socialist_breakwater
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = conservative_union
+		}
+		prerequisite = {
+			focus = freedom_warrior
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = militarism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = steel_alliance
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = why_do_we_fight
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = socialist_breakwater
+		}
+		prerequisite = {
+			focus = militarism
+		}
+		prerequisite = {
+			focus = revolutionary_comrades
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = chemical_industry_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = chemical_industry
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = focus_on_agriculture_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = chemical_industry
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = chemical_industry_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = chemical_industry_2
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = focus_on_agriculture_3
+		text = 農業へ注力Ⅲ
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_agriculture_2
+		}
+		x = 25
+		y = 9
+
+	}
 }
