@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_End_of_Peace"　##Intoro Event##
+		texturefile = "gfx/event_pictures/EP_INTRO.dds"
+	}
+}

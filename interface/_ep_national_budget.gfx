@@ -1,0 +1,106 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_no_welfare"
+		texturefile = "gfx/interface/ideas/generic/national_budget/social_welfare_budget/idea_no_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_small_welfare"
+		texturefile = "gfx/interface/ideas/generic/national_budget/social_welfare_budget/idea_small_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_basic_welfare"
+		texturefile = "gfx/interface/ideas/generic/national_budget/social_welfare_budget/idea_basic_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_somely_fulfiling_welfare"
+		texturefile = "gfx/interface/ideas/generic/national_budget/social_welfare_budget/idea_somely_fulfilling_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_fulfilling_welfare"
+		texturefile = "gfx/interface/ideas/generic/national_budget/social_welfare_budget/idea_fulfilling_welfare.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_no_education_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/education_budget/no_education_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_small_education_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/education_budget/small_education_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_basic_education_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/education_budget/semi_basic_education_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_basic_education_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/education_budget/basic_education_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_large_education_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/education_budget/semi_large_education_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_large_education_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/education_budget/large_education_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_very_large_education_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/education_budget/very_large_education_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_no_land_dev_and_main_cost"
+		texturefile = "gfx/interface/ideas/generic/national_budget/land_develop_and_maintenance_budget/no_land_dev_and_main_cost.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_small_land_dev_and_main_cost"
+		texturefile = "gfx/interface/ideas/generic/national_budget/land_develop_and_maintenance_budget/small_land_dev_and_main_cost.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_basic_land_dev_and_main_cost"
+		texturefile = "gfx/interface/ideas/generic/national_budget/land_develop_and_maintenance_budget/semi_basic_land_dev_and_main_cost.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_basic_land_dev_and_main_cost"
+		texturefile = "gfx/interface/ideas/generic/national_budget/land_develop_and_maintenance_budget/basic_land_dev_and_main_cost.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_large_land_dev_and_main_cost"
+		texturefile = "gfx/interface/ideas/generic/national_budget/land_develop_and_maintenance_budget/semi_large_land_dev_and_main_cost.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_large_land_dev_and_main_cost"
+		texturefile = "gfx/interface/ideas/generic/national_budget/land_develop_and_maintenance_budget/large_land_dev_and_main_cost.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_very_large_land_dev_and_main_cost"
+		texturefile = "gfx/interface/ideas/generic/national_budget/land_develop_and_maintenance_budget/very_large_land_dev_and_main_cost.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_no_military_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/military_budget/no_military_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_small_military_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/military_budget/small_military_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_basic_military_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/military_budget/semi_basic_military_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_basic_military_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/military_budget/basic_military_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_large_military_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/military_budget/semi_large_military_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_large_military_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/military_budget/large_military_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_very_large_military_budget"
+		texturefile = "gfx/interface/ideas/generic/national_budget/military_budget/very_large_military_budget.dds"
+	}
+}

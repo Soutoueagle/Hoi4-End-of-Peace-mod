@@ -1,0 +1,16 @@
+###########################
+### Introduction Events ###
+###########################
+
+country_event = { #Intro Event
+	id = ep.intoro.1
+	title = ep.intoro.1.t
+	desc = ep.political.1.d
+	picture = GFX_End_of_Peace
+
+	is_triggered_only = yes
+
+	option = {
+		name = ep.intoro.1.a
+	}
+}

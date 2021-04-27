@@ -1,0 +1,10 @@
+buy_weapons = {
+    icon = GFX_purchase_arms
+	picture = GFX_ep_decision_buy_weapons
+    available = { 
+         num_of_arms_factories < 3
+    }
+	visible = {
+         num_of_arms_factories < 3
+	}	 
+}

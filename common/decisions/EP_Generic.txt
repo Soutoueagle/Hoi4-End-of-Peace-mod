@@ -1,0 +1,19 @@
+buy_weapons = {
+     buy_weapons = {
+		  icon = GFX_purchase_arms
+          visible = {
+               num_of_arms_factories < 3
+          }
+          cost = 150
+          available = {
+               num_of_arms_factories < 3
+          }
+		  
+          complete_effect = {
+				add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 150
+				}
+          }
+     } 
+}

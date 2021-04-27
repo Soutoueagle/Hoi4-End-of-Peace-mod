@@ -1,0 +1,319 @@
+spriteTypes = {
+	#Generic Focus
+	SpriteType = { 
+		name = "GFX_change_government"
+		texturefile = "gfx/interface/ideas/generic/national_focus/change_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_hold_government"
+		texturefile = "gfx/interface/ideas/generic/national_focus/hold_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_country_modernization"
+		texturefile = "gfx/interface/ideas/generic/national_focus/country_modernization.dds"
+	}
+	SpriteType = { 
+		name = "GFX_refuse_modernization"
+		texturefile = "gfx/interface/ideas/generic/national_focus/refuse_modernization.dds"
+	}
+	SpriteType = { 
+		name = "GFX_left"
+		texturefile = "gfx/interface/ideas/generic/national_focus/left.dds"
+	}
+	SpriteType = { 
+		name = "GFX_radical_socialist"
+		texturefile = "gfx/interface/ideas/generic/national_focus/radical_socialist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_dont_stop_revolution"
+		texturefile = "gfx/interface/ideas/generic/national_focus/dont_stop_revolution.dds"
+	}
+	SpriteType = { 
+		name = "GFX_totalist"
+		texturefile = "gfx/interface/ideas/generic/national_focus/totalist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_equal_ideal_town"
+		texturefile = "gfx/interface/ideas/generic/national_focus/equal_ideal_town.dds"
+	}
+	SpriteType = { 
+		name = "GFX_syndicalist"
+		texturefile = "gfx/interface/ideas/generic/national_focus/syndicalist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_no_need_powers"
+		texturefile = "gfx/interface/ideas/generic/national_focus/no_need_powers.dds"
+	}
+	SpriteType = { 
+		name = "GFX_worker_hero"
+		texturefile = "gfx/interface/ideas/generic/national_focus/worker_hero.dds"
+	}
+	SpriteType = { 
+		name = "GFX_democratic"
+		texturefile = "gfx/interface/ideas/generic/national_focus/democratic.dds"
+	}
+	SpriteType = { 
+		name = "GFX_social_democrat"
+		texturefile = "gfx/interface/ideas/generic/national_focus/social_democrat.dds"
+	}
+	SpriteType = { 
+		name = "GFX_compromise_with_totalist"
+		texturefile = "gfx/interface/ideas/generic/national_focus/compromise_with_totalist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_social_liberal"
+		texturefile = "gfx/interface/ideas/generic/national_focus/social_liberal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_guarantee_of_rights"
+		texturefile = "gfx/interface/ideas/generic/national_focus/guarantee_of_rights.dds"
+	}
+	SpriteType = { 
+		name = "GFX_market_liberal"
+		texturefile = "gfx/interface/ideas/generic/national_focus/market_liberal.dds"
+	}
+	SpriteType = { 
+		name = "GFX_market_protect"
+		texturefile = "gfx/interface/ideas/generic/national_focus/market_protect.dds"
+	}
+	SpriteType = { 
+		name = "GFX_social_conservative"
+		texturefile = "gfx/interface/ideas/generic/national_focus/social_conservative.dds"
+	}
+	SpriteType = { 
+		name = "GFX_compromise_with_authoritarian_democrat"
+		texturefile = "gfx/interface/ideas/generic/national_focus/compromise_with_authoritarian_democrat.dds"
+	}
+	SpriteType = { 
+		name = "GFX_in_the_name_of_freedom"
+		texturefile = "gfx/interface/ideas/generic/national_focus/in_the_name_of_freedom.dds"
+	}
+	SpriteType = { 
+		name = "GFX_right"
+		texturefile = "gfx/interface/ideas/generic/national_focus/right.dds"
+	}
+	SpriteType = { 
+		name = "GFX_authoritarian_democrat"
+		texturefile = "gfx/interface/ideas/generic/national_focus/authoritarian_democrat.dds"
+	}
+	SpriteType = { 
+		name = "GFX_compromise_with_social_conservative"
+		texturefile = "gfx/interface/ideas/generic/national_focus/compromise_with_social_conservative.dds"
+	}
+	SpriteType = { 
+		name = "GFX_paternal_autocrat"
+		texturefile = "gfx/interface/ideas/generic/national_focus/paternal_autocrat.dds"
+	}
+	SpriteType = { 
+		name = "GFX_compromise_with_national_populist"
+		texturefile = "gfx/interface/ideas/generic/national_focus/compromise_with_national_populist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_national_populist"
+		texturefile = "gfx/interface/ideas/generic/national_focus/national_populist.dds"
+	}
+	SpriteType = { 
+		name = "GFX_unite"
+		texturefile = "gfx/interface/ideas/generic/national_focus/unite.dds"
+	}
+	SpriteType = { 
+		name = "GFX_strong_government"
+		texturefile = "gfx/interface/ideas/generic/national_focus/strong_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_administrative_reform"
+		texturefile = "gfx/interface/ideas/generic/national_focus/administrative_reform.dds"
+	}
+	SpriteType = { 
+		name = "GFX_stable_government"
+		texturefile = "gfx/interface/ideas/generic/national_focus/stable_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_see_great_power"
+		texturefile = "gfx/interface/ideas/generic/national_focus/see_great_power.dds"
+	}
+	SpriteType = { 
+		name = "GFX_to_russia"
+		texturefile = "gfx/interface/ideas/generic/national_focus/to_russia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_to_france"
+		texturefile = "gfx/interface/ideas/generic/national_focus/to_france.dds"
+	}
+	SpriteType = { 
+		name = "GFX_to_usa"
+		texturefile = "gfx/interface/ideas/generic/national_focus/to_usa.dds"
+	}
+	SpriteType = { 
+		name = "GFX_to_britain"
+		texturefile = "gfx/interface/ideas/generic/national_focus/to_britain.dds"
+	}
+	SpriteType = { 
+		name = "GFX_to_germany"
+		texturefile = "gfx/interface/ideas/generic/national_focus/to_germany.dds"
+	}
+	SpriteType = { 
+		name = "GFX_to_italy"
+		texturefile = "gfx/interface/ideas/generic/national_focus/to_italy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_to_japan"
+		texturefile = "gfx/interface/ideas/generic/national_focus/to_japan.dds"
+	}
+	SpriteType = { 
+		name = "GFX_industrial_modernization"
+		texturefile = "gfx/interface/ideas/generic/national_focus/industrial_modernization.dds"
+	}
+	SpriteType = { 
+		name = "GFX_agriculture_effort"
+		texturefile = "gfx/interface/ideas/generic/national_focus/agriculture_effort.dds"
+	}
+	SpriteType = { 
+		name = "GFX_light_industry"
+		texturefile = "gfx/interface/ideas/generic/national_focus/light_industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_heavy_industry"
+		texturefile = "gfx/interface/ideas/generic/national_focus/heavy_industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_political_modernization"
+		texturefile = "gfx/interface/ideas/generic/national_focus/political_modernization.dds"
+	}
+	SpriteType = { 
+		name = "GFX_economic_research"
+		texturefile = "gfx/interface/ideas/generic/national_focus/economic_research.dds"
+	}
+	SpriteType = { 
+		name = "GFX_education"
+		texturefile = "gfx/interface/ideas/generic/national_focus/education.dds"
+	}
+	SpriteType = { 
+		name = "GFX_university_expansion"
+		texturefile = "gfx/interface/ideas/generic/national_focus/university_expansion.dds"
+	}
+	SpriteType = { 
+		name = "GFX_study_of_happines"
+		texturefile = "gfx/interface/ideas/generic/national_focus/study_of_happines.dds"
+	}
+	SpriteType = { 
+		name = "GFX_military_modernization"
+		texturefile = "gfx/interface/ideas/generic/national_focus/military_modernization.dds"
+	}
+	SpriteType = { 
+		name = "GFX_air_force_improve"
+		texturefile = "gfx/interface/ideas/generic/national_focus/air_force_improve.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bomber_based"
+		texturefile = "gfx/interface/ideas/generic/national_focus/bomber_based.dds"
+	}
+	SpriteType = { 
+		name = "GFX_fighter_based"
+		texturefile = "gfx/interface/ideas/generic/national_focus/fighter_based.dds"
+	}
+	SpriteType = { 
+		name = "GFX_army_improve"
+		texturefile = "gfx/interface/ideas/generic/national_focus/army_improve.dds"
+	}
+	SpriteType = { 
+		name = "GFX_improve_infantry"
+		texturefile = "gfx/interface/ideas/generic/national_focus/improve_infantry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_improve_arms"
+		texturefile = "gfx/interface/ideas/generic/national_focus/improve_arms.dds"
+	}
+	SpriteType = { 
+		name = "GFX_research_new_weapons"
+		texturefile = "gfx/interface/ideas/generic/national_focus/research_new_weapons.dds"
+	}
+	SpriteType = { 
+		name = "GFX_blitzkrieg"
+		texturefile = "gfx/interface/ideas/generic/national_focus/blitzkrieg.dds"
+	}
+	SpriteType = { 
+		name = "GFX_navy_improve"
+		texturefile = "gfx/interface/ideas/generic/national_focus/navy_improve.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_small_ship"
+		texturefile = "gfx/interface/ideas/generic/national_focus/focus_small_ship.dds"
+	}
+	SpriteType = { 
+		name = "GFX_focus_large_ship"
+		texturefile = "gfx/interface/ideas/generic/national_focus/focus_large_ship.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ship_building_in_our_land"
+		texturefile = "gfx/interface/ideas/generic/national_focus/ship_building_in_our_land.dds"
+	}
+	SpriteType = { 
+		name = "GFX_our_position"
+		texturefile = "gfx/interface/ideas/generic/national_focus/our_position.dds"
+	}
+	SpriteType = { 
+		name = "GFX_take_position"
+		texturefile = "gfx/interface/ideas/generic/national_focus/take_position.dds"
+	}
+	SpriteType = { 
+		name = "GFX_neutral"
+		texturefile = "gfx/interface/ideas/generic/national_focus/neutral.dds"
+	}
+	SpriteType = { 
+		name = "GFX_incompletry_neutral"
+		texturefile = "gfx/interface/ideas/generic/national_focus/incompletry_neutral.dds"
+	}
+	SpriteType = { 
+		name = "GFX_lend_lease_methot"
+		texturefile = "gfx/interface/ideas/generic/national_focus/lend_lease.dds"
+	}
+	SpriteType = { 
+		name = "GFX_completry_neutral"
+		texturefile = "gfx/interface/ideas/generic/national_focus/completry_neutral.dds"
+	}
+	SpriteType = { 
+		name = "GFX_original_route"
+		texturefile = "gfx/interface/ideas/generic/national_focus/original_route.dds"
+	}
+	SpriteType = { 
+		name = "GFX_join_international"
+		texturefile = "gfx/interface/ideas/generic/national_focus/join_international.dds"
+	}
+	SpriteType = { 
+		name = "GFX_freedom_warrior"
+		texturefile = "gfx/interface/ideas/generic/national_focus/freedom_warrior.dds"
+	}
+	SpriteType = { 
+		name = "GFX_conservate_union"
+		texturefile = "gfx/interface/ideas/generic/national_focus/conservate_union.dds"
+	}
+	SpriteType = { 
+		name = "GFX_steel_alliance"
+		texturefile = "gfx/interface/ideas/generic/national_focus/steel_alliance.dds"
+	}
+	SpriteType = { 
+		name = "GFX_revolutionaly_comrades"
+		texturefile = "gfx/interface/ideas/generic/national_focus/revolutionaly_comrades.dds"
+	}
+	SpriteType = { 
+		name = "GFX_socialist_breakwater"
+		texturefile = "gfx/interface/ideas/generic/national_focus/socialist_breakwater.dds"
+	}
+	SpriteType = { 
+		name = "GFX_militarism"
+		texturefile = "gfx/interface/ideas/generic/national_focus/militarism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_why_we_fight"
+		texturefile = "gfx/interface/ideas/generic/national_focus/why_we_fight.dds"
+	}
+	SpriteType = { 
+		name = "GFX_chemical_industry"
+		texturefile = "gfx/interface/ideas/generic/national_focus/chemical_industry.dds"
+	}
+	SpriteType = { 
+		name = "GFX_infrastructure"
+		texturefile = "gfx/interface/ideas/generic/national_focus/infrastructure.dds"
+	}
+}

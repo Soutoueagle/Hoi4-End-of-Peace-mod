@@ -4,11 +4,9 @@ focus_tree = {
 		factor = 1
 	}
 	default = yes
-	continuous_focus_position = { x = 50 y = 1350 }
-	
 	focus = {
 		id = regime_change
-		icon = GFX_goal_unknown
+		icon = GFX_change_government
 		cost = 1.00
 		mutually_exclusive = {
 			focus = maintaining_power
@@ -19,7 +17,7 @@ focus_tree = {
 	}
 	focus = {
 		id = maintaining_power
-		icon = GFX_goal_unknown
+		icon = GFX_hold_government
 		cost = 1.00
 		mutually_exclusive = {
 			focus = regime_change
@@ -30,7 +28,7 @@ focus_tree = {
 	}
 	focus = {
 		id = national_modanization
-		icon = GFX_goal_unknown
+		icon = GFX_country_modernization
 		cost = 1.00
 		mutually_exclusive = {
 			focus = refuse_modanization
@@ -41,7 +39,7 @@ focus_tree = {
 	}
 	focus = {
 		id = refuse_modanization
-		icon = GFX_goal_unknown
+		icon = GFX_refuse_modernization
 		cost = 1.00
 		mutually_exclusive = {
 			focus = national_modanization
@@ -52,7 +50,7 @@ focus_tree = {
 	}
 	focus = {
 		id = left
-		icon = GFX_goal_unknown
+		icon = GFX_left
 		cost = 1.00
 		prerequisite = {
 			focus = regime_change
@@ -66,7 +64,7 @@ focus_tree = {
 	}
 	focus = {
 		id = radical_socialist
-		icon = GFX_goal_unknown
+		icon = GFX_radical_socialist
 		cost = 10.00
 		prerequisite = {
 			focus = left
@@ -80,7 +78,7 @@ focus_tree = {
 	}
 	focus = {
 		id = do_not_stop_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_dont_stop_revolution
 		cost = 10.00
 		prerequisite = {
 			focus = radical_socialist
@@ -91,7 +89,7 @@ focus_tree = {
 	}
 	focus = {
 		id = totalist
-		icon = GFX_goal_unknown
+		icon = GFX_totalist
 		cost = 10.00
 		prerequisite = {
 			focus = left
@@ -106,7 +104,7 @@ focus_tree = {
 	}
 	focus = {
 		id = equal_ideal_town
-		icon = GFX_goal_unknown
+		icon = GFX_equal_ideal_town
 		cost = 10.00
 		prerequisite = {
 			focus = totalist
@@ -117,7 +115,7 @@ focus_tree = {
 	}
 	focus = {
 		id = syndicalism
-		icon = GFX_goal_unknown
+		icon = GFX_syndicalist
 		cost = 10.00
 		prerequisite = {
 			focus = left
@@ -130,8 +128,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = no_need_for_pwers
-		icon = GFX_goal_unknown
+		id = no_need_for_pwers!
+		icon = GFX_no_need_powers
 		cost = 10.00
 		prerequisite = {
 			focus = syndicalism
@@ -142,16 +140,12 @@ focus_tree = {
 	}
 	focus = {
 		id = worker_hero
-		icon = GFX_goal_unknown
+		icon = GFX_worker_hero
 		cost = 10.00
 		prerequisite = {
-			focus = no_need_for_pwers
-		}
-		prerequisite = {
-			focus = equal_ideal_town
-		}
-		prerequisite = {
 			focus = do_not_stop_revolution
+			focus = equal_ideal_town
+			focus = no_need_for_pwers!
 		}
 		x = 3
 		y = 4
@@ -159,7 +153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = democracy
-		icon = GFX_goal_unknown
+		icon = GFX_democratic
 		cost = 1.00
 		prerequisite = {
 			focus = regime_change
@@ -174,7 +168,7 @@ focus_tree = {
 	}
 	focus = {
 		id = social_democrat
-		icon = GFX_goal_unknown
+		icon = GFX_social_democrat
 		cost = 10.00
 		prerequisite = {
 			focus = democracy
@@ -188,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = comprpmise_with_socialist
-		icon = GFX_goal_unknown
+		icon = GFX_compromise_with_totalist
 		cost = 10.00
 		prerequisite = {
 			focus = social_democrat
@@ -199,7 +193,7 @@ focus_tree = {
 	}
 	focus = {
 		id = social_liberal
-		icon = GFX_goal_unknown
+		icon = GFX_social_liberal
 		cost = 10.00
 		prerequisite = {
 			focus = democracy
@@ -214,7 +208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = guarantee_of_rights
-		icon = GFX_goal_unknown
+		icon = GFX_guarantee_of_rights
 		cost = 10.00
 		prerequisite = {
 			focus = social_liberal
@@ -225,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = market_liberal
-		icon = GFX_goal_unknown
+		icon = GFX_market_liberal
 		cost = 10.00
 		prerequisite = {
 			focus = democracy
@@ -240,7 +234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = market_protection
-		icon = GFX_goal_unknown
+		icon = GFX_market_protect
 		cost = 10.00
 		prerequisite = {
 			focus = market_liberal
@@ -251,7 +245,7 @@ focus_tree = {
 	}
 	focus = {
 		id = social_concservative
-		icon = GFX_goal_unknown
+		icon = GFX_social_conservative
 		cost = 10.00
 		prerequisite = {
 			focus = democracy
@@ -265,7 +259,7 @@ focus_tree = {
 	}
 	focus = {
 		id = compromise_with_aut_democratist
-		icon = GFX_goal_unknown
+		icon = GFX_compromise_with_authoritarian_democrat
 		cost = 10.00
 		prerequisite = {
 			focus = social_concservative
@@ -276,19 +270,13 @@ focus_tree = {
 	}
 	focus = {
 		id = in_the_name_of_freedom
-		icon = GFX_goal_unknown
+		icon = GFX_in_the_name_of_freedom
 		cost = 10.00
 		prerequisite = {
-			focus = market_protection
-		}
-		prerequisite = {
-			focus = compromise_with_aut_democratist
-		}
-		prerequisite = {
-			focus = guarantee_of_rights
-		}
-		prerequisite = {
 			focus = comprpmise_with_socialist
+			focus = guarantee_of_rights
+			focus = market_protection
+			focus = compromise_with_aut_democratist
 		}
 		x = 10
 		y = 4
@@ -296,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = right
-		icon = GFX_goal_unknown
+		icon = GFX_right
 		cost = 1.00
 		prerequisite = {
 			focus = regime_change
@@ -310,7 +298,7 @@ focus_tree = {
 	}
 	focus = {
 		id = authoritarian_democrat
-		icon = GFX_goal_unknown
+		icon = GFX_authoritarian_democrat
 		cost = 10.00
 		prerequisite = {
 			focus = right
@@ -324,7 +312,7 @@ focus_tree = {
 	}
 	focus = {
 		id = compromise_with_conservatist
-		icon = GFX_goal_unknown
+		icon = GFX_compromise_with_social_conservative
 		cost = 10.00
 		prerequisite = {
 			focus = authoritarian_democrat
@@ -335,7 +323,7 @@ focus_tree = {
 	}
 	focus = {
 		id = paternal_autocrat
-		icon = GFX_goal_unknown
+		icon = GFX_paternal_autocrat
 		cost = 10.00
 		prerequisite = {
 			focus = right
@@ -350,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = compromise_with_n_populist
-		icon = GFX_goal_unknown
+		icon = GFX_compromise_with_national_populist
 		cost = 10.00
 		prerequisite = {
 			focus = paternal_autocrat
@@ -361,7 +349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = national_populist
-		icon = GFX_goal_unknown
+		icon = GFX_national_populist
 		cost = 10.00
 		prerequisite = {
 			focus = right
@@ -374,8 +362,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = unite
-		icon = GFX_goal_unknown
+		id = unite!
+		icon = GFX_unite
 		cost = 10.00
 		prerequisite = {
 			focus = national_populist
@@ -386,16 +374,12 @@ focus_tree = {
 	}
 	focus = {
 		id = strong_government
-		icon = GFX_goal_unknown
+		icon = GFX_strong_government
 		cost = 10.00
 		prerequisite = {
-			focus = unite
-		}
-		prerequisite = {
-			focus = compromise_with_n_populist
-		}
-		prerequisite = {
 			focus = compromise_with_conservatist
+			focus = compromise_with_n_populist
+			focus = unite!
 		}
 		x = 17
 		y = 4
@@ -403,7 +387,7 @@ focus_tree = {
 	}
 	focus = {
 		id = administrative_reform
-		icon = GFX_goal_unknown
+		icon = GFX_administrative_reform
 		cost = 10.00
 		prerequisite = {
 			focus = maintaining_power
@@ -414,7 +398,7 @@ focus_tree = {
 	}
 	focus = {
 		id = administrative_reform_2
-		icon = GFX_goal_unknown
+		icon = GFX_administrative_reform
 		cost = 10.00
 		prerequisite = {
 			focus = administrative_reform
@@ -425,7 +409,7 @@ focus_tree = {
 	}
 	focus = {
 		id = administrative_reform_3
-		icon = GFX_goal_unknown
+		icon = GFX_administrative_reform
 		cost = 10.00
 		prerequisite = {
 			focus = administrative_reform_2
@@ -436,7 +420,7 @@ focus_tree = {
 	}
 	focus = {
 		id = stable_government
-		icon = GFX_goal_unknown
+		icon = GFX_stable_government
 		cost = 10.00
 		prerequisite = {
 			focus = administrative_reform_3
@@ -447,7 +431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = inspection_of_great_powers
-		icon = GFX_goal_unknown
+		icon = GFX_see_great_power
 		cost = 1.00
 		prerequisite = {
 			focus = national_modanization
@@ -458,7 +442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = to_russia
-		icon = GFX_goal_unknown
+		icon = GFX_to_russia
 		cost = 10.00
 		prerequisite = {
 			focus = inspection_of_great_powers
@@ -472,7 +456,7 @@ focus_tree = {
 	}
 	focus = {
 		id = to_france
-		icon = GFX_goal_unknown
+		icon = GFX_to_france
 		cost = 10.00
 		prerequisite = {
 			focus = inspection_of_great_powers
@@ -487,7 +471,7 @@ focus_tree = {
 	}
 	focus = {
 		id = to_usa
-		icon = GFX_goal_unknown
+		icon = GFX_to_usa
 		cost = 10.00
 		prerequisite = {
 			focus = inspection_of_great_powers
@@ -502,7 +486,7 @@ focus_tree = {
 	}
 	focus = {
 		id = to_britain
-		icon = GFX_goal_unknown
+		icon = GFX_to_britain
 		cost = 10.00
 		prerequisite = {
 			focus = inspection_of_great_powers
@@ -517,7 +501,7 @@ focus_tree = {
 	}
 	focus = {
 		id = to_germany
-		icon = GFX_goal_unknown
+		icon = GFX_to_germany
 		cost = 10.00
 		prerequisite = {
 			focus = inspection_of_great_powers
@@ -532,7 +516,7 @@ focus_tree = {
 	}
 	focus = {
 		id = to_italy
-		icon = GFX_goal_unknown
+		icon = GFX_to_italy
 		cost = 10.00
 		prerequisite = {
 			focus = inspection_of_great_powers
@@ -547,7 +531,7 @@ focus_tree = {
 	}
 	focus = {
 		id = to_japan
-		icon = GFX_goal_unknown
+		icon = GFX_to_japan
 		cost = 10.00
 		prerequisite = {
 			focus = inspection_of_great_powers
@@ -561,27 +545,15 @@ focus_tree = {
 	}
 	focus = {
 		id = industrian_modanization
-		icon = GFX_goal_unknown
+		icon = GFX_industrial_modernization
 		cost = 10.00
 		prerequisite = {
 			focus = to_russia
-		}
-		prerequisite = {
 			focus = to_france
-		}
-		prerequisite = {
 			focus = to_usa
-		}
-		prerequisite = {
 			focus = to_britain
-		}
-		prerequisite = {
 			focus = to_germany
-		}
-		prerequisite = {
 			focus = to_italy
-		}
-		prerequisite = {
 			focus = to_japan
 		}
 		x = 27
@@ -590,7 +562,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_agriculture
-		icon = GFX_goal_unknown
+		icon = GFX_agriculture_effort
 		cost = 10.00
 		prerequisite = {
 			focus = industrian_modanization
@@ -601,7 +573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_light_industry
-		icon = GFX_goal_unknown
+		icon = GFX_light_industry
 		cost = 10.00
 		prerequisite = {
 			focus = industrian_modanization
@@ -612,13 +584,10 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_light_industry_2
-		icon = GFX_goal_unknown
+		icon = GFX_light_industry
 		cost = 10.00
 		prerequisite = {
 			focus = focus_on_light_industry
-		}
-		prerequisite = {
-			focus = focus_on_agriculture
 		}
 		x = 27
 		y = 5
@@ -626,7 +595,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_light_industry_3
-		icon = GFX_goal_unknown
+		icon = GFX_light_industry
 		cost = 10.00
 		prerequisite = {
 			focus = focus_on_light_industry_2
@@ -637,8 +606,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_heavy_industry
-		text = 重工業へ注力
-		icon = GFX_goal_unknown
+		icon = GFX_heavy_industry
 		cost = 10.00
 		prerequisite = {
 			focus = industrian_modanization
@@ -649,7 +617,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_heavy_industry_2
-		icon = GFX_goal_unknown
+		icon = GFX_heavy_industry
 		cost = 10.00
 		prerequisite = {
 			focus = focus_on_heavy_industry
@@ -660,7 +628,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_heavy_industry_3
-		icon = GFX_goal_unknown
+		icon = GFX_heavy_industry
 		cost = 10.00
 		prerequisite = {
 			focus = focus_on_heavy_industry_2
@@ -670,23 +638,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = chemical_industry
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = focus_on_light_industry_3
-			focus = focus_on_heavy_industry_3
-		}
-		x = 27
-		y = 7
-
-	}
-	focus = {
 		id = political_modernization
-		icon = GFX_goal_unknown
+		icon = GFX_political_modernization
 		cost = 10.00
 		prerequisite = {
+			focus = to_russia
+			focus = to_france
+			focus = to_usa
 			focus = to_britain
+			focus = to_germany
+			focus = to_italy
+			focus = to_japan
 		}
 		x = 36
 		y = 3
@@ -694,7 +656,7 @@ focus_tree = {
 	}
 	focus = {
 		id = economic_research
-		icon = GFX_goal_unknown
+		icon = GFX_economic_research
 		cost = 10.00
 		prerequisite = {
 			focus = political_modernization
@@ -705,7 +667,7 @@ focus_tree = {
 	}
 	focus = {
 		id = primary_education
-		icon = GFX_goal_unknown
+		icon = GFX_education
 		cost = 10.00
 		prerequisite = {
 			focus = political_modernization
@@ -716,7 +678,7 @@ focus_tree = {
 	}
 	focus = {
 		id = high_education
-		icon = GFX_goal_unknown
+		icon = GFX_education
 		cost = 10.00
 		prerequisite = {
 			focus = primary_education
@@ -727,7 +689,7 @@ focus_tree = {
 	}
 	focus = {
 		id = university_expansion
-		icon = GFX_goal_unknown
+		icon = GFX_university_expansion
 		cost = 10.00
 		prerequisite = {
 			focus = high_education
@@ -738,7 +700,7 @@ focus_tree = {
 	}
 	focus = {
 		id = study_of_happines
-		icon = GFX_goal_unknown
+		icon = GFX_study_of_happines
 		cost = 10.00
 		prerequisite = {
 			focus = political_modernization
@@ -749,10 +711,16 @@ focus_tree = {
 	}
 	focus = {
 		id = military_modanization
-		icon = GFX_goal_unknown
+		icon = GFX_military_modernization
 		cost = 10.00
 		prerequisite = {
 			focus = to_japan
+			focus = to_italy
+			focus = to_germany
+			focus = to_britain
+			focus = to_usa
+			focus = to_france
+			focus = to_russia
 		}
 		x = 45
 		y = 3
@@ -760,7 +728,7 @@ focus_tree = {
 	}
 	focus = {
 		id = air_force_improve
-		icon = GFX_goal_unknown
+		icon = GFX_air_force_improve
 		cost = 10.00
 		prerequisite = {
 			focus = military_modanization
@@ -771,7 +739,7 @@ focus_tree = {
 	}
 	focus = {
 		id = bomber_based
-		icon = GFX_goal_unknown
+		icon = GFX_bomber_based
 		cost = 10.00
 		prerequisite = {
 			focus = air_force_improve
@@ -785,7 +753,7 @@ focus_tree = {
 	}
 	focus = {
 		id = fighter_based
-		icon = GFX_goal_unknown
+		icon = GFX_fighter_based
 		cost = 10.00
 		prerequisite = {
 			focus = air_force_improve
@@ -799,7 +767,7 @@ focus_tree = {
 	}
 	focus = {
 		id = army_improve
-		icon = GFX_goal_unknown
+		icon = GFX_army_improve
 		cost = 10.00
 		prerequisite = {
 			focus = military_modanization
@@ -810,7 +778,7 @@ focus_tree = {
 	}
 	focus = {
 		id = improve_infantry
-		icon = GFX_goal_unknown
+		icon = GFX_improve_infantry
 		cost = 10.00
 		prerequisite = {
 			focus = army_improve
@@ -824,7 +792,7 @@ focus_tree = {
 	}
 	focus = {
 		id = improve_firearm
-		icon = GFX_goal_unknown
+		icon = GFX_improve_arms
 		cost = 10.00
 		prerequisite = {
 			focus = improve_infantry
@@ -835,7 +803,7 @@ focus_tree = {
 	}
 	focus = {
 		id = research_new_weapons
-		icon = GFX_goal_unknown
+		icon = GFX_research_new_weapons
 		cost = 10.00
 		prerequisite = {
 			focus = army_improve
@@ -849,8 +817,7 @@ focus_tree = {
 	}
 	focus = {
 		id = blitzkrieg
-		text = 電撃戦
-		icon = GFX_goal_unknown
+		icon = GFX_blitzkrieg
 		cost = 10.00
 		prerequisite = {
 			focus = research_new_weapons
@@ -861,7 +828,7 @@ focus_tree = {
 	}
 	focus = {
 		id = improve_navy
-		icon = GFX_goal_unknown
+		icon = GFX_navy_improve
 		cost = 10.00
 		prerequisite = {
 			focus = military_modanization
@@ -872,7 +839,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_small_ship
-		icon = GFX_goal_unknown
+		icon = GFX_focus_small_ship
 		cost = 10.00
 		prerequisite = {
 			focus = improve_navy
@@ -886,7 +853,7 @@ focus_tree = {
 	}
 	focus = {
 		id = focus_on_large_ship
-		icon = GFX_goal_unknown
+		icon = GFX_focus_large_ship
 		cost = 10.00
 		prerequisite = {
 			focus = improve_navy
@@ -900,12 +867,10 @@ focus_tree = {
 	}
 	focus = {
 		id = shipbuilding_in_our_country
-		icon = GFX_goal_unknown
+		icon = GFX_ship_building_in_our_land
 		cost = 10.00
 		prerequisite = {
 			focus = focus_on_large_ship
-		}
-		prerequisite = {
 			focus = focus_on_small_ship
 		}
 		x = 49
@@ -914,18 +879,12 @@ focus_tree = {
 	}
 	focus = {
 		id = our_position
-		icon = GFX_goal_unknown
+		icon = GFX_our_position
 		cost = 10.00
 		prerequisite = {
-			focus = in_the_name_of_freedom
-		}
-		prerequisite = {
-			focus = strong_government
-		}
-		prerequisite = {
 			focus = worker_hero
-		}
-		prerequisite = {
+			focus = in_the_name_of_freedom
+			focus = strong_government
 			focus = stable_government
 		}
 		x = 10
@@ -934,7 +893,7 @@ focus_tree = {
 	}
 	focus = {
 		id = determine_the_standing_position
-		icon = GFX_goal_unknown
+		icon = GFX_take_position
 		cost = 10.00
 		prerequisite = {
 			focus = our_position
@@ -948,7 +907,7 @@ focus_tree = {
 	}
 	focus = {
 		id = neutral_diplomacy
-		icon = GFX_goal_unknown
+		icon = GFX_neutral
 		cost = 10.00
 		prerequisite = {
 			focus = our_position
@@ -962,7 +921,7 @@ focus_tree = {
 	}
 	focus = {
 		id = incomplete_neutral
-		icon = GFX_goal_unknown
+		icon = GFX_incompletry_neutral
 		cost = 10.00
 		prerequisite = {
 			focus = neutral_diplomacy
@@ -976,7 +935,7 @@ focus_tree = {
 	}
 	focus = {
 		id = lend_lease_methot
-		icon = GFX_goal_unknown
+		icon = GFX_lend_lease_methot
 		cost = 10.00
 		prerequisite = {
 			focus = incomplete_neutral
@@ -987,7 +946,7 @@ focus_tree = {
 	}
 	focus = {
 		id = completely_neutral
-		icon = GFX_goal_unknown
+		icon = GFX_completry_neutral
 		cost = 10.00
 		prerequisite = {
 			focus = neutral_diplomacy
@@ -1002,7 +961,7 @@ focus_tree = {
 	}
 	focus = {
 		id = original_route
-		icon = GFX_goal_unknown
+		icon = GFX_original_route
 		cost = 10.00
 		prerequisite = {
 			focus = neutral_diplomacy
@@ -1016,7 +975,7 @@ focus_tree = {
 	}
 	focus = {
 		id = joined_international
-		icon = GFX_goal_unknown
+		icon = GFX_join_international
 		cost = 10.00
 		prerequisite = {
 			focus = determine_the_standing_position
@@ -1030,7 +989,7 @@ focus_tree = {
 	}
 	focus = {
 		id = freedom_warrior
-		icon = GFX_goal_unknown
+		icon = GFX_freedom_warrior
 		cost = 10.00
 		prerequisite = {
 			focus = determine_the_standing_position
@@ -1045,7 +1004,7 @@ focus_tree = {
 	}
 	focus = {
 		id = conservative_union
-		icon = GFX_goal_unknown
+		icon = GFX_conservate_union
 		cost = 10.00
 		prerequisite = {
 			focus = determine_the_standing_position
@@ -1060,7 +1019,7 @@ focus_tree = {
 	}
 	focus = {
 		id = steel_alliance
-		icon = GFX_goal_unknown
+		icon = GFX_steel_alliance
 		cost = 10.00
 		prerequisite = {
 			focus = determine_the_standing_position
@@ -1074,7 +1033,7 @@ focus_tree = {
 	}
 	focus = {
 		id = revolutionary_comrades
-		icon = GFX_goal_unknown
+		icon = GFX_revolutionaly_comrades
 		cost = 10.00
 		prerequisite = {
 			focus = joined_international
@@ -1085,13 +1044,11 @@ focus_tree = {
 	}
 	focus = {
 		id = socialist_breakwater
-		icon = GFX_goal_unknown
+		icon = GFX_socialist_breakwater
 		cost = 10.00
 		prerequisite = {
-			focus = conservative_union
-		}
-		prerequisite = {
 			focus = freedom_warrior
+			focus = conservative_union
 		}
 		x = 15
 		y = 8
@@ -1099,7 +1056,7 @@ focus_tree = {
 	}
 	focus = {
 		id = militarism
-		icon = GFX_goal_unknown
+		icon = GFX_militarism
 		cost = 10.00
 		prerequisite = {
 			focus = steel_alliance
@@ -1110,15 +1067,11 @@ focus_tree = {
 	}
 	focus = {
 		id = why_do_we_fight
-		icon = GFX_goal_unknown
+		icon = GFX_why_we_fight
 		cost = 10.00
 		prerequisite = {
 			focus = socialist_breakwater
-		}
-		prerequisite = {
 			focus = militarism
-		}
-		prerequisite = {
 			focus = revolutionary_comrades
 		}
 		x = 15
@@ -1126,48 +1079,87 @@ focus_tree = {
 
 	}
 	focus = {
+		id = chemical_industry
+		icon = GFX_chemical_industry
+		cost = 10.00
+		prerequisite = {
+			focus = infrastructure_construction_2
+		}
+		prerequisite = {
+			focus = focus_on_light_industry_3
+		}
+		prerequisite = {
+			focus = focus_on_heavy_industry_3
+		}
+		x = 27
+		y = 7
+
+	}
+	focus = {
 		id = chemical_industry_2
-		icon = GFX_goal_unknown
+		icon = GFX_chemical_industry
 		cost = 10.00
 		prerequisite = {
 			focus = chemical_industry
 		}
-		x = 27
+		x = 28
 		y = 8
 
 	}
 	focus = {
 		id = focus_on_agriculture_2
-		icon = GFX_goal_unknown
+		icon = GFX_agriculture_effort
 		cost = 10.00
 		prerequisite = {
 			focus = chemical_industry
 		}
-		x = 25
+		x = 26
 		y = 8
 
 	}
 	focus = {
 		id = chemical_industry_3
-		icon = GFX_goal_unknown
+		icon = GFX_chemical_industry
 		cost = 10.00
 		prerequisite = {
 			focus = chemical_industry_2
 		}
-		x = 27
+		x = 28
 		y = 9
 
 	}
 	focus = {
 		id = focus_on_agriculture_3
 		text = 農業へ注力Ⅲ
-		icon = GFX_goal_unknown
+		icon = GFX_agriculture_effort
 		cost = 10.00
 		prerequisite = {
 			focus = focus_on_agriculture_2
 		}
-		x = 25
+		x = 26
 		y = 9
+
+	}
+	focus = {
+		id = infrastructure_construction 
+		icon = GFX_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = focus_on_agriculture
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = infrastructure_construction_2
+		icon = GFX_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = infrastructure_construction 
+		}
+		x = 25
+		y = 6
 
 	}
 }

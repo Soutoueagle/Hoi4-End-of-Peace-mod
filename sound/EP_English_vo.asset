@@ -1,0 +1,1208 @@
+category = 
+{
+ name = "Voices"
+ soungerffects = {
+	ENG_infantry_idle
+	ENG_infantry_neutral_combat
+	ENG_infantry_positive_combat
+	ENG_infantry_retreat
+	ENG_infantry_move_out
+	USA_infantry_idle
+	USA_infantry_neutral_combat
+	USA_infantry_positive_combat
+	USA_infantry_retreat
+	USA_infantry_move_out
+	CAN_infantry_idle
+	CAN_infantry_neutral_combat
+	CAN_infantry_positive_combat
+	CAN_infantry_retreat
+	CAN_infantry_move_out
+	AST_infantry_idle
+	AST_infantry_neutral_combat
+	AST_infantry_positive_combat
+	AST_infantry_retreat
+	AST_infantry_move_out
+	NZL_infantry_idle
+	NZL_infantry_neutral_combat
+	NZL_infantry_positive_combat
+	NZL_infantry_retreat
+	NZL_infantry_move_out
+	SAF_infantry_idle
+	SAF_infantry_neutral_combat
+	SAF_infantry_positive_combat
+	SAF_infantry_retreat
+	SAF_infantry_move_out
+	LIB_infantry_idle
+	LIB_infantry_neutral_combat
+	LIB_infantry_positive_combat
+	LIB_infantry_retreat
+	LIB_infantry_move_out
+ }
+  compressor = 
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########### AUDIO ASSETS
+########### ENG
+sound =
+{
+	name = "uk_Idle_001"
+	file = "eng/uk_Idle_001.wav"
+}
+sound =
+{
+	name = "uk_Idle_002"
+	file = "eng/uk_Idle_002.wav"
+}
+sound =
+{
+	name = "uk_Idle_003"
+	file = "eng/uk_Idle_003.wav"
+}
+sound =
+{
+	name = "uk_Idle_004"
+	file = "eng/uk_Idle_004.wav"
+}
+sound =
+{
+	name = "uk_Idle_005"
+	file = "eng/uk_Idle_005.wav"
+}
+{
+	name = "uk_Move_001"
+	file = "eng/uk_Move_001.wav"
+}
+sound =
+{
+	name = "uk_Move_002"
+	file = "eng/uk_Neutral_002.wav"
+}
+sound =
+{
+	name = "uk_Move_003"
+	file = "eng/uk_Move_003.wav"
+}
+sound =
+{
+	name = "uk_Move_004"
+	file = "eng/uk_Move_004.wav"
+}
+sound =
+{
+	name = "uk_Move_005"
+	file = "eng/uk_Move_005.wav"
+}
+sound =
+{
+	name = "uk_Move_006"
+	file = "eng/uk_Move_006.wav"
+}
+sound =
+{
+	name = "uk_Move_007"
+	file = "eng/uk_Move_007.wav"
+}
+sound =
+{
+	name = "uk_Move_008"
+	file = "eng/uk_Move_008.wav"
+}
+sound =
+{
+	name = "uk_Move_009"
+	file = "eng/uk_Move_009.wav"
+}
+sound =
+{
+	name = "uk_Move_010"
+	file = "eng/uk_Move_010.wav"
+}
+sound =
+{
+	name = "uk_Move_011"
+	file = "eng/uk_Move_011.wav"
+}
+sound =
+{
+	name = "uk_Neutral_001"
+	file = "eng/uk_Neutral_001.wav"
+}
+sound =
+{
+	name = "uk_Neutral_002"
+	file = "eng/uk_Neutral_002.wav"
+}
+sound =
+{
+	name = "uk_Neutral_003"
+	file = "eng/uk_Neutral_003.wav"
+}
+sound =
+{
+	name = "uk_Neutral_004"
+	file = "eng/uk_Neutral_004.wav"
+}
+sound =
+{
+	name = "uk_Neutral_005"
+	file = "eng/uk_Neutral_005.wav"
+}
+sound =
+{
+	name = "uk_Neutral_006"
+	file = "eng/uk_Neutral_006.wav"
+}
+sound =
+{
+	name = "uk_Neutral_007"
+	file = "eng/uk_Neutral_007.wav"
+}
+sound =
+{
+	name = "uk_Neutral_008"
+	file = "eng/uk_Neutral_008.wav"
+}
+sound =
+{
+	name = "uk_Neutral_009"
+	file = "eng/uk_Neutral_009.wav"
+}
+sound =
+{
+	name = "uk_Neutral_010"
+	file = "eng/uk_Neutral_010.wav"
+}
+sound =
+{
+	name = "uk_Neutral_011"
+	file = "eng/uk_Neutral_011.wav"
+}
+sound =
+{
+	name = "uk_Neutral_012"
+	file = "eng/uk_Neutral_012.wav"
+}
+sound =
+{
+	name = "uk_Neutral_013"
+	file = "eng/uk_Neutral_013.wav"
+}
+sound =
+{
+	name = "uk_Positive_001"
+	file = "eng/uk_Positive_001.wav"
+}
+sound =
+{
+	name = "uk_Positive_002"
+	file = "eng/uk_Positive_002.wav"
+}
+sound =
+{
+	name = "uk_Positive_003"
+	file = "eng/uk_Positive_003.wav"
+}
+sound =
+{
+	name = "uk_Positive_004"
+	file = "eng/uk_Positive_004.wav"
+}
+sound =
+{
+	name = "uk_Positive_005"
+	file = "eng/uk_Positive_005.wav"
+}
+sound =
+{
+	name = "uk_Positive_006"
+	file = "eng/uk_Positive_006.wav"
+}
+sound =
+{
+	name = "uk_Positive_007"
+	file = "eng/uk_Positive_007.wav"
+}
+sound =
+{
+	name = "uk_Positive_008"
+	file = "eng/uk_Positive_008.wav"
+}
+sound =
+{
+	name = "uk_Positive_009"
+	file = "eng/uk_Positive_009.wav"
+}
+sound =
+{
+	name = "uk_Positive_010"
+	file = "eng/uk_Positive_010.wav"
+}
+sound =
+{
+	name = "uk_Positive_011"
+	file = "eng/uk_Positive_011.wav"
+}
+sound =
+{
+	name = "uk_Retreat_001"
+	file = "eng/uk_Retreat_001.wav"
+}
+sound =
+{
+	name = "uk_Retreat_002"
+	file = "eng/uk_Retreat_002.wav"
+}
+sound =
+{
+	name = "uk_Retreat_003"
+	file = "eng/uk_Retreat_003.wav"
+}
+sound =
+{
+	name = "uk_Retreat_004"
+	file = "eng/uk_Retreat_004.wav"
+}
+sound =
+{
+	name = "uk_Retreat_005"
+	file = "eng/uk_Retreat_005.wav"
+}
+sound =
+{
+	name = "uk_Retreat_006"
+	file = "eng/uk_Retreat_006.wav"
+}
+sound =
+{
+	name = "uk_Retreat_007"
+	file = "eng/uk_Retreat_007.wav"
+}
+sound =
+{
+	name = "uk_Retreat_008"
+	file = "eng/uk_Retreat_008.wav"
+}
+sound =
+{
+	name = "uk_Retreat_009"
+	file = "eng/uk_Retreat_009.wav"
+}
+
+########## ENG
+
+soundeffect =
+{
+    name = "ENG_infantry_idle"
+    sounds = {
+        sound = uk_Idle_001
+        sound = uk_Idle_002
+        sound = uk_Idle_003
+        sound = uk_Idle_004
+        sound = uk_Idle_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ENG_infantry_neutral_combat"
+    sounds = {
+        sound = uk_Neutral_001
+        sound = uk_Neutral_002
+        sound = uk_Neutral_003
+        sound = uk_Neutral_004
+        sound = uk_Neutral_005
+        sound = uk_Neutral_006
+        sound = uk_Neutral_007
+        sound = uk_Neutral_008
+        sound = uk_Neutral_009
+        sound = uk_Neutral_010
+        sound = uk_Neutral_011
+        sound = uk_Neutral_012
+        sound = uk_Neutral_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ENG_infantry_positive_combat"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+        sound = uk_Positive_003
+        sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+        sound = uk_Positive_009
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ENG_infantry_retreat"
+    sounds = {
+        sound = uk_Retreat_001
+        sound = uk_Retreat_002
+        sound = uk_Retreat_003
+        sound = uk_Retreat_004
+        sound = uk_Retreat_005
+        sound = uk_Retreat_006
+        sound = uk_Retreat_007
+        sound = uk_Retreat_008
+        sound = uk_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "ENG_infantry_move_out"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+	    sound = uk_Positive_003
+	    sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+	    sound = uk_Positive_009	
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "ENG_infantry_move_out"
+    sounds = {
+        sound = uk_Move_001
+        sound = uk_Move_002
+        sound = uk_Move_003
+		sound = uk_Move_004
+		sound = uk_Move_005
+		sound = uk_Move_006
+		sound = uk_Move_007
+		sound = uk_Move_008
+		sound = uk_Move_009
+		sound = uk_Move_010
+		sound = uk_Move_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.80
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## USA
+
+soundeffect =
+{
+    name = "USA_infantry_idle"
+    sounds = {
+        sound = uk_Idle_001
+        sound = uk_Idle_002
+        sound = uk_Idle_003
+        sound = uk_Idle_004
+        sound = uk_Idle_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "USA_infantry_neutral_combat"
+    sounds = {
+        sound = uk_Neutral_001
+        sound = uk_Neutral_002
+        sound = uk_Neutral_003
+        sound = uk_Neutral_004
+        sound = uk_Neutral_005
+        sound = uk_Neutral_006
+        sound = uk_Neutral_007
+        sound = uk_Neutral_008
+        sound = uk_Neutral_009
+        sound = uk_Neutral_010
+        sound = uk_Neutral_011
+        sound = uk_Neutral_012
+        sound = uk_Neutral_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "USA_infantry_positive_combat"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+        sound = uk_Positive_003
+        sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+        sound = uk_Positive_009
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "USA_infantry_retreat"
+    sounds = {
+        sound = uk_Retreat_001
+        sound = uk_Retreat_002
+        sound = uk_Retreat_003
+        sound = uk_Retreat_004
+        sound = uk_Retreat_005
+        sound = uk_Retreat_006
+        sound = uk_Retreat_007
+        sound = uk_Retreat_008
+        sound = uk_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "USA_infantry_move_out"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+	    sound = uk_Positive_003
+	    sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+	    sound = uk_Positive_009	
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "USA_infantry_move_out"
+    sounds = {
+        sound = uk_Move_001
+        sound = uk_Move_002
+        sound = uk_Move_003
+		sound = uk_Move_004
+		sound = uk_Move_005
+		sound = uk_Move_006
+		sound = uk_Move_007
+		sound = uk_Move_008
+		sound = uk_Move_009
+		sound = uk_Move_010
+		sound = uk_Move_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.80
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## CAN
+
+soundeffect =
+{
+    name = "CAN_infantry_idle"
+    sounds = {
+        sound = uk_Idle_001
+        sound = uk_Idle_002
+        sound = uk_Idle_003
+        sound = uk_Idle_004
+        sound = uk_Idle_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "CAN_infantry_neutral_combat"
+    sounds = {
+        sound = uk_Neutral_001
+        sound = uk_Neutral_002
+        sound = uk_Neutral_003
+        sound = uk_Neutral_004
+        sound = uk_Neutral_005
+        sound = uk_Neutral_006
+        sound = uk_Neutral_007
+        sound = uk_Neutral_008
+        sound = uk_Neutral_009
+        sound = uk_Neutral_010
+        sound = uk_Neutral_011
+        sound = uk_Neutral_012
+        sound = uk_Neutral_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "CAN_infantry_positive_combat"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+        sound = uk_Positive_003
+        sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+        sound = uk_Positive_009
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "CAN_infantry_retreat"
+    sounds = {
+        sound = uk_Retreat_001
+        sound = uk_Retreat_002
+        sound = uk_Retreat_003
+        sound = uk_Retreat_004
+        sound = uk_Retreat_005
+        sound = uk_Retreat_006
+        sound = uk_Retreat_007
+        sound = uk_Retreat_008
+        sound = uk_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "CAN_infantry_move_out"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+	    sound = uk_Positive_003
+	    sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+	    sound = uk_Positive_009	
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "CAN_infantry_move_out"
+    sounds = {
+        sound = uk_Move_001
+        sound = uk_Move_002
+        sound = uk_Move_003
+		sound = uk_Move_004
+		sound = uk_Move_005
+		sound = uk_Move_006
+		sound = uk_Move_007
+		sound = uk_Move_008
+		sound = uk_Move_009
+		sound = uk_Move_010
+		sound = uk_Move_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.80
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AST
+
+soundeffect =
+{
+    name = "AST_infantry_idle"
+    sounds = {
+        sound = uk_Idle_001
+        sound = uk_Idle_002
+        sound = uk_Idle_003
+        sound = uk_Idle_004
+        sound = uk_Idle_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AST_infantry_neutral_combat"
+    sounds = {
+        sound = uk_Neutral_001
+        sound = uk_Neutral_002
+        sound = uk_Neutral_003
+        sound = uk_Neutral_004
+        sound = uk_Neutral_005
+        sound = uk_Neutral_006
+        sound = uk_Neutral_007
+        sound = uk_Neutral_008
+        sound = uk_Neutral_009
+        sound = uk_Neutral_010
+        sound = uk_Neutral_011
+        sound = uk_Neutral_012
+        sound = uk_Neutral_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AST_infantry_positive_combat"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+        sound = uk_Positive_003
+        sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+        sound = uk_Positive_009
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AST_infantry_retreat"
+    sounds = {
+        sound = uk_Retreat_001
+        sound = uk_Retreat_002
+        sound = uk_Retreat_003
+        sound = uk_Retreat_004
+        sound = uk_Retreat_005
+        sound = uk_Retreat_006
+        sound = uk_Retreat_007
+        sound = uk_Retreat_008
+        sound = uk_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AST_infantry_move_out"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+	    sound = uk_Positive_003
+	    sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+	    sound = uk_Positive_009	
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "AST_infantry_move_out"
+    sounds = {
+        sound = uk_Move_001
+        sound = uk_Move_002
+        sound = uk_Move_003
+		sound = uk_Move_004
+		sound = uk_Move_005
+		sound = uk_Move_006
+		sound = uk_Move_007
+		sound = uk_Move_008
+		sound = uk_Move_009
+		sound = uk_Move_010
+		sound = uk_Move_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.80
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## NZL
+
+soundeffect =
+{
+    name = "NZL_infantry_idle"
+    sounds = {
+        sound = uk_Idle_001
+        sound = uk_Idle_002
+        sound = uk_Idle_003
+        sound = uk_Idle_004
+        sound = uk_Idle_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NZL_infantry_neutral_combat"
+    sounds = {
+        sound = uk_Neutral_001
+        sound = uk_Neutral_002
+        sound = uk_Neutral_003
+        sound = uk_Neutral_004
+        sound = uk_Neutral_005
+        sound = uk_Neutral_006
+        sound = uk_Neutral_007
+        sound = uk_Neutral_008
+        sound = uk_Neutral_009
+        sound = uk_Neutral_010
+        sound = uk_Neutral_011
+        sound = uk_Neutral_012
+        sound = uk_Neutral_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NZL_infantry_positive_combat"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+        sound = uk_Positive_003
+        sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+        sound = uk_Positive_009
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NZL_infantry_retreat"
+    sounds = {
+        sound = uk_Retreat_001
+        sound = uk_Retreat_002
+        sound = uk_Retreat_003
+        sound = uk_Retreat_004
+        sound = uk_Retreat_005
+        sound = uk_Retreat_006
+        sound = uk_Retreat_007
+        sound = uk_Retreat_008
+        sound = uk_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "NZL_infantry_move_out"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+	    sound = uk_Positive_003
+	    sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+	    sound = uk_Positive_009	
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "NZL_infantry_move_out"
+    sounds = {
+        sound = uk_Move_001
+        sound = uk_Move_002
+        sound = uk_Move_003
+		sound = uk_Move_004
+		sound = uk_Move_005
+		sound = uk_Move_006
+		sound = uk_Move_007
+		sound = uk_Move_008
+		sound = uk_Move_009
+		sound = uk_Move_010
+		sound = uk_Move_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.80
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## SAF
+
+soundeffect =
+{
+    name = "SAF_infantry_idle"
+    sounds = {
+        sound = uk_Idle_001
+        sound = uk_Idle_002
+        sound = uk_Idle_003
+        sound = uk_Idle_004
+        sound = uk_Idle_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAF_infantry_neutral_combat"
+    sounds = {
+        sound = uk_Neutral_001
+        sound = uk_Neutral_002
+        sound = uk_Neutral_003
+        sound = uk_Neutral_004
+        sound = uk_Neutral_005
+        sound = uk_Neutral_006
+        sound = uk_Neutral_007
+        sound = uk_Neutral_008
+        sound = uk_Neutral_009
+        sound = uk_Neutral_010
+        sound = uk_Neutral_011
+        sound = uk_Neutral_012
+        sound = uk_Neutral_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAF_infantry_positive_combat"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+        sound = uk_Positive_003
+        sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+        sound = uk_Positive_009
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAF_infantry_retreat"
+    sounds = {
+        sound = uk_Retreat_001
+        sound = uk_Retreat_002
+        sound = uk_Retreat_003
+        sound = uk_Retreat_004
+        sound = uk_Retreat_005
+        sound = uk_Retreat_006
+        sound = uk_Retreat_007
+        sound = uk_Retreat_008
+        sound = uk_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAF_infantry_move_out"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+	    sound = uk_Positive_003
+	    sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+	    sound = uk_Positive_009	
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "SAF_infantry_move_out"
+    sounds = {
+        sound = uk_Move_001
+        sound = uk_Move_002
+        sound = uk_Move_003
+		sound = uk_Move_004
+		sound = uk_Move_005
+		sound = uk_Move_006
+		sound = uk_Move_007
+		sound = uk_Move_008
+		sound = uk_Move_009
+		sound = uk_Move_010
+		sound = uk_Move_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.80
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## LIB
+
+soundeffect =
+{
+    name = "LIB_infantry_idle"
+    sounds = {
+        sound = uk_Idle_001
+        sound = uk_Idle_002
+        sound = uk_Idle_003
+        sound = uk_Idle_004
+        sound = uk_Idle_005
+
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LIB_infantry_neutral_combat"
+    sounds = {
+        sound = uk_Neutral_001
+        sound = uk_Neutral_002
+        sound = uk_Neutral_003
+        sound = uk_Neutral_004
+        sound = uk_Neutral_005
+        sound = uk_Neutral_006
+        sound = uk_Neutral_007
+        sound = uk_Neutral_008
+        sound = uk_Neutral_009
+        sound = uk_Neutral_010
+        sound = uk_Neutral_011
+        sound = uk_Neutral_012
+        sound = uk_Neutral_013
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LIB_infantry_positive_combat"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+        sound = uk_Positive_003
+        sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+        sound = uk_Positive_009
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LIB_infantry_retreat"
+    sounds = {
+        sound = uk_Retreat_001
+        sound = uk_Retreat_002
+        sound = uk_Retreat_003
+        sound = uk_Retreat_004
+        sound = uk_Retreat_005
+        sound = uk_Retreat_006
+        sound = uk_Retreat_007
+        sound = uk_Retreat_008
+        sound = uk_Retreat_009
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "LIB_infantry_move_out"
+    sounds = {
+        sound = uk_Positive_001
+        sound = uk_Positive_002
+	    sound = uk_Positive_003
+	    sound = uk_Positive_004
+        sound = uk_Positive_005
+        sound = uk_Positive_006
+        sound = uk_Positive_007
+        sound = uk_Positive_008
+	    sound = uk_Positive_009	
+        sound = uk_Positive_010
+        sound = uk_Positive_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.45
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect = 
+{
+    name = "LIB_infantry_move_out"
+    sounds = {
+        sound = uk_Move_001
+        sound = uk_Move_002
+        sound = uk_Move_003
+		sound = uk_Move_004
+		sound = uk_Move_005
+		sound = uk_Move_006
+		sound = uk_Move_007
+		sound = uk_Move_008
+		sound = uk_Move_009
+		sound = uk_Move_010
+		sound = uk_Move_011
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.80
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
