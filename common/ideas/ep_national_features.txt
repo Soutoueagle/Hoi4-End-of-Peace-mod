@@ -1,0 +1,112 @@
+ideas = {
+	national_features = { 
+		national_features = yes
+		use_list_view = yes
+		
+			agricultural_society = {
+
+			available = {
+			allways = no
+			}
+						
+			cost = 0
+			removal_cost = 0
+			
+			modifier = {
+			political_power_gain = -1.9
+			}
+			
+			cancel_if_invalid = no
+			
+
+			ai_will_do = {
+   				factor = 0
+				}
+   			}
+			
+			early_indusrialized_society = {
+
+			available = {
+			allways = no
+			}
+						
+			cost = 0
+			removal_cost = 0
+			
+			modifier = {
+			political_power_gain = -1.5
+			}
+			
+			cancel_if_invalid = no
+			
+
+			ai_will_do = {
+   				factor = 0
+				}
+   			}
+			
+			medium_indusrialized_society = {
+
+			available = {
+			allways = no
+			}
+						
+			cost = 0
+			removal_cost = 0
+			
+			modifier = {
+			political_power_gain = -1.0
+			}
+			
+			cancel_if_invalid = no
+			
+
+			ai_will_do = {
+   				factor = 0
+				}
+   			}
+			
+			late_indusrialized_society = {
+
+			available = {
+			allways = no
+			}
+						
+			cost = 0
+			removal_cost = 0
+			
+			modifier = {
+			political_power_gain = -0.5
+			}
+			
+			cancel_if_invalid = no
+			
+
+			ai_will_do = {
+   				factor = 0
+				}
+   			}
+			
+			indusrialized_society = {
+
+			available = {
+			allways = no
+			}
+						
+			cost = 0
+			removal_cost = 0
+			
+			modifier = {
+			
+			}
+			
+			cancel_if_invalid = no
+			
+
+			ai_will_do = {
+   				factor = 0
+				}
+   			}
+   		}
+	}
+}

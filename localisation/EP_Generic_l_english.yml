@@ -108,6 +108,13 @@
  minister_for_home_affairs:0 "内務大臣"
  generic_minister_for_home_affairs:0 "汎用内務大臣"
  
+ national_features:0 "国家の特徴"
+ agricultural_society:0 "農耕社会"
+ early_indusrialized_society:0 "初期工業化社会"
+ medium_indusrialized_society:0 "中期工業化社会"
+ late_indusrialized_society:0 "後期工業化社会"
+ indusrialized_society:0 "工業化社会"
+ 
  ###Advisors###
  generic_totalist_politician:0 "社会主義政治家"
  generic_syndicalist_politician:0 "無政府主義政治家"

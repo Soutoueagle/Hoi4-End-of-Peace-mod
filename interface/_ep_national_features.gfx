@@ -1,0 +1,22 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_agricultural_society"
+		texturefile = "gfx/interface/ideas/generic/national_features/agricultural_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_early_indusrialized_society"
+		texturefile = "gfx/interface/ideas/generic/national_features/early_industrialized_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_medium_indusrialized_society"
+		texturefile = "gfx/interface/ideas/generic/national_features/medium_term_industrialized_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_late_indusrialized_society"
+		texturefile = "gfx/interface/ideas/generic/national_features/late_industrialized_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_indusrialized_society"
+		texturefile = "gfx/interface/ideas/generic/national_features/late_industrialized_society.dds"
+	}
+}

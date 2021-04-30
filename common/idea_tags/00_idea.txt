@@ -97,6 +97,15 @@ idea_categories = {
 		cost = 50
 		removal_cost = 0
 	}
+	
+	national_features = {
+		slot = national_features
+		
+		ledger = invalid # must be overridden
+		
+		cost = 0
+		removal_cost = 0
+	}
 }
 
 
