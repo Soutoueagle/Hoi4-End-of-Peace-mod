@@ -13,7 +13,7 @@ focus_tree = {
 		}
 		x = 10
 		y = 0
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = maintaining_power
@@ -24,7 +24,10 @@ focus_tree = {
 		}
 		x = 22
 		y = 0
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		ai_will_do = {
+			factor = 5
+		}
 	}
 	focus = {
 		id = national_modanization
@@ -35,7 +38,7 @@ focus_tree = {
 		}
 		x = 36
 		y = 0
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = refuse_modanization
@@ -46,7 +49,7 @@ focus_tree = {
 		}
 		x = 38
 		y = 0
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = left
@@ -60,7 +63,7 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = radical_socialist
@@ -74,7 +77,17 @@ focus_tree = {
 		}
 		x = 1
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = radical_socialist
+			elections_allowed = no
+			}
+			add_popularity = {
+			ideology = radical_socialist
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = do_not_stop_revolution
@@ -85,7 +98,14 @@ focus_tree = {
 		}
 		x = 1
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+			add_popularity = {
+			ideology = radical_socialist
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = totalist
@@ -100,7 +120,17 @@ focus_tree = {
 		}
 		x = 3
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = totalist
+			elections_allowed = no
+			}
+			add_popularity = {
+			ideology = totalist
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = equal_ideal_town
@@ -111,7 +141,10 @@ focus_tree = {
 		}
 		x = 3
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = syndicalism
@@ -125,7 +158,17 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = syndicalist
+			elections_allowed = no
+			}
+			add_popularity = {
+			ideology = syndicalist
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = no_need_for_pwers!
@@ -136,7 +179,10 @@ focus_tree = {
 		}
 		x = 5
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = worker_hero
@@ -149,7 +195,10 @@ focus_tree = {
 		}
 		x = 3
 		y = 4
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = democracy
@@ -164,7 +213,7 @@ focus_tree = {
 		}
 		x = 10
 		y = 1
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = social_democrat
@@ -178,7 +227,17 @@ focus_tree = {
 		}
 		x = 7
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = social_democrat
+			elections_allowed = yes
+			}
+			add_popularity = {
+			ideology = social_democrat
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = comprpmise_with_socialist
@@ -189,7 +248,10 @@ focus_tree = {
 		}
 		x = 7
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = social_liberal
@@ -204,7 +266,17 @@ focus_tree = {
 		}
 		x = 9
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = social_liberal
+			elections_allowed = yes
+			}
+			add_popularity = {
+			ideology = social_liberal
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = guarantee_of_rights
@@ -215,7 +287,10 @@ focus_tree = {
 		}
 		x = 9
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = market_liberal
@@ -230,7 +305,17 @@ focus_tree = {
 		}
 		x = 11
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = market_liberal
+			elections_allowed = yes
+			}
+			add_popularity = {
+			ideology = market_liberal
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = market_protection
@@ -241,7 +326,10 @@ focus_tree = {
 		}
 		x = 11
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = social_concservative
@@ -255,7 +343,17 @@ focus_tree = {
 		}
 		x = 13
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = social_conservative
+			elections_allowed = yes
+			}
+			add_popularity = {
+			ideology = social_concservative
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = compromise_with_aut_democratist
@@ -266,7 +364,10 @@ focus_tree = {
 		}
 		x = 13
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = in_the_name_of_freedom
@@ -280,7 +381,10 @@ focus_tree = {
 		}
 		x = 10
 		y = 4
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = right
@@ -294,7 +398,7 @@ focus_tree = {
 		}
 		x = 17
 		y = 1
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = authoritarian_democrat
@@ -308,7 +412,17 @@ focus_tree = {
 		}
 		x = 15
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = authoritarian_democrat
+			elections_allowed = yes
+			}
+			add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = compromise_with_conservatist
@@ -319,7 +433,10 @@ focus_tree = {
 		}
 		x = 15
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = paternal_autocrat
@@ -334,7 +451,17 @@ focus_tree = {
 		}
 		x = 17
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = paternal_autocrat
+			elections_allowed = no
+			}
+			add_popularity = {
+			ideology = paternal_autocrat
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = compromise_with_n_populist
@@ -345,7 +472,10 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = national_populist
@@ -359,7 +489,17 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			set_politics = {
+			ruling_party = national_populist
+			elections_allowed = no
+			}
+			add_popularity = {
+			ideology = national_populist
+			popularity = 0.3
+			}
+		}
 	}
 	focus = {
 		id = unite!
@@ -370,7 +510,10 @@ focus_tree = {
 		}
 		x = 19
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = strong_government
@@ -383,7 +526,10 @@ focus_tree = {
 		}
 		x = 17
 		y = 4
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
 	}
 	focus = {
 		id = administrative_reform
@@ -394,7 +540,10 @@ focus_tree = {
 		}
 		x = 22
 		y = 1
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 80
+		}
 	}
 	focus = {
 		id = administrative_reform_2
@@ -405,7 +554,10 @@ focus_tree = {
 		}
 		x = 22
 		y = 2
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 80
+		}
 	}
 	focus = {
 		id = administrative_reform_3
@@ -416,7 +568,10 @@ focus_tree = {
 		}
 		x = 22
 		y = 3
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 80
+		}
 	}
 	focus = {
 		id = stable_government
@@ -427,7 +582,10 @@ focus_tree = {
 		}
 		x = 22
 		y = 4
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 80
+		}
 	}
 	focus = {
 		id = inspection_of_great_powers
@@ -569,7 +727,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 4
-
+		completion_reward = {
+			MONTHLY_POPULATION = 0.01
+		}
 	}
 	focus = {
 		id = focus_on_light_industry
@@ -1093,7 +1253,9 @@ focus_tree = {
 		}
 		x = 27
 		y = 7
-
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = chemical_industry_2
@@ -1115,7 +1277,9 @@ focus_tree = {
 		}
 		x = 26
 		y = 8
-
+		completion_reward = {
+			MONTHLY_POPULATION = 0.03
+		}
 	}
 	focus = {
 		id = chemical_industry_3
@@ -1126,7 +1290,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 9
-
+		completion_reward = {
+			add_research_slot = 1
+		}
 	}
 	focus = {
 		id = focus_on_agriculture_3
@@ -1138,7 +1304,9 @@ focus_tree = {
 		}
 		x = 26
 		y = 9
-
+		completion_reward = {
+			MONTHLY_POPULATION = 0.1
+		}
 	}
 	focus = {
 		id = infrastructure_construction 
