@@ -1,0 +1,22 @@
+state={
+	id=873
+	name="STATE_873"
+
+	history={
+		owner = SKM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4435 1 
+		}
+
+	}
+
+	provinces={
+		4435 
+	}
+	manpower=1173631
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -342,6 +342,22 @@
  SYR_DEF:0 "シリア"
  SYR_ADJ:0 "シリア"
  
+ SKM:0 "シッキム共和国"
+ SKM_DEF:0 "シッキム共和国"
+ SKM_totalist:0 "シッキム人民共和国"
+ SKM_totalist_DEF:0 "シッキム人民共和国"
+ SKM_syndicalist:0 "シッキム人民共和国"
+ SKM_syndicalist_DEF:0 "シッキム人民共和国"
+ SKM_radical_socialist:0 "シッキム人民共和国"
+ SKM_radical_socialist_DEF:0 "シッキム人民共和国"
+ SKM_authoritarian_democrat:1 "シッキム王国"
+ SKM_authoritarian_democrat_DEF:1 "シッキム王国"
+ SKM_paternal_autocrat:0 "シッキム王国"
+ SKM_paternal_autocrat_DEF:0 "シッキム王国"
+ SKM_national_populist:0 "シッキム王国"
+ SKM_national_populist_DEF:0 "シッキム王国"
+ SKM_ADJ:0 "シッキム"
+  
  TAJ:0 "タジキスタン"
  TAJ_DEF:0 "タジキスタン"
  TAJ_ADJ:0 "タジキスタン"
@@ -794,8 +810,8 @@
  SWE_DEF:0 "スウェーデン"
  SWE_ADJ:0 "スウェーデン"
  
- SWI:0 "スイス"
- SWI_DEF:0 "スイス"
+ SWI:0 "スイス連邦"
+ SWI_DEF:0 "スイス連邦"
  SWI_ADJ:0 "スイス"
  
  TRA:0 "トランシルヴァニア"
