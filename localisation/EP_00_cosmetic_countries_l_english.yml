@@ -30,6 +30,9 @@
  KAZ_alash:0 "アラシュ共和国"
  KAZ_alash_DEF:0 "アラシュ共和国"
  
+ KYR_KOK:0 "コーカンド共和国"
+ KYR_KOK_DEF:0 "コーカンド共和国"
+  
  MAL_autonomy_dominion:0 "マラヤ自治領"
  MAL_autonomy_dominion_DEF:0 "マラヤ自治領"
  
@@ -56,6 +59,9 @@
  
  TIB_state:0 "チベット国"
  TIB_state_DEF:0 "チベット国"
+ 
+ UZB_KHI:0 "ヒヴァ・ハン国"
+ UZB_KHI_DEF:0 "ヒヴァ・ハン国"
  
 #ヨーロッパ
  ALB_kingdom:0 "アルバニア王国"

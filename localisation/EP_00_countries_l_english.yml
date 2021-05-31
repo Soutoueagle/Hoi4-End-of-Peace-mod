@@ -388,8 +388,8 @@
  TIB_national_populist_DEF:0 "チベット王国"
  TIB_ADJ:0 "チベット"
  
- TMS:0 "トルクメニスタン"
- TMS_DEF:0 "トルクメニスタン"
+ TMS:0 "トルクメニスタン共和国"
+ TMS_DEF:0 "トルクメニスタン共和国"
  TMS_ADJ:0 "トルクメニスタン"
  
  TUR:0 "トルコ"
@@ -1237,6 +1237,12 @@
  BHK_syndicalist_DEF:0 "ブハラ人民共和国"
  BHK_radical_socialist:0 "ブハラ人民共和国"
  BHK_radical_socialist_DEF:0 "ブハラ人民共和国"
+ BHK_authoritarian_democrat:1 "ブハラ・アミール国"
+ BHK_authoritarian_democrat_DEF:1 "ブハラ・アミール国"
+ BHK_paternal_autocrat:0 "ブハラ・アミール国"
+ BHK_paternal_autocrat_DEF:0 "ブハラ・アミール国"
+ BHK_national_populist:0 "ブハラ・アミール国"
+ BHK_national_populist_DEF:0 "ブハラ・アミール国"
  BHK_ADJ:0 "トルキスタン"
  
  GND:0 "広東政府"

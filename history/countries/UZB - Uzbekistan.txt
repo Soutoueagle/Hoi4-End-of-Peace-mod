@@ -1,7 +1,7 @@
 capital = 405
 
 oob = ""
-
+set_cosmetic_tag = UZB_KHI
 set_technology = {
 	
 }
@@ -12,10 +12,10 @@ add_ideas = {
 
 1936.1.1 = {
 	set_politics = {
-		ruling_party = authoritarian_democrat
+		ruling_party = paternal_autocrat
 		last_election = "1936.1.1"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 }
 
 set_popularities = {
@@ -25,17 +25,17 @@ set_popularities = {
 	    social_democrat = 0
         social_liberal = 0
         market_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 100
-        paternal_autocrat = 0
-        national_populist = 0
+        social_conservative = 5
+        authoritarian_democrat = 30
+        paternal_autocrat = 60
+        national_populist = 5
     
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Usman Yusupov"
+	desc = "POLITICS_USMAN_YUSUPOV_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Yusupov.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = {
@@ -44,9 +44,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Usman Yusupov"
+	desc = "POLITICS_USMAN_YUSUPOV_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Yusupov.tga"
 	expire = "1965.1.1"
 	ideology = syndicalist_subtype
 	traits = {
@@ -55,9 +55,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Usman Yusupov"
+	desc = "POLITICS_USMAN_YUSUPOV_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Usman_Yusupov.tga"
 	expire = "1965.1.1"
 	ideology = radical_socialist_subtype
 	traits = {
@@ -66,9 +66,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Yoldashbay Babayev"
+	desc = "POLITICS_YOLDASHBAY_BABYEV_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -77,9 +77,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Yoldashbay Babayev"
+	desc = "POLITICS_YOLDASHBAY_BABYEV_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga/"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
@@ -88,9 +88,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Yoldashbay Babayev"
+	desc = "POLITICS_YOLDASHBAY_BABYEV_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 	traits = {
@@ -99,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Yoldashbay Babayev"
+	desc = "POLITICS_YOLDASHBAY_BABYEV_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Yoldashbay_Babayev.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -110,9 +110,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Junaid Khan"
+	desc = "POLITICS_JUNAID_KHAN_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Junaid_Khan.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -121,9 +121,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Junaid Khan"
+	desc = "POLITICS_JUNAID_KHAN_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Junaid_Khan.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 	traits = {
@@ -132,9 +132,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Junaid Khan"
+	desc = "POLITICS_JUNAID_KHAN_DESC"
+	picture = "gfx/leaders/UZB/Portrait_UZB_Junaid_Khan.tga"
 	expire = "1965.1.1"
 	ideology = national_populist_subtype
 	traits = {

@@ -1,7 +1,7 @@
 capital = 732
 
 oob = ""
-
+set_cosmetic_tag = KYR_KOK
 set_technology = {
 	
 }
@@ -13,22 +13,22 @@ add_ideas = {
 1936.1.1 = {
 	set_politics = {
 		ruling_party = authoritarian_democrat
-		last_election = "1936.1.1"
+		last_election = "1933.9.1"
 		election_frequency = 48
 		elections_allowed = yes
 }
 
 set_popularities = {
-        totalist = 0
-        syndicalist = 0
+        totalist = 5
+        syndicalist = 5
         radical_socialist = 0
-	    social_democrat = 0
-        social_liberal = 0
-        market_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 100
-        paternal_autocrat = 0
-        national_populist = 0
+	    social_democrat = 10
+        social_liberal = 10
+        market_liberal = 10
+        social_conservative = 20
+        authoritarian_democrat = 30
+        paternal_autocrat = 7
+        national_populist = 3
     
 }
 
@@ -99,9 +99,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Mustafa Shokay"
+	desc = "POLITICS_MUSTAFA_SHOKAY_DESC"
+	picture = "gfx/leaders/KYR/Portrait_KYR_Mustafa_Shokay.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
@@ -110,9 +110,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = ""
-	desc = "POLITICS__DESC"
-	picture = "gfx/leaders//"
+	name = "Mustafa Shokay"
+	desc = "POLITICS_MUSTAFA_SHOKAY_DESC"
+	picture = "gfx/leaders/KYR/Portrait_KYR_Mustafa_Shokay.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
