@@ -13,6 +13,7 @@ state={
 
 		}
 		add_core_of = BHK
+		add_core_of = UZB
 
 	}
 	
