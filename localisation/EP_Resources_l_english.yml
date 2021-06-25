@@ -1,0 +1,5 @@
+﻿l_english:
+ coal_desc:0 "石油が動力燃料として使われる前まで動力燃料は石炭が主要であった。"
+ PRODUCTION_MATERIALS_COAL:0 "石炭"
+ wood_desc:0 "建築物、武器、そして燃料として使われる木材は砂漠以外のどこでも採れる優秀かつ普遍的な資源である。"
+ PRODUCTION_MATERIALS_WOOD:0 "木材"

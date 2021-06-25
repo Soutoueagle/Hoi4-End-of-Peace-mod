@@ -1,5 +1,0 @@
-l_english:
- PRODUCTION_MATERIALS_COAL:0 "石炭"
- COAL_desc:0 "石油が発見されるまでの間、燃料といえば石炭が使われた。"
- PRODUCTION_MATERIALS_WOOD:0 "木材"
- WOOD_desc:0 "人家、武器、飛行機、そして燃料に至るまで木材は砂漠以外のどこでも採れる優秀かつ普遍的な資源である。"
